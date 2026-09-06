@@ -36,7 +36,7 @@ const BASE = DOMINIO_PROPIO ? '/' : (process.env.BASE_PATH ?? baseGitHub);
 export default defineConfig({
   site: SITIO,
   base: BASE,
-  trailingSlash: 'ignore',
+  trailingSlash: 'always',
   i18n: {
     locales: ['es', 'en', 'fr', 'eu', 'de'],
     defaultLocale: 'es',

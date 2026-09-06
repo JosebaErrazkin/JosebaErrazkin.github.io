@@ -92,7 +92,9 @@ const BASE = import.meta.env.BASE_URL;
 export function ruta(pagina: ClavePagina, idioma: Idioma): string {
   const trozo = PAGINAS[pagina][idioma];
   const camino = trozo ? `${idioma}/${trozo}` : idioma;
-  return `${BASE.replace(/\/$/, '')}/${camino}`;
+  // La barra final evita una redirección en cada enlace interno: es la
+  // dirección que GitHub Pages sirve de verdad.
+  return `${BASE.replace(/\/$/, '')}/${camino}/`;
 }
 
 /** Dirección de un archivo de la carpeta public/ (respeta la subcarpeta de GitHub Pages). */
