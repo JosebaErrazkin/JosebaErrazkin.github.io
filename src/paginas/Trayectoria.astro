@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import TituloPagina from '../components/TituloPagina.astro';
+import Galeria from '../components/Galeria.astro';
+import VisorImagenes from '../components/VisorImagenes.astro';
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+import { trayectoriaOrdenada } from '../data';
+import { periodo } from '../utilidades/fechas';
+
+interface Props {
+  idioma: Idioma;
+}
+const { idioma } = Astro.props;
+const t = textos(idioma);
+const etapas = trayectoriaOrdenada(idioma);
+---
+
+<Base idioma={idioma} pagina="trayectoria">
+  <TituloPagina
+    rotulo={t.nav.trayectoria}
+    titulo={t.meta.trayectoria.titulo}
+    entradilla={t.trayectoria.entradilla}
+  />
+
+  <div class="contenedor pb-20">
+    <ol class="relative border-l-2 border-linea ml-3 md:ml-4">
+      {
+        etapas.map((etapa) => (
+          <li class="relative pl-7 md:pl-10 pb-14 last:pb-0">
+            <span
+              class:list={[
+                'absolute -left-[9px] top-1.5 w-4 h-4 rounded-full border-4 border-papel',
+                etapa.hasta === null ? 'bg-fuego' : 'bg-gris',
+              ]}
+              aria-hidden="true"
+            />
+
+            <p class="text-sm font-semibold uppercase tracking-wider text-fuego-texto tabular-nums">
+              {periodo(etapa.desde, etapa.hasta, idioma, t.trayectoria.actualidad)}
+            </p>
+
+            <h2 class="mt-2 text-2xl md:text-3xl">{etapa.entidad}</h2>
+            <p class="mt-1.5 text-lg font-medium">{etapa.rol}</p>
+
+            <p class="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gris">
+              <span class="inline-flex items-center px-2.5 py-1 bg-papel-2 border border-linea rounded-full">
+                {etapa.deporte}
+              </span>
+              {etapa.categoria && (
+                <span class="inline-flex items-center px-2.5 py-1 bg-papel-2 border border-linea rounded-full">
+                  {etapa.categoria}
+                </span>
+              )}
+              {etapa.lugar && <span class="text-gris">· {etapa.lugar}</span>}
+            </p>
+
+            <p class="mt-4 max-w-2xl leading-relaxed">{etapa.descripcion}</p>
+
+            {etapa.funciones.length > 0 && (
+              <ul class="mt-4 max-w-2xl space-y-2">
+                {etapa.funciones.map((funcion) => (
+                  <li class="relative pl-5 text-gris leading-relaxed">
+                    <span
+                      class="absolute left-0 top-[0.7em] w-2.5 h-[3px] bg-fuego"
+                      aria-hidden="true"
+                    />
+                    {funcion}
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            <Galeria imagenes={etapa.imagenes} grupo={etapa.id} idioma={idioma} />
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+
+  <VisorImagenes idioma={idioma} />
+</Base>

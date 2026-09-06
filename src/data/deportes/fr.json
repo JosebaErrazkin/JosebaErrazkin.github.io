@@ -1,0 +1,78 @@
+[
+  {
+    "id": "futbol",
+    "deporte": "Football",
+    "resumen": "Un sport d'efforts courts et répétés où presque toutes les blessures graves surviennent en course ou au freinage.",
+    "exigencias": [
+      "Accélérations et freinages répétés",
+      "Changements de direction avec opposition",
+      "Résistance à la fatigue en seconde période"
+    ],
+    "enfoque": [
+      "Exposition contrôlée à la vitesse maximale chaque semaine",
+      "Force de la chaîne postérieure toute l’année, pas seulement en présaison",
+      "Suivi GPS pour éviter l’accumulation de pics de charge"
+    ],
+    "imagen": {
+      "archivo": "deportes/futbol.jpg",
+      "alt": "Entraînement de football sur le terrain"
+    }
+  },
+  {
+    "id": "balonmano",
+    "deporte": "Handball",
+    "resumen": "Contact permanent, sauts avec réceptions déséquilibrées et une épaule qui tire des milliers de fois par saison.",
+    "exigencias": [
+      "Sauts et réceptions au contact",
+      "Puissance de tir répétée",
+      "Changements de rythme sur espace réduit"
+    ],
+    "enfoque": [
+      "Stabilité de l’épaule et de la scapula comme base, pas comme complément",
+      "Réceptions perturbées dès la présaison",
+      "Force unilatérale pour équilibrer les deux côtés"
+    ],
+    "imagen": {
+      "archivo": "deportes/balonmano.jpg",
+      "alt": "Entraînement de handball sur le terrain"
+    }
+  },
+  {
+    "id": "atletismo",
+    "deporte": "Athlétisme de demi-fond",
+    "resumen": "Volumes élevés et marges étroites : le travail de force doit apporter sans voler d’énergie à la piste.",
+    "exigencias": [
+      "Économie de course",
+      "Tolérance aux volumes élevés",
+      "Raideur élastique du tendon"
+    ],
+    "enfoque": [
+      "Force maximale à faible volume et haute qualité",
+      "Pliométrie dosée selon le calendrier de compétition",
+      "Surveillance de la charge sur le tendon d’Achille"
+    ],
+    "imagen": {
+      "archivo": "deportes/atletismo.jpg",
+      "alt": "Entraînement d’athlétisme sur piste"
+    }
+  },
+  {
+    "id": "pelota",
+    "deporte": "Pelote basque",
+    "resumen": "Un sport très asymétrique, avec une charge énorme sur une main, une épaule et un côté du corps.",
+    "exigencias": [
+      "Répétition du geste de frappe",
+      "Déplacements courts et explosifs",
+      "Santé de la main et de l’épaule dominantes"
+    ],
+    "enfoque": [
+      "Compensation du côté non dominant à chaque séance",
+      "Force des rotateurs et contrôle scapulaire toute la saison",
+      "Comptabilisation du volume de frappe comme une charge d’entraînement"
+    ],
+    "imagen": {
+      "archivo": "deportes/pelota.jpg",
+      "alt": "Entraînement de pelote basque au fronton"
+    }
+  }
+]

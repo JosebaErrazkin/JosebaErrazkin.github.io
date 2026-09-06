@@ -1,0 +1,55 @@
+[
+  {
+    "id": "maialen",
+    "nombre": "Maialen Otaegi",
+    "cargo": "Fisioterapeuta",
+    "entidad": "Clínica Oria",
+    "texto": "Trabajar con Joseba cambió la forma en que damos el alta en la clínica. Nunca improvisa: cuando dice que un paciente está listo, trae los datos que lo demuestran.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/maialen.jpg",
+      "alt": "Retrato de Maialen Otaegi"
+    }
+  },
+  {
+    "id": "iker",
+    "nombre": "Iker Zubeldia",
+    "cargo": "Futbolista sénior",
+    "entidad": "Club Deportivo Aurrera",
+    "texto": "Después de la operación pensaba que no volvería al mismo nivel. Joseba me explicó cada fase y por qué tocaba esperar. Volví mejor de lo que estaba antes de lesionarme.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/iker.jpg",
+      "alt": "Retrato de Iker Zubeldia"
+    }
+  },
+  {
+    "id": "andoni",
+    "nombre": "Andoni Lizaso",
+    "cargo": "Traumatólogo",
+    "texto": "Derivo pacientes a Joseba con tranquilidad. Respeta los plazos biológicos y no cede a la presión de acelerar, que es exactamente lo que un cirujano necesita del otro lado.",
+    "foto": {
+      "archivo": "testimonios/andoni.jpg",
+      "alt": "Retrato de Andoni Lizaso"
+    }
+  },
+  {
+    "id": "nerea",
+    "nombre": "Nerea Agirre",
+    "cargo": "Atleta de medio fondo",
+    "texto": "Llevaba años entrenando sin tocar una pesa por miedo a perder ligereza. Con él bajé mi marca personal en 1.500 y dejé de tener molestias en el tendón.",
+    "estrellas": 5
+  },
+  {
+    "id": "gorka",
+    "nombre": "Gorka Etxeberria",
+    "cargo": "Segundo entrenador",
+    "entidad": "Balonmano Lasarte",
+    "texto": "Se integra en el cuerpo técnico sin hacer ruido y habla el idioma del entrenador, no solo el del laboratorio. Esa es la diferencia con otros preparadores.",
+    "estrellas": 4,
+    "foto": {
+      "archivo": "testimonios/gorka.jpg",
+      "alt": "Retrato de Gorka Etxeberria"
+    }
+  }
+]

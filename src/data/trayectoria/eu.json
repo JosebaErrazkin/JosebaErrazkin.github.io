@@ -1,0 +1,103 @@
+[
+  {
+    "id": "iturbide",
+    "entidad": "Iturbide Errendimendu Handiko Zentroa",
+    "rol": "Prestatzaile fisiko arduraduna",
+    "deporte": "Futbola eta kirol anitzak",
+    "categoria": "Senior eta formakuntza kategoriak",
+    "lugar": "Donostia, Espainia",
+    "desde": "2022-08",
+    "hasta": null,
+    "descripcion": "Hogei kirolariren plangintza fisikoa zuzentzen dut eta errehabilitazio gelatik zelairako jauzia koordinatzen dut talde medikoarekin batera.",
+    "funciones": [
+      "Kirolari bakoitzaren hasierako ebaluazioa eta jarraipena, indar eta jauzi probekin",
+      "Denboraldiaren eta asteko mikrozikloen diseinua",
+      "Eguneroko koordinazioa fisioterapiarekin eta talde teknikoarekin",
+      "Kargaren kontrola GPSarekin eta ongizate galdetegiekin"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/centro-rendimiento-1.jpg",
+        "alt": "Indar saioa errendimendu zentroko gimnasioan"
+      },
+      {
+        "archivo": "trayectoria/centro-rendimiento-2.jpg",
+        "alt": "Jauzi proba indar plataformarekin"
+      }
+    ]
+  },
+  {
+    "id": "aurrera",
+    "entidad": "Aurrera Kirol Kluba",
+    "rol": "Lesioen birgaitzailea",
+    "deporte": "Futbola",
+    "categoria": "Lehen taldea eta filiala",
+    "lugar": "Gipuzkoa, Espainia",
+    "desde": "2020-07",
+    "hasta": "2022-07",
+    "descripcion": "Lesionatutako jokalarien lehiaketara itzultzeko prozesu osoaren arduraduna, alta medikotik alta kiroleraino.",
+    "funciones": [
+      "Faseka altak emateko irizpideen diseinua, urrats bakoitzean proba objektiboekin",
+      "Banakako lana zelaian, berreskuratze prozesuan dauden jokalariekin",
+      "Asteko txostenak talde teknikoari, eskuragarritasun aurreikuspenari buruz"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/club-aurrera-1.jpg",
+        "alt": "Zelaiko lana birgaitze fasean dagoen jokalari batekin"
+      }
+    ]
+  },
+  {
+    "id": "oria",
+    "entidad": "Oria Klinika · Fisioterapia eta Kirola",
+    "rol": "Prestatzaile fisikoa birgaitzean",
+    "deporte": "Kirol anitzak",
+    "lugar": "Gipuzkoa, Espainia",
+    "desde": "2018-09",
+    "hasta": "2020-06",
+    "descripcion": "Ohatilaren eta jokalekuaren arteko zubia: tratamendua amaitzean kirolaria hartu eta bere kirolera itzultzen nuen.",
+    "funciones": [
+      "Indar programazioa errehabilitazioaren azken fasean dauden pazienteentzat",
+      "Ebaluazio funtzionala alta eman aurretik",
+      "Pazientearen heziketa kargen kudeaketan eta errezidiben prebentzioan"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/clinica-oria-1.jpg",
+        "alt": "Ebaluazio funtzionala klinikako gelan"
+      }
+    ]
+  },
+  {
+    "id": "lasarte",
+    "entidad": "Lasarte Eskubaloia",
+    "rol": "Prestatzaile fisikoa",
+    "deporte": "Eskubaloia",
+    "categoria": "Sub-18 eta senior",
+    "lugar": "Gipuzkoa, Espainia",
+    "desde": "2017-09",
+    "hasta": "2018-08",
+    "descripcion": "Talde oso batekin izandako lehen esperientzia: prestakuntza fisikoa pistan eta gimnasioan, eta kargaren kontrola denboraldi osoan.",
+    "funciones": [
+      "Bi talderen prestakuntza fisikoa aldi berean",
+      "Indar lana txertatzea formakuntza kategorietan"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "individual",
+    "entidad": "Banakako kirolariak",
+    "rol": "Prestatzaile fisiko pertsonala",
+    "deporte": "Atletismoa, txirrindularitza eta pilota",
+    "lugar": "Aurrez aurre eta urrutitik",
+    "desde": "2016-01",
+    "hasta": null,
+    "descripcion": "Beren kabuz lehiatzen diren kirolariekin lan jarraitua, denboraldi osoak beren helburuen inguruan planifikatuz.",
+    "funciones": [
+      "Urteko plangintza indibidualizatua",
+      "Urrutiko jarraipena, aldizkako berrikuspen presentzialekin"
+    ],
+    "imagenes": []
+  }
+]

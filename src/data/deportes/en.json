@@ -1,0 +1,78 @@
+[
+  {
+    "id": "futbol",
+    "deporte": "Football",
+    "resumen": "A sport of short, repeated efforts where almost every serious injury happens while sprinting or decelerating.",
+    "exigencias": [
+      "Repeated accelerations and decelerations",
+      "Changes of direction under opposition",
+      "Fatigue resistance in the second half"
+    ],
+    "enfoque": [
+      "Controlled maximal-speed exposure every week",
+      "Posterior-chain strength all year round, not only in pre-season",
+      "GPS load monitoring to avoid stacking spikes"
+    ],
+    "imagen": {
+      "archivo": "deportes/futbol.jpg",
+      "alt": "Football training on the pitch"
+    }
+  },
+  {
+    "id": "balonmano",
+    "deporte": "Handball",
+    "resumen": "Constant contact, jumps with unbalanced landings, and a shoulder that throws thousands of times per season.",
+    "exigencias": [
+      "Jumping and landing under contact",
+      "Repeated throwing power",
+      "Changes of pace in tight spaces"
+    ],
+    "enfoque": [
+      "Shoulder and scapular stability as the base, not an add-on",
+      "Perturbed landings from pre-season onwards",
+      "Unilateral strength work to even out both sides"
+    ],
+    "imagen": {
+      "archivo": "deportes/balonmano.jpg",
+      "alt": "Handball training on court"
+    }
+  },
+  {
+    "id": "atletismo",
+    "deporte": "Middle-distance athletics",
+    "resumen": "High volumes and narrow margins: strength work has to add value without stealing energy from the track.",
+    "exigencias": [
+      "Running economy",
+      "Tolerance to high volumes",
+      "Elastic tendon stiffness"
+    ],
+    "enfoque": [
+      "Maximal strength with low volume and high quality",
+      "Plyometrics dosed around the competition calendar",
+      "Close monitoring of Achilles tendon load"
+    ],
+    "imagen": {
+      "archivo": "deportes/atletismo.jpg",
+      "alt": "Athletics training on the track"
+    }
+  },
+  {
+    "id": "pelota",
+    "deporte": "Basque pelota",
+    "resumen": "A markedly asymmetric sport, with an enormous load on one hand, one shoulder and one side of the body.",
+    "exigencias": [
+      "Repetition of the striking action",
+      "Short, explosive displacements",
+      "Health of the dominant hand and shoulder"
+    ],
+    "enfoque": [
+      "Compensating the non-dominant side in every session",
+      "Rotator strength and scapular control throughout the season",
+      "Logging striking volume as if it were training load"
+    ],
+    "imagen": {
+      "archivo": "deportes/pelota.jpg",
+      "alt": "Basque pelota training at the fronton"
+    }
+  }
+]

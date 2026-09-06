@@ -1,0 +1,78 @@
+[
+  {
+    "id": "futbol",
+    "deporte": "Fútbol",
+    "resumen": "Un deporte de esfuerzos cortos y repetidos donde casi todas las lesiones graves ocurren corriendo o frenando.",
+    "exigencias": [
+      "Aceleraciones y frenadas repetidas",
+      "Cambios de dirección con oposición",
+      "Resistencia a la fatiga en la segunda parte"
+    ],
+    "enfoque": [
+      "Exposición controlada a velocidad máxima cada semana",
+      "Fuerza de cadena posterior todo el año, no solo en pretemporada",
+      "Control de la carga con GPS para no acumular picos"
+    ],
+    "imagen": {
+      "archivo": "deportes/futbol.jpg",
+      "alt": "Entrenamiento de fútbol en el campo"
+    }
+  },
+  {
+    "id": "balonmano",
+    "deporte": "Balonmano",
+    "resumen": "Contacto constante, saltos con caída desequilibrada y un hombro que lanza miles de veces por temporada.",
+    "exigencias": [
+      "Saltos y caídas con contacto",
+      "Potencia de lanzamiento repetida",
+      "Cambios de ritmo en espacio corto"
+    ],
+    "enfoque": [
+      "Estabilidad de hombro y escápula como base, no como añadido",
+      "Aterrizajes con perturbación desde pretemporada",
+      "Fuerza unilateral para igualar lados"
+    ],
+    "imagen": {
+      "archivo": "deportes/balonmano.jpg",
+      "alt": "Entrenamiento de balonmano en pista"
+    }
+  },
+  {
+    "id": "atletismo",
+    "deporte": "Atletismo de medio fondo",
+    "resumen": "Volúmenes altos y márgenes estrechos: el trabajo de fuerza tiene que sumar sin robar energía a la pista.",
+    "exigencias": [
+      "Economía de carrera",
+      "Tolerancia a volúmenes altos",
+      "Rigidez elástica del tendón"
+    ],
+    "enfoque": [
+      "Fuerza máxima con poco volumen y mucha calidad",
+      "Pliometría dosificada según el calendario de competición",
+      "Vigilancia de la carga de tendón de Aquiles"
+    ],
+    "imagen": {
+      "archivo": "deportes/atletismo.jpg",
+      "alt": "Entrenamiento de atletismo en pista"
+    }
+  },
+  {
+    "id": "pelota",
+    "deporte": "Pelota vasca",
+    "resumen": "Un deporte muy asimétrico, con una carga enorme sobre una mano, un hombro y un lado del cuerpo.",
+    "exigencias": [
+      "Repetición del gesto de golpeo",
+      "Desplazamientos cortos y explosivos",
+      "Salud de la mano y del hombro dominante"
+    ],
+    "enfoque": [
+      "Compensación del lado no dominante en cada sesión",
+      "Fuerza de rotadores y control escapular durante toda la temporada",
+      "Registro del volumen de golpeo como si fuera carga de entrenamiento"
+    ],
+    "imagen": {
+      "archivo": "deportes/pelota.jpg",
+      "alt": "Entrenamiento de pelota vasca en el frontón"
+    }
+  }
+]

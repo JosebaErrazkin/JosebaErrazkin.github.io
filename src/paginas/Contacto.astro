@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import TituloPagina from '../components/TituloPagina.astro';
+import Formulario from '../components/Formulario.astro';
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+import { SITIO } from '../config/sitio';
+
+interface Props {
+  idioma: Idioma;
+}
+const { idioma } = Astro.props;
+const t = textos(idioma);
+
+const vias = [
+  { etiqueta: t.contacto.correo, valor: SITIO.correo, href: `mailto:${SITIO.correo}` },
+  { etiqueta: t.contacto.telefono, valor: SITIO.telefono, href: `tel:${SITIO.telefonoEnlace}` },
+  ...(SITIO.linkedin
+    ? [{ etiqueta: t.contacto.linkedin, valor: SITIO.linkedin.replace(/^https?:\/\//, ''), href: SITIO.linkedin }]
+    : []),
+];
+---
+
+<Base idioma={idioma} pagina="contacto">
+  <TituloPagina
+    rotulo={t.nav.contacto}
+    titulo={t.meta.contacto.titulo}
+    entradilla={t.contacto.entradilla}
+  />
+
+  <div class="contenedor pb-20 grid gap-12 lg:grid-cols-[1fr_340px] lg:gap-16 items-start">
+    <div class="max-w-xl">
+      <h2 class="text-2xl md:text-3xl">{t.contacto.formularioTitulo}</h2>
+      <div class="mt-8">
+        <Formulario idioma={idioma} />
+      </div>
+    </div>
+
+    <aside class="border border-linea rounded-xl p-7 bg-papel-2 lg:sticky lg:top-24">
+      <h2 class="text-xs uppercase tracking-[0.18em] font-semibold text-gris">
+        {t.contacto.directoTitulo}
+      </h2>
+
+      <dl class="mt-6 space-y-5">
+        {
+          vias.map((via) => (
+            <div>
+              <dt class="text-xs uppercase tracking-wider font-semibold text-gris">
+                {via.etiqueta}
+              </dt>
+              <dd class="mt-1">
+                <a
+                  href={via.href}
+                  rel={via.href.startsWith('http') ? 'noopener' : undefined}
+                  target={via.href.startsWith('http') ? '_blank' : undefined}
+                  class="text-lg font-medium underline underline-offset-4 decoration-linea hover:decoration-fuego break-all"
+                >
+                  {via.valor}
+                </a>
+              </dd>
+            </div>
+          ))
+        }
+
+        <div class="border-t border-linea pt-5">
+          <dt class="text-xs uppercase tracking-wider font-semibold text-gris">
+            {t.inicio.disponibilidadTitulo}
+          </dt>
+          <dd class="mt-1">{SITIO.ubicacion}</dd>
+        </div>
+      </dl>
+    </aside>
+  </div>
+</Base>

@@ -1,0 +1,64 @@
+---
+import Base from '../layouts/Base.astro';
+import TituloPagina from '../components/TituloPagina.astro';
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+import { formacionPorGrupo, type GrupoFormacion } from '../data';
+
+interface Props {
+  idioma: Idioma;
+}
+const { idioma } = Astro.props;
+const t = textos(idioma);
+const grupos = formacionPorGrupo(idioma);
+
+const nombreGrupo: Record<GrupoFormacion, string> = {
+  universitaria: t.formacion.grupoUniversitaria,
+  especializacion: t.formacion.grupoEspecializacion,
+  certificacion: t.formacion.grupoCertificacion,
+  idiomas: t.formacion.grupoIdiomas,
+};
+---
+
+<Base idioma={idioma} pagina="formacion">
+  <TituloPagina
+    rotulo={t.nav.formacion}
+    titulo={t.meta.formacion.titulo}
+    entradilla={t.formacion.entradilla}
+  />
+
+  <div class="contenedor pb-20 space-y-14">
+    {
+      grupos.map(([grupo, titulaciones]) => (
+        <section>
+          <h2 class="text-xs uppercase tracking-[0.18em] font-semibold text-gris border-b border-linea pb-3">
+            {nombreGrupo[grupo]}
+          </h2>
+
+          <ul class="mt-6 grid gap-4 md:grid-cols-2">
+            {titulaciones.map((titulacion) => (
+              <li class="border border-linea rounded-xl p-6 bg-papel hover:border-tinta transition-colors">
+                <p class="font-[family-name:var(--font-titulo)] text-fuego text-sm font-extrabold tabular-nums">
+                  {titulacion.anio}
+                </p>
+                <h3 class="mt-2 text-xl leading-snug">{titulacion.titulo}</h3>
+                <p class="mt-1.5 text-gris">{titulacion.centro}</p>
+
+                {titulacion.detalle && <p class="mt-3 text-sm text-gris">{titulacion.detalle}</p>}
+
+                {titulacion.equivalencia && (
+                  <p class="mt-4 border-t border-linea pt-3">
+                    <span class="block text-xs uppercase tracking-wider font-semibold text-gris">
+                      {t.formacion.equivalencia}
+                    </span>
+                    <span class="mt-1 block text-sm">{titulacion.equivalencia}</span>
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>

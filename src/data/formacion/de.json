@@ -1,0 +1,70 @@
+[
+  {
+    "id": "grado-cafyd",
+    "grupo": "universitaria",
+    "titulo": "Bachelorstudium Sport- und Bewegungswissenschaft",
+    "centro": "Universität des Baskenlandes (UPV/EHU)",
+    "anio": "2016",
+    "equivalencia": "Entspricht einem BSc in Sport and Exercise Science (240 ECTS-Punkte)"
+  },
+  {
+    "id": "master-readaptacion",
+    "grupo": "universitaria",
+    "titulo": "Masterstudium Sportrehabilitation",
+    "centro": "Universidad Europea",
+    "anio": "2018",
+    "equivalencia": "Entspricht einem MSc in Sports Injury Rehabilitation (60 ECTS-Punkte)"
+  },
+  {
+    "id": "fuerza-rendimiento",
+    "grupo": "especializacion",
+    "titulo": "Krafttraining in der Leistungsentwicklung",
+    "centro": "Weiterbildung",
+    "anio": "2019",
+    "detalle": "120 Stunden · Kraft-Geschwindigkeits-Profil und Intensitätssteuerung"
+  },
+  {
+    "id": "return-to-play",
+    "grupo": "especializacion",
+    "titulo": "Return to Play: Kriterien der sportlichen Freigabe",
+    "centro": "Weiterbildung",
+    "anio": "2021",
+    "detalle": "80 Stunden · Testbatterien und gemeinsame Entscheidungsfindung"
+  },
+  {
+    "id": "gps",
+    "grupo": "certificacion",
+    "titulo": "GPS-Datenanalyse im Mannschaftssport",
+    "centro": "Herstellerzertifikat",
+    "anio": "2022"
+  },
+  {
+    "id": "svb",
+    "grupo": "certificacion",
+    "titulo": "Basismaßnahmen der Wiederbelebung und AED-Anwendung",
+    "centro": "Rotes Kreuz",
+    "anio": "2023",
+    "detalle": "2023 aufgefrischt"
+  },
+  {
+    "id": "ingles",
+    "grupo": "idiomas",
+    "titulo": "Englisch · Niveau C1",
+    "centro": "Cambridge English (CAE)",
+    "anio": "2021"
+  },
+  {
+    "id": "euskera",
+    "grupo": "idiomas",
+    "titulo": "Baskisch · Niveau C1 (EGA)",
+    "centro": "Baskische Regierung",
+    "anio": "2014"
+  },
+  {
+    "id": "frances",
+    "grupo": "idiomas",
+    "titulo": "Französisch · Niveau B1",
+    "centro": "Staatliche Sprachenschule",
+    "anio": "2020"
+  }
+]

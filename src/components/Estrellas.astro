@@ -1,0 +1,30 @@
+---
+import { textos, formatear } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+
+interface Props {
+  /** De 0 a 5. Admite medias estrellas (por ejemplo 4.5). */
+  valor: number;
+  idioma: Idioma;
+}
+
+const { valor, idioma } = Astro.props;
+const t = textos(idioma);
+const etiqueta = formatear(t.valoraciones.valoracion, { n: valor });
+const porcentaje = Math.max(0, Math.min(5, valor)) * 20;
+const estrellas = [0, 1, 2, 3, 4];
+---
+
+<div class="inline-flex items-center gap-2" role="img" aria-label={etiqueta}>
+  <div class="relative inline-block leading-none" aria-hidden="true">
+    <div class="flex gap-0.5 text-linea text-lg">
+      {estrellas.map(() => <span>★</span>)}
+    </div>
+    <div class="absolute inset-y-0 left-0 overflow-hidden" style={`width: ${porcentaje}%`}>
+      <div class="flex gap-0.5 text-fuego text-lg w-max">
+        {estrellas.map(() => <span>★</span>)}
+      </div>
+    </div>
+  </div>
+  <span class="text-sm font-semibold text-gris tabular-nums">{valor}/5</span>
+</div>

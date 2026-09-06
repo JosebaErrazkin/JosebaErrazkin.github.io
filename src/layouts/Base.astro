@@ -1,0 +1,111 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/archivo';
+import '../styles/global.css';
+
+import Cabecera from '../components/Cabecera.astro';
+import Pie from '../components/Pie.astro';
+import { textos } from '../i18n/ui';
+import {
+  CODIGO_HREFLANG,
+  IDIOMAS_PUBLICADOS,
+  IDIOMA_DE_RESERVA,
+  type Idioma,
+} from '../i18n/idiomas';
+import { ruta, type ClavePagina } from '../rutas';
+import { SITIO } from '../config/sitio';
+
+interface Props {
+  idioma: Idioma;
+  pagina: ClavePagina;
+  /** Sustituye al título por defecto de la página. */
+  titulo?: string;
+  descripcion?: string;
+  /** Marca la traducción como pendiente de revisión. */
+  sinRevisar?: boolean;
+}
+
+const { idioma, pagina, titulo, descripcion, sinRevisar = false } = Astro.props;
+const t = textos(idioma);
+
+const tituloPagina = titulo ?? t.meta[pagina].titulo;
+const desc = descripcion ?? t.meta[pagina].descripcion;
+const tituloCompleto =
+  pagina === 'inicio'
+    ? `${SITIO.nombre} — ${tituloPagina}`
+    : `${tituloPagina} · ${SITIO.nombre}`;
+
+const canonica = new URL(ruta(pagina, idioma), Astro.site).toString();
+const alternativas = IDIOMAS_PUBLICADOS.map((otro) => ({
+  hreflang: CODIGO_HREFLANG[otro],
+  href: new URL(ruta(pagina, otro), Astro.site).toString(),
+}));
+
+const persona = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITIO.nombre,
+  jobTitle: t.meta.inicio.titulo,
+  description: t.meta.inicio.descripcion,
+  email: `mailto:${SITIO.correo}`,
+  url: new URL(ruta('inicio', idioma), Astro.site).toString(),
+  knowsLanguage: ['es', 'en', 'fr', 'eu', 'de'],
+  ...(SITIO.linkedin ? { sameAs: [SITIO.linkedin] } : {}),
+};
+---
+
+<!doctype html>
+<html lang={CODIGO_HREFLANG[idioma]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloCompleto}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonica} />
+    {alternativas.map((a) => <link rel="alternate" hreflang={a.hreflang} href={a.href} />)}
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={new URL(ruta(pagina, IDIOMA_DE_RESERVA), Astro.site).toString()}
+    />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content={SITIO.nombre} />
+    <meta property="og:title" content={tituloCompleto} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonica} />
+    <meta property="og:locale" content={CODIGO_HREFLANG[idioma].replace('-', '_')} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="theme-color" content="#111214" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
+
+    <script type="application/ld+json" set:html={JSON.stringify(persona)} />
+  </head>
+
+  <body class="min-h-dvh flex flex-col">
+    <a
+      href="#contenido"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-tinta focus:text-papel focus:px-4 focus:py-2 focus:font-semibold"
+    >
+      {t.general.saltarAlContenido}
+    </a>
+
+    <Cabecera idioma={idioma} pagina={pagina} />
+
+    {
+      sinRevisar && (
+        <p class="bg-papel-2 border-b border-linea text-center text-sm text-gris py-2 px-4">
+          {t.general.revisionPendiente}
+        </p>
+      )
+    }
+
+    <main id="contenido" class="flex-1">
+      <slot />
+    </main>
+
+    <Pie idioma={idioma} />
+  </body>
+</html>

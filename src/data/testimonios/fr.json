@@ -1,0 +1,55 @@
+[
+  {
+    "id": "maialen",
+    "nombre": "Maialen Otaegi",
+    "cargo": "Kinésithérapeute",
+    "entidad": "Clinique Oria",
+    "texto": "Travailler avec Joseba a changé notre façon de donner la reprise à la clinique. Il n'improvise jamais : quand il dit qu'un patient est prêt, il apporte les données qui le prouvent.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/maialen.jpg",
+      "alt": "Portrait de Maialen Otaegi"
+    }
+  },
+  {
+    "id": "iker",
+    "nombre": "Iker Zubeldia",
+    "cargo": "Footballeur sénior",
+    "entidad": "Club Deportivo Aurrera",
+    "texto": "Après l'opération, je pensais ne jamais retrouver mon niveau. Joseba m'a expliqué chaque phase et pourquoi il fallait attendre. Je suis revenu meilleur qu'avant ma blessure.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/iker.jpg",
+      "alt": "Portrait d’Iker Zubeldia"
+    }
+  },
+  {
+    "id": "andoni",
+    "nombre": "Andoni Lizaso",
+    "cargo": "Chirurgien orthopédiste",
+    "texto": "J'oriente mes patients vers Joseba en toute confiance. Il respecte les délais biologiques et ne cède pas à la pression d'accélérer, ce qui est exactement ce qu'un chirurgien attend.",
+    "foto": {
+      "archivo": "testimonios/andoni.jpg",
+      "alt": "Portrait d’Andoni Lizaso"
+    }
+  },
+  {
+    "id": "nerea",
+    "nombre": "Nerea Agirre",
+    "cargo": "Athlète de demi-fond",
+    "texto": "Je m'entraînais depuis des années sans toucher un haltère, de peur de perdre en légèreté. Avec lui, j'ai battu mon record sur 1 500 m et mes douleurs au tendon ont disparu.",
+    "estrellas": 5
+  },
+  {
+    "id": "gorka",
+    "nombre": "Gorka Etxeberria",
+    "cargo": "Entraîneur adjoint",
+    "entidad": "Handball Lasarte",
+    "texto": "Il s'intègre au staff sans faire de bruit et parle le langage de l'entraîneur, pas seulement celui du laboratoire. C'est là toute la différence.",
+    "estrellas": 4,
+    "foto": {
+      "archivo": "testimonios/gorka.jpg",
+      "alt": "Portrait de Gorka Etxeberria"
+    }
+  }
+]

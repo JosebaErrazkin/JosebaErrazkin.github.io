@@ -1,0 +1,55 @@
+[
+  {
+    "id": "maialen",
+    "nombre": "Maialen Otaegi",
+    "cargo": "Physiotherapist",
+    "entidad": "Oria Clinic",
+    "texto": "Working with Joseba changed the way we discharge patients at the clinic. He never improvises: when he says a patient is ready, he brings the data to prove it.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/maialen.jpg",
+      "alt": "Portrait of Maialen Otaegi"
+    }
+  },
+  {
+    "id": "iker",
+    "nombre": "Iker Zubeldia",
+    "cargo": "Senior footballer",
+    "entidad": "Club Deportivo Aurrera",
+    "texto": "After surgery I thought I would never get back to the same level. Joseba explained every phase and why we had to wait. I came back better than I was before the injury.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/iker.jpg",
+      "alt": "Portrait of Iker Zubeldia"
+    }
+  },
+  {
+    "id": "andoni",
+    "nombre": "Andoni Lizaso",
+    "cargo": "Orthopaedic surgeon",
+    "texto": "I refer patients to Joseba with complete confidence. He respects biological timelines and does not give in to pressure to rush, which is exactly what a surgeon needs on the other side.",
+    "foto": {
+      "archivo": "testimonios/andoni.jpg",
+      "alt": "Portrait of Andoni Lizaso"
+    }
+  },
+  {
+    "id": "nerea",
+    "nombre": "Nerea Agirre",
+    "cargo": "Middle-distance athlete",
+    "texto": "I had trained for years without touching a weight, afraid of losing my lightness. With him I set a personal best in the 1500 m and my tendon pain disappeared.",
+    "estrellas": 5
+  },
+  {
+    "id": "gorka",
+    "nombre": "Gorka Etxeberria",
+    "cargo": "Assistant coach",
+    "entidad": "Lasarte Handball Club",
+    "texto": "He fits into the coaching staff without making noise, and he speaks the coach’s language, not only the lab’s. That is the difference from other conditioning coaches.",
+    "estrellas": 4,
+    "foto": {
+      "archivo": "testimonios/gorka.jpg",
+      "alt": "Portrait of Gorka Etxeberria"
+    }
+  }
+]

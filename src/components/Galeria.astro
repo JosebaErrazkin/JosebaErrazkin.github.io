@@ -1,0 +1,58 @@
+---
+import { Image, getImage } from 'astro:assets';
+import { imagen as buscarImagen, type Imagen } from '../data';
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+
+interface Props {
+  imagenes: Imagen[];
+  /** Identificador del grupo: las flechas del visor se mueven solo dentro de él. */
+  grupo: string;
+  idioma: Idioma;
+}
+
+const { imagenes, grupo, idioma } = Astro.props;
+const t = textos(idioma);
+
+const preparadas = await Promise.all(
+  imagenes.map(async (im) => {
+    const fuente = buscarImagen(im.archivo);
+    const grande = await getImage({ src: fuente, width: 1600, format: 'webp', quality: 78 });
+    return { alt: im.alt, fuente, grande: grande.src };
+  }),
+);
+---
+
+{
+  preparadas.length > 0 && (
+    <div class="mt-6">
+      <h4 class="sr-only">{t.trayectoria.galeria}</h4>
+      <ul class="flex flex-wrap gap-3">
+        {preparadas.map((im, i) => (
+          <li>
+            <button
+              type="button"
+              class="group block overflow-hidden rounded-md border border-linea bg-papel-2 focus-visible:outline-fuego"
+              data-galeria={grupo}
+              data-indice={i}
+              data-grande={im.grande}
+              data-alt={im.alt}
+              aria-label={`${t.trayectoria.ampliar}: ${im.alt}`}
+            >
+              <Image
+                src={im.fuente}
+                alt={im.alt}
+                width={260}
+                height={174}
+                widths={[260, 520]}
+                sizes="130px"
+                class="h-[110px] w-[165px] object-cover transition-transform duration-300 group-hover:scale-105"
+                loading="lazy"
+              />
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lca",
+    "deporte": "Football",
+    "nivel": "Senior amateur",
+    "lesion": "Anterior cruciate ligament tear with surgery",
+    "contexto": "24-year-old player, non-contact injury during a change of direction. Stated goal: returning to competition at the same level.",
+    "semanas": 34,
+    "intervencion": [
+      "Restoring full extension and neuromuscular control before maximal strength",
+      "Load progression driven by the gap between the healthy and operated leg, reviewed every three weeks",
+      "Running reintroduced only after reaching 80 % strength symmetry",
+      "Final eight weeks devoted to competition actions under accumulated fatigue"
+    ],
+    "resultado": "Full clearance at 34 weeks with 96 % strength symmetry. A complete season afterwards, with no re-injury."
+  },
+  {
+    "id": "isquios",
+    "deporte": "Football",
+    "nivel": "Youth",
+    "lesion": "Grade II hamstring strain",
+    "contexto": "Second injury in the same area within a year, in a player with little previous strength training.",
+    "semanas": 6,
+    "intervencion": [
+      "Eccentric work from week one, progressing through range of motion",
+      "Correction of the posterior-chain strength deficit, which was the real origin",
+      "Clearance conditional on matching the healthy side and completing two full training sessions"
+    ],
+    "resultado": "Return at six weeks, followed by a season and a half without any further injury in that area."
+  },
+  {
+    "id": "tobillo",
+    "deporte": "Handball",
+    "nivel": "Senior",
+    "lesion": "Grade III ankle sprain",
+    "contexto": "Player with a history of instability and clear apprehension when landing from jumps.",
+    "semanas": 9,
+    "intervencion": [
+      "Restoring single-leg loading with progressive load before returning to jumping",
+      "Specific landing and deceleration work on different surfaces",
+      "Gradual exposure to the situations causing apprehension, tracked on video"
+    ],
+    "resultado": "Return to competition in nine weeks, with no instability episodes over the following two years."
+  },
+  {
+    "id": "hombro",
+    "deporte": "Basque pelota",
+    "nivel": "Professional",
+    "lesion": "Rotator cuff tendinopathy",
+    "contexto": "Progressive pain over months in the striking arm, with no possible break mid-season.",
+    "semanas": 14,
+    "intervencion": [
+      "Reduced striking volume without withdrawing from competition, agreed with the player",
+      "Shoulder and scapular strength programme three days a week",
+      "Daily pain scale monitoring to adjust load week by week"
+    ],
+    "resultado": "Pain below the acceptable threshold at fourteen weeks, without missing a single official match."
+  }
+]

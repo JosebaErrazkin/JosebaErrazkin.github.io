@@ -1,0 +1,177 @@
+---
+import { textos } from '../i18n/ui';
+import {
+  IDIOMAS_PUBLICADOS,
+  NOMBRE_IDIOMA,
+  SIGLA_IDIOMA,
+  CODIGO_HREFLANG,
+  type Idioma,
+} from '../i18n/idiomas';
+import { MENU, ruta, type ClavePagina } from '../rutas';
+import { SITIO } from '../config/sitio';
+
+interface Props {
+  idioma: Idioma;
+  pagina: ClavePagina;
+}
+
+const { idioma, pagina } = Astro.props;
+const t = textos(idioma);
+const enlaces = MENU.map((clave) => ({
+  clave,
+  texto: t.nav[clave],
+  href: ruta(clave, idioma),
+  activo: clave === pagina,
+}));
+---
+
+<header class="sticky top-0 z-40 bg-papel/95 backdrop-blur border-b border-linea">
+  <div class="contenedor flex items-center justify-between gap-4 h-16 lg:h-18">
+    <a
+      href={ruta('inicio', idioma)}
+      class="font-[family-name:var(--font-titulo)] font-extrabold tracking-tight text-lg leading-none shrink-0"
+    >
+      Joseba<span class="text-fuego">.</span>Errazkin
+    </a>
+
+    <!-- Menú de ordenador -->
+    <nav aria-label={t.general.menu} class="hidden lg:block">
+      <ul class="flex items-center gap-1">
+        {
+          enlaces.map((e) => (
+            <li>
+              <a
+                href={e.href}
+                aria-current={e.activo ? 'page' : undefined}
+                class:list={[
+                  'inline-block px-3 py-2 text-[0.9375rem] font-medium border-b-2 transition-colors',
+                  e.activo
+                    ? 'border-fuego text-tinta'
+                    : 'border-transparent text-gris hover:text-tinta hover:border-linea',
+                ]}
+              >
+                {e.texto}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div class="flex items-center gap-2">
+      <!-- Selector de idioma -->
+      <details class="relative" data-desplegable>
+        <summary
+          class="list-none cursor-pointer select-none inline-flex items-center gap-1.5 px-3 py-2 text-sm font-semibold border border-linea rounded-full hover:border-tinta transition-colors"
+          aria-label={t.general.cambiarIdioma}
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
+          </svg>
+          {SIGLA_IDIOMA[idioma]}
+        </summary>
+        <ul
+          class="absolute right-0 mt-2 min-w-44 bg-papel border border-linea shadow-lg rounded-lg overflow-hidden py-1"
+        >
+          {
+            IDIOMAS_PUBLICADOS.map((otro) => (
+              <li>
+                <a
+                  href={ruta(pagina, otro)}
+                  hreflang={CODIGO_HREFLANG[otro]}
+                  lang={CODIGO_HREFLANG[otro]}
+                  aria-current={otro === idioma ? 'true' : undefined}
+                  class:list={[
+                    'flex items-center justify-between gap-3 px-4 py-2.5 text-sm hover:bg-papel-2',
+                    otro === idioma ? 'font-semibold text-tinta' : 'text-gris',
+                  ]}
+                >
+                  {NOMBRE_IDIOMA[otro]}
+                  <span class="text-xs tracking-wider">{SIGLA_IDIOMA[otro]}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+
+      <!-- Menú de móvil -->
+      <details class="lg:hidden" data-desplegable data-menu-movil>
+        <summary
+          class="list-none cursor-pointer select-none inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold border border-linea rounded-full hover:border-tinta"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 6h18M3 12h18M3 18h18" />
+          </svg>
+          {t.general.menu}
+        </summary>
+        <nav
+          aria-label={t.general.menu}
+          class="fixed inset-x-0 top-16 bottom-0 bg-papel border-t border-linea overflow-y-auto"
+        >
+          <ul class="contenedor py-4">
+            {
+              enlaces.map((e) => (
+                <li class="border-b border-linea last:border-0">
+                  <a
+                    href={e.href}
+                    aria-current={e.activo ? 'page' : undefined}
+                    class:list={[
+                      'flex items-center justify-between py-4 text-lg font-medium',
+                      e.activo ? 'text-fuego-texto font-semibold' : 'text-tinta',
+                    ]}
+                  >
+                    {e.texto}
+                    <span aria-hidden="true" class="text-linea">→</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+          <p class="contenedor pb-8 text-sm text-gris">
+            <a href={`mailto:${SITIO.correo}`} class="underline underline-offset-4">{SITIO.correo}</a>
+          </p>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<style>
+  summary::-webkit-details-marker {
+    display: none;
+  }
+</style>
+
+<script>
+  // Los desplegables se cierran al pulsar fuera, al pulsar Esc y al abrir otro.
+  const desplegables = document.querySelectorAll<HTMLDetailsElement>('[data-desplegable]');
+
+  document.addEventListener('click', (evento) => {
+    for (const d of desplegables) {
+      if (d.open && !d.contains(evento.target as Node)) d.open = false;
+    }
+  });
+
+  document.addEventListener('keydown', (evento) => {
+    if (evento.key !== 'Escape') return;
+    for (const d of desplegables) {
+      if (d.open) {
+        d.open = false;
+        d.querySelector('summary')?.focus();
+      }
+    }
+  });
+
+  for (const d of desplegables) {
+    d.addEventListener('toggle', () => {
+      if (!d.open) return;
+      for (const otro of desplegables) if (otro !== d) otro.open = false;
+      document.body.style.overflow = d.hasAttribute('data-menu-movil') ? 'hidden' : '';
+    });
+    d.addEventListener('toggle', () => {
+      if (!d.open && d.hasAttribute('data-menu-movil')) document.body.style.overflow = '';
+    });
+  }
+</script>

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "futbol",
+    "deporte": "Fußball",
+    "resumen": "Eine Sportart kurzer, wiederholter Belastungen, bei der fast alle schweren Verletzungen beim Sprint oder Abbremsen entstehen.",
+    "exigencias": [
+      "Wiederholte Beschleunigungen und Abbremsungen",
+      "Richtungswechsel unter Gegnerdruck",
+      "Ermüdungsresistenz in der zweiten Halbzeit"
+    ],
+    "enfoque": [
+      "Wöchentliche kontrollierte Exposition bei Maximalgeschwindigkeit",
+      "Kraft der hinteren Kette ganzjährig, nicht nur in der Vorbereitung",
+      "GPS-Belastungssteuerung, um Spitzen nicht zu häufen"
+    ],
+    "imagen": {
+      "archivo": "deportes/futbol.jpg",
+      "alt": "Fußballtraining auf dem Platz"
+    }
+  },
+  {
+    "id": "balonmano",
+    "deporte": "Handball",
+    "resumen": "Ständiger Kontakt, Sprünge mit unausgeglichener Landung und eine Schulter, die pro Saison tausendfach wirft.",
+    "exigencias": [
+      "Sprünge und Landungen unter Kontakt",
+      "Wiederholte Wurfleistung",
+      "Tempowechsel auf engem Raum"
+    ],
+    "enfoque": [
+      "Schulter- und Schulterblattstabilität als Basis, nicht als Zusatz",
+      "Gestörte Landungen bereits in der Vorbereitung",
+      "Unilaterale Kraftarbeit zum Ausgleich beider Seiten"
+    ],
+    "imagen": {
+      "archivo": "deportes/balonmano.jpg",
+      "alt": "Handballtraining in der Halle"
+    }
+  },
+  {
+    "id": "atletismo",
+    "deporte": "Mittelstreckenlauf",
+    "resumen": "Hohe Umfänge und schmale Margen: Krafttraining muss beitragen, ohne der Bahn Energie zu rauben.",
+    "exigencias": [
+      "Laufökonomie",
+      "Toleranz gegenüber hohen Umfängen",
+      "Elastische Sehnensteifigkeit"
+    ],
+    "enfoque": [
+      "Maximalkraft mit geringem Umfang und hoher Qualität",
+      "Plyometrie dosiert nach Wettkampfkalender",
+      "Enge Überwachung der Achillessehnenbelastung"
+    ],
+    "imagen": {
+      "archivo": "deportes/atletismo.jpg",
+      "alt": "Leichtathletiktraining auf der Bahn"
+    }
+  },
+  {
+    "id": "pelota",
+    "deporte": "Baskische Pelota",
+    "resumen": "Eine stark asymmetrische Sportart mit enormer Belastung für eine Hand, eine Schulter und eine Körperseite.",
+    "exigencias": [
+      "Wiederholung der Schlagbewegung",
+      "Kurze, explosive Verlagerungen",
+      "Gesundheit von dominanter Hand und Schulter"
+    ],
+    "enfoque": [
+      "Ausgleich der nicht dominanten Seite in jeder Einheit",
+      "Rotatorenkraft und Schulterblattkontrolle über die gesamte Saison",
+      "Erfassung des Schlagvolumens wie eine Trainingsbelastung"
+    ],
+    "imagen": {
+      "archivo": "deportes/pelota.jpg",
+      "alt": "Pelota-Training im Fronton"
+    }
+  }
+]

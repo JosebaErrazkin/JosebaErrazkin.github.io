@@ -1,0 +1,44 @@
+---
+/**
+ * Punto de entrada de todas las páginas.
+ *
+ * Genera una dirección por cada combinación de idioma y sección, usando el
+ * nombre que esa sección tiene en cada idioma (ver src/rutas.ts), y renderiza
+ * el componente de página correspondiente desde src/paginas/.
+ */
+import { todasLasRutas, type ClavePagina } from '../rutas';
+
+import Inicio from '../paginas/Inicio.astro';
+import Presentacion from '../paginas/Presentacion.astro';
+import Filosofia from '../paginas/Filosofia.astro';
+import Trayectoria from '../paginas/Trayectoria.astro';
+import Formacion from '../paginas/Formacion.astro';
+import Especialidades from '../paginas/Especialidades.astro';
+import Valoraciones from '../paginas/Valoraciones.astro';
+import Contacto from '../paginas/Contacto.astro';
+import Privacidad from '../paginas/Privacidad.astro';
+
+export function getStaticPaths() {
+  return todasLasRutas().map(({ idioma, pagina, trozo }) => ({
+    params: { ruta: trozo ? `${idioma}/${trozo}` : idioma },
+    props: { idioma, pagina },
+  }));
+}
+
+const PAGINAS: Record<ClavePagina, any> = {
+  inicio: Inicio,
+  presentacion: Presentacion,
+  filosofia: Filosofia,
+  trayectoria: Trayectoria,
+  formacion: Formacion,
+  especialidades: Especialidades,
+  valoraciones: Valoraciones,
+  contacto: Contacto,
+  privacidad: Privacidad,
+};
+
+const { idioma, pagina } = Astro.props;
+const Pagina = PAGINAS[pagina as ClavePagina];
+---
+
+<Pagina idioma={idioma} />

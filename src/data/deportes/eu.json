@@ -1,0 +1,78 @@
+[
+  {
+    "id": "futbol",
+    "deporte": "Futbola",
+    "resumen": "Ahalegin labur eta errepikatuen kirola, non lesio larri ia guztiak korrika edo balaztatzean gertatzen diren.",
+    "exigencias": [
+      "Azelerazio eta balaztatze errepikatuak",
+      "Norabide aldaketak aurkariarekin",
+      "Nekearekiko erresistentzia bigarren zatian"
+    ],
+    "enfoque": [
+      "Abiadura maximora esposizio kontrolatua astero",
+      "Atzeko katearen indarra urte osoan, ez denboraldi aurrean bakarrik",
+      "Kargaren kontrola GPSarekin, gailurrak ez metatzeko"
+    ],
+    "imagen": {
+      "archivo": "deportes/futbol.jpg",
+      "alt": "Futbol entrenamendua zelaian"
+    }
+  },
+  {
+    "id": "balonmano",
+    "deporte": "Eskubaloia",
+    "resumen": "Etengabeko kontaktua, oreka gabeko jaitsierako jauziak eta denboraldiko milaka jaurtiketa egiten dituen sorbalda.",
+    "exigencias": [
+      "Kontaktuarekin jauzi eta jaitsierak",
+      "Jaurtiketa indar errepikatua",
+      "Erritmo aldaketak espazio laburrean"
+    ],
+    "enfoque": [
+      "Sorbalda eta eskapularen egonkortasuna oinarri gisa, ez gehigarri gisa",
+      "Perturbazioarekin lurreratzeak denboraldi aurretik",
+      "Indar unilaterala bi aldeak berdintzeko"
+    ],
+    "imagen": {
+      "archivo": "deportes/balonmano.jpg",
+      "alt": "Eskubaloi entrenamendua pistan"
+    }
+  },
+  {
+    "id": "atletismo",
+    "deporte": "Erdi hondoko atletismoa",
+    "resumen": "Bolumen handiak eta tarte estuak: indar lanak lagundu behar du, pistari energia kendu gabe.",
+    "exigencias": [
+      "Lasterketaren ekonomia",
+      "Bolumen handiekiko tolerantzia",
+      "Tendoiaren zurruntasun elastikoa"
+    ],
+    "enfoque": [
+      "Indar maximoa bolumen txikiarekin eta kalitate handiarekin",
+      "Pliometria dosifikatua lehiaketa egutegiaren arabera",
+      "Akilesen tendoiaren kargaren zaintza"
+    ],
+    "imagen": {
+      "archivo": "deportes/atletismo.jpg",
+      "alt": "Atletismo entrenamendua pistan"
+    }
+  },
+  {
+    "id": "pelota",
+    "deporte": "Euskal pilota",
+    "resumen": "Kirol oso asimetrikoa, esku, sorbalda eta gorputz alde bakar baten gainean karga izugarria duena.",
+    "exigencias": [
+      "Jotze mugimenduaren errepikapena",
+      "Desplazamendu labur eta lehergarriak",
+      "Esku eta sorbalda nagusiaren osasuna"
+    ],
+    "enfoque": [
+      "Alde ez-nagusiaren konpentsazioa saio bakoitzean",
+      "Biratzaileen indarra eta kontrol eskapularra denboraldi osoan",
+      "Jotze bolumena erregistratzea entrenamendu karga balitz bezala"
+    ],
+    "imagen": {
+      "archivo": "deportes/pelota.jpg",
+      "alt": "Pilota entrenamendua frontoian"
+    }
+  }
+]

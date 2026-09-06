@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ *
+ *  PALETA Y TIPOGRAFÍAS
+ *  Cambiar un color aquí lo cambia en toda la web.
+ * ------------------------------------------------------------------ */
+@theme {
+  --color-papel: #faf9f7;
+  --color-papel-2: #f0eeea;
+  --color-tinta: #111214;
+  --color-tinta-2: #1c1e22;
+  --color-gris: #55575e;
+  --color-linea: #e3e0da;
+
+  /* Acentos enérgicos */
+  --color-fuego: #f24405;        /* fondos, trazos, títulos grandes */
+  --color-fuego-texto: #b03203;  /* mismo naranja legible en texto pequeño */
+  --color-electrico: #0057ff;    /* acento secundario */
+
+  --font-titulo: 'Archivo Variable', 'Arial Narrow', system-ui, sans-serif;
+  --font-texto: 'Inter Variable', system-ui, -apple-system, sans-serif;
+
+  --ease-suave: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  body {
+    background-color: var(--color-papel);
+    color: var(--color-tinta);
+    font-family: var(--font-texto);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-titulo);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 3px solid var(--color-electrico);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  ::selection {
+    background-color: var(--color-fuego);
+    color: #fff;
+  }
+}
+
+@utility contenedor {
+  width: 100%;
+  max-width: 76rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  @media (width >= 48rem) { padding-inline: 2rem; }
+}
+
+/* Texto largo escrito en Markdown (biografía, filosofía) */
+@utility prosa {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-tinta);
+
+  & > * + * { margin-block-start: 1.25em; }
+  & h2 {
+    font-size: 1.75rem;
+    margin-block-start: 2.5em;
+    padding-block-start: 0.6em;
+    border-block-start: 3px solid var(--color-fuego);
+    display: inline-block;
+  }
+  & h3 { font-size: 1.25rem; margin-block-start: 2em; }
+  & strong { font-weight: 650; }
+  & a {
+    color: var(--color-fuego-texto);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  & ul { list-style: none; padding-left: 0; }
+  & ul > li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-block-start: 0.6em;
+  }
+  & ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.7em;
+    width: 0.55rem;
+    height: 0.15rem;
+    background-color: var(--color-fuego);
+  }
+  & ol { padding-left: 1.2rem; }
+  & ol > li { margin-block-start: 0.6em; }
+  & blockquote {
+    border-left: 3px solid var(--color-fuego);
+    padding-left: 1.25rem;
+    font-size: 1.1875rem;
+    line-height: 1.6;
+    color: var(--color-gris);
+  }
+}

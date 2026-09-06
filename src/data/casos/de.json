@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lca",
+    "deporte": "Fußball",
+    "nivel": "Senioren, Amateur",
+    "lesion": "Riss des vorderen Kreuzbands mit Operation",
+    "contexto": "24-jährige Spielerin, Nichtkontaktverletzung bei einem Richtungswechsel. Erklärtes Ziel: Rückkehr in denselben Wettbewerb.",
+    "semanas": 34,
+    "intervencion": [
+      "Wiederherstellung der vollen Streckung und der neuromuskulären Kontrolle vor der Maximalkraft",
+      "Belastungssteigerung anhand der Seitendifferenz zwischen gesundem und operiertem Bein, alle drei Wochen überprüft",
+      "Wiedereinstieg ins Laufen erst nach 80 % Kraftsymmetrie",
+      "Letzte acht Wochen für Wettkampfaktionen unter akkumulierter Ermüdung"
+    ],
+    "resultado": "Sportliche Freigabe nach 34 Wochen bei 96 % Kraftsymmetrie. Anschließend eine komplette Saison ohne Rezidiv."
+  },
+  {
+    "id": "isquios",
+    "deporte": "Fußball",
+    "nivel": "Junioren",
+    "lesion": "Muskelfaserriss der ischiocruralen Muskulatur, Grad II",
+    "contexto": "Zweite Verletzung derselben Region innerhalb eines Jahres bei einem Spieler mit wenig vorherigem Krafttraining.",
+    "semanas": 6,
+    "intervencion": [
+      "Exzentrisches Training ab der ersten Woche mit progressiver Bewegungsamplitude",
+      "Korrektur des Kraftdefizits der hinteren Kette als eigentliche Ursache",
+      "Freigabe erst nach Angleichung an die gesunde Seite und zwei vollständigen Trainingseinheiten"
+    ],
+    "resultado": "Rückkehr nach sechs Wochen, danach anderthalb Saisons ohne erneute Verletzung dieser Region."
+  },
+  {
+    "id": "tobillo",
+    "deporte": "Handball",
+    "nivel": "Senioren",
+    "lesion": "Sprunggelenkdistorsion Grad III",
+    "contexto": "Spieler mit Instabilitätsvorgeschichte und deutlicher Angst bei der Landung nach Sprüngen.",
+    "semanas": 9,
+    "intervencion": [
+      "Wiederherstellung der einbeinigen Belastung mit progressiver Last vor dem Sprungtraining",
+      "Spezifisches Landungs- und Abbremstraining auf unterschiedlichen Untergründen",
+      "Schrittweise Exposition gegenüber angstauslösenden Situationen, per Video kontrolliert"
+    ],
+    "resultado": "Rückkehr in den Wettkampf nach neun Wochen, in den folgenden zwei Jahren ohne Instabilitätsepisoden."
+  },
+  {
+    "id": "hombro",
+    "deporte": "Baskische Pelota",
+    "nivel": "Profi",
+    "lesion": "Tendinopathie der Rotatorenmanschette",
+    "contexto": "Über Monate zunehmende Schmerzen im Schlagarm, ohne Möglichkeit einer Saisonpause.",
+    "semanas": 14,
+    "intervencion": [
+      "Reduktion des Schlagvolumens ohne Wettkampfpause, gemeinsam mit dem Spieler abgestimmt",
+      "Kraftprogramm für Schulter und Schulterblatt an drei Tagen pro Woche",
+      "Tägliche Schmerzskala zur wochenweisen Anpassung der Belastung"
+    ],
+    "resultado": "Schmerz unter der akzeptablen Schwelle nach vierzehn Wochen, ohne ein einziges Pflichtspiel zu verpassen."
+  }
+]

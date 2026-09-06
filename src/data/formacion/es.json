@@ -1,0 +1,70 @@
+[
+  {
+    "id": "grado-cafyd",
+    "grupo": "universitaria",
+    "titulo": "Grado en Ciencias de la Actividad Física y del Deporte",
+    "centro": "Universidad del País Vasco (UPV/EHU)",
+    "anio": "2016",
+    "equivalencia": "Equivale a un BSc in Sport and Exercise Science (240 créditos ECTS)"
+  },
+  {
+    "id": "master-readaptacion",
+    "grupo": "universitaria",
+    "titulo": "Máster en Readaptación de Lesiones Deportivas",
+    "centro": "Universidad Europea",
+    "anio": "2018",
+    "equivalencia": "Equivale a un MSc in Sports Injury Rehabilitation (60 créditos ECTS)"
+  },
+  {
+    "id": "fuerza-rendimiento",
+    "grupo": "especializacion",
+    "titulo": "Entrenamiento de la fuerza aplicado al rendimiento",
+    "centro": "Formación continua",
+    "anio": "2019",
+    "detalle": "120 horas · perfil fuerza-velocidad y control de la intensidad"
+  },
+  {
+    "id": "return-to-play",
+    "grupo": "especializacion",
+    "titulo": "Return to Play: criterios de alta deportiva",
+    "centro": "Formación continua",
+    "anio": "2021",
+    "detalle": "80 horas · baterías de pruebas y toma de decisiones compartida"
+  },
+  {
+    "id": "gps",
+    "grupo": "certificacion",
+    "titulo": "Análisis de datos GPS en deportes de equipo",
+    "centro": "Certificación de fabricante",
+    "anio": "2022"
+  },
+  {
+    "id": "svb",
+    "grupo": "certificacion",
+    "titulo": "Soporte Vital Básico y uso del desfibrilador",
+    "centro": "Cruz Roja",
+    "anio": "2023",
+    "detalle": "Renovada en 2023"
+  },
+  {
+    "id": "ingles",
+    "grupo": "idiomas",
+    "titulo": "Inglés · nivel C1",
+    "centro": "Cambridge English (CAE)",
+    "anio": "2021"
+  },
+  {
+    "id": "euskera",
+    "grupo": "idiomas",
+    "titulo": "Euskera · nivel C1 (EGA)",
+    "centro": "Gobierno Vasco",
+    "anio": "2014"
+  },
+  {
+    "id": "frances",
+    "grupo": "idiomas",
+    "titulo": "Francés · nivel B1",
+    "centro": "Escuela Oficial de Idiomas",
+    "anio": "2020"
+  }
+]

@@ -1,0 +1,84 @@
+---
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+import { MENU, ruta } from '../rutas';
+import { SITIO } from '../config/sitio';
+
+interface Props {
+  idioma: Idioma;
+}
+
+const { idioma } = Astro.props;
+const t = textos(idioma);
+const anio = new Date().getFullYear();
+---
+
+<footer class="bg-tinta text-papel mt-24">
+  <div class="contenedor py-14 grid gap-10 md:grid-cols-3">
+    <div>
+      <p class="font-[family-name:var(--font-titulo)] font-extrabold text-xl">
+        Joseba<span class="text-fuego">.</span>Errazkin
+      </p>
+      <p class="mt-3 text-sm text-papel/70 max-w-xs">{t.pie.descripcion}</p>
+      <p class="mt-3 text-sm text-papel/50">{SITIO.ubicacion}</p>
+    </div>
+
+    <nav aria-label={t.pie.navegacion}>
+      <h2 class="text-xs uppercase tracking-[0.18em] text-papel/50 font-semibold">
+        {t.pie.navegacion}
+      </h2>
+      <ul class="mt-4 grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
+        {
+          MENU.filter((c) => c !== 'inicio').map((clave) => (
+            <li>
+              <a href={ruta(clave, idioma)} class="text-papel/80 hover:text-fuego transition-colors">
+                {t.nav[clave]}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div>
+      <h2 class="text-xs uppercase tracking-[0.18em] text-papel/50 font-semibold">
+        {t.pie.contacto}
+      </h2>
+      <ul class="mt-4 space-y-2 text-sm">
+        <li>
+          <a href={`mailto:${SITIO.correo}`} class="text-papel/80 hover:text-fuego transition-colors break-all">
+            {SITIO.correo}
+          </a>
+        </li>
+        <li>
+          <a href={`tel:${SITIO.telefonoEnlace}`} class="text-papel/80 hover:text-fuego transition-colors">
+            {SITIO.telefono}
+          </a>
+        </li>
+        {
+          SITIO.linkedin && (
+            <li>
+              <a
+                href={SITIO.linkedin}
+                rel="noopener"
+                target="_blank"
+                class="text-papel/80 hover:text-fuego transition-colors"
+              >
+                {t.contacto.linkedin}
+              </a>
+            </li>
+          )
+        }
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-papel/15">
+    <div class="contenedor py-5 flex flex-wrap items-center justify-between gap-3 text-xs text-papel/50">
+      <p>© {anio} {SITIO.nombre}. {t.pie.derechos}</p>
+      <a href={ruta('privacidad', idioma)} class="hover:text-papel transition-colors">
+        {t.nav.privacidad}
+      </a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "grado-cafyd",
+    "grupo": "universitaria",
+    "titulo": "Jarduera Fisikoaren eta Kirolaren Zientzietako gradua",
+    "centro": "Euskal Herriko Unibertsitatea (UPV/EHU)",
+    "anio": "2016",
+    "equivalencia": "BSc in Sport and Exercise Science baten baliokidea (240 ECTS kreditu)"
+  },
+  {
+    "id": "master-readaptacion",
+    "grupo": "universitaria",
+    "titulo": "Kirol Lesioen Birgaitzeko masterra",
+    "centro": "Universidad Europea",
+    "anio": "2018",
+    "equivalencia": "MSc in Sports Injury Rehabilitation baten baliokidea (60 ECTS kreditu)"
+  },
+  {
+    "id": "fuerza-rendimiento",
+    "grupo": "especializacion",
+    "titulo": "Errendimendura aplikatutako indar entrenamendua",
+    "centro": "Etengabeko prestakuntza",
+    "anio": "2019",
+    "detalle": "120 ordu · indar-abiadura profila eta intentsitatearen kontrola"
+  },
+  {
+    "id": "return-to-play",
+    "grupo": "especializacion",
+    "titulo": "Return to Play: kirol altaren irizpideak",
+    "centro": "Etengabeko prestakuntza",
+    "anio": "2021",
+    "detalle": "80 ordu · proba baterien erabilera eta erabaki partekatuak"
+  },
+  {
+    "id": "gps",
+    "grupo": "certificacion",
+    "titulo": "GPS datuen analisia talde kiroletan",
+    "centro": "Fabrikatzailearen ziurtagiria",
+    "anio": "2022"
+  },
+  {
+    "id": "svb",
+    "grupo": "certificacion",
+    "titulo": "Oinarrizko Bizi Euskarria eta desfibriladorearen erabilera",
+    "centro": "Gurutze Gorria",
+    "anio": "2023",
+    "detalle": "2023an berritua"
+  },
+  {
+    "id": "ingles",
+    "grupo": "idiomas",
+    "titulo": "Ingelesa · C1 maila",
+    "centro": "Cambridge English (CAE)",
+    "anio": "2021"
+  },
+  {
+    "id": "euskera",
+    "grupo": "idiomas",
+    "titulo": "Euskara · C1 maila (EGA)",
+    "centro": "Eusko Jaurlaritza",
+    "anio": "2014"
+  },
+  {
+    "id": "frances",
+    "grupo": "idiomas",
+    "titulo": "Frantsesa · B1 maila",
+    "centro": "Hizkuntza Eskola Ofiziala",
+    "anio": "2020"
+  }
+]

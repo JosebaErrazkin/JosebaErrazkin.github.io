@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lca",
+    "deporte": "Football",
+    "nivel": "Séniors amateur",
+    "lesion": "Rupture du ligament croisé antérieur avec chirurgie",
+    "contexto": "Joueuse de 24 ans, blessure sans contact lors d'un changement de direction. Objectif annoncé : retrouver le même niveau de compétition.",
+    "semanas": 34,
+    "intervencion": [
+      "Récupération de l'extension complète et du contrôle neuromusculaire avant la force maximale",
+      "Progression des charges guidée par l’écart entre la jambe saine et la jambe opérée, réévalué toutes les trois semaines",
+      "Réintroduction de la course seulement après 80 % de symétrie de force",
+      "Huit dernières semaines consacrées aux gestes de compétition avec fatigue accumulée"
+    ],
+    "resultado": "Reprise complète à 34 semaines avec 96 % de symétrie de force. Saison entière ensuite, sans récidive."
+  },
+  {
+    "id": "isquios",
+    "deporte": "Football",
+    "nivel": "Juniors",
+    "lesion": "Lésion musculaire des ischio-jambiers, grade II",
+    "contexto": "Deuxième blessure au même endroit en un an, chez un joueur ayant peu travaillé la force auparavant.",
+    "semanas": 6,
+    "intervencion": [
+      "Travail excentrique dès la première semaine, avec progression de l’amplitude",
+      "Correction du déficit de force de la chaîne postérieure, véritable origine du problème",
+      "Reprise conditionnée à l'égalisation avec le côté sain et à deux entraînements complets"
+    ],
+    "resultado": "Retour à six semaines, puis une saison et demie sans nouvelle blessure à cet endroit."
+  },
+  {
+    "id": "tobillo",
+    "deporte": "Handball",
+    "nivel": "Séniors",
+    "lesion": "Entorse de cheville de grade III",
+    "contexto": "Joueur avec des antécédents d'instabilité et une appréhension évidente à la réception des sauts.",
+    "semanas": 9,
+    "intervencion": [
+      "Récupération de l'appui unipodal en charge progressive avant le saut",
+      "Travail spécifique de réception et de freinage sur différentes surfaces",
+      "Exposition progressive aux situations anxiogènes, mesurée par vidéo"
+    ],
+    "resultado": "Retour à la compétition en neuf semaines, sans épisode d’instabilité durant les deux années suivantes."
+  },
+  {
+    "id": "hombro",
+    "deporte": "Pelote basque",
+    "nivel": "Professionnel",
+    "lesion": "Tendinopathie de la coiffe des rotateurs",
+    "contexto": "Douleur progressive pendant des mois au bras de frappe, sans arrêt possible en milieu de saison.",
+    "semanas": 14,
+    "intervencion": [
+      "Réduction du volume de frappe sans arrêter la compétition, négociée avec le joueur",
+      "Programme de renforcement de l’épaule et de la scapula trois jours par semaine",
+      "Suivi quotidien de la douleur pour ajuster la charge semaine après semaine"
+    ],
+    "resultado": "Douleur sous le seuil acceptable à quatorze semaines, sans manquer un seul match officiel."
+  }
+]

@@ -1,0 +1,55 @@
+---
+import { getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import TituloPagina from '../components/TituloPagina.astro';
+import { textos } from '../i18n/ui';
+import type { Idioma } from '../i18n/idiomas';
+
+interface Props {
+  idioma: Idioma;
+}
+const { idioma } = Astro.props;
+const t = textos(idioma);
+
+const entrada = await getEntry('filosofia', idioma);
+if (!entrada) {
+  throw new Error(
+    `Falta el archivo src/content/filosofia/${idioma}.md con la filosofía de trabajo en ese idioma.`,
+  );
+}
+const { Content, headings } = await render(entrada);
+const indice = headings.filter((h) => h.depth === 2);
+---
+
+<Base idioma={idioma} pagina="filosofia" sinRevisar={!entrada.data.revisado}>
+  <TituloPagina
+    rotulo={t.nav.filosofia}
+    titulo={entrada.data.titulo}
+    entradilla={entrada.data.entradilla}
+  />
+
+  <div class="contenedor grid gap-12 lg:grid-cols-[240px_1fr] lg:gap-16 items-start pb-20">
+    {
+      indice.length > 1 && (
+        <nav aria-label={t.nav.filosofia} class="lg:sticky lg:top-24 border-t border-linea pt-4">
+          <ul class="space-y-2 text-sm">
+            {indice.map((h) => (
+              <li>
+                <a
+                  href={`#${h.slug}`}
+                  class="text-gris hover:text-fuego-texto transition-colors block"
+                >
+                  {h.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+
+    <div class="prosa max-w-2xl">
+      <Content />
+    </div>
+  </div>
+</Base>

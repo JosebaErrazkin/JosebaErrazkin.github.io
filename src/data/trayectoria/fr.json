@@ -1,0 +1,103 @@
+[
+  {
+    "id": "iturbide",
+    "entidad": "Centre de haute performance Iturbide",
+    "rol": "Préparateur physique responsable",
+    "deporte": "Football et multisport",
+    "categoria": "Séniors et catégories de formation",
+    "lugar": "Donostia-Saint-Sébastien, Espagne",
+    "desde": "2022-08",
+    "hasta": null,
+    "descripcion": "Je dirige la planification physique d'un groupe de vingt athlètes et je coordonne le passage de la salle de rééducation au terrain avec le staff médical.",
+    "funciones": [
+      "Évaluation initiale et suivi de chaque athlète par tests de force et de détente",
+      "Conception de la saison et des microcycles hebdomadaires",
+      "Coordination quotidienne avec la kinésithérapie et le staff technique",
+      "Suivi de la charge avec GPS et questionnaires de bien-être"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/centro-rendimiento-1.jpg",
+        "alt": "Séance de force dans la salle du centre de performance"
+      },
+      {
+        "archivo": "trayectoria/centro-rendimiento-2.jpg",
+        "alt": "Test de détente sur plateforme de force"
+      }
+    ]
+  },
+  {
+    "id": "aurrera",
+    "entidad": "Club Deportivo Aurrera",
+    "rol": "Spécialiste de la réathlétisation",
+    "deporte": "Football",
+    "categoria": "Équipe première et réserve",
+    "lugar": "Gipuzkoa, Espagne",
+    "desde": "2020-07",
+    "hasta": "2022-07",
+    "descripcion": "Responsable de tout le processus de retour à la compétition des joueurs blessés, de la reprise médicale à la reprise sportive complète.",
+    "funciones": [
+      "Conception des critères de reprise par phases, avec des tests objectifs à chaque étape",
+      "Travail individuel sur le terrain avec les joueurs en récupération",
+      "Rapports hebdomadaires au staff technique sur la disponibilité prévue"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/club-aurrera-1.jpg",
+        "alt": "Travail sur le terrain avec un joueur en phase de réathlétisation"
+      }
+    ]
+  },
+  {
+    "id": "oria",
+    "entidad": "Clinique Oria · Kinésithérapie et sport",
+    "rol": "Préparateur physique en réathlétisation",
+    "deporte": "Multisport",
+    "lugar": "Gipuzkoa, Espagne",
+    "desde": "2018-09",
+    "hasta": "2020-06",
+    "descripcion": "Le pont entre la table de soins et le terrain : je prenais le relais à la fin du traitement pour ramener l'athlète à son sport.",
+    "funciones": [
+      "Programmation de la force pour les patients en fin de rééducation",
+      "Évaluation fonctionnelle avant la sortie",
+      "Éducation du patient à la gestion des charges et à la prévention des récidives"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/clinica-oria-1.jpg",
+        "alt": "Évaluation fonctionnelle dans la salle de la clinique"
+      }
+    ]
+  },
+  {
+    "id": "lasarte",
+    "entidad": "Handball Lasarte",
+    "rol": "Préparateur physique",
+    "deporte": "Handball",
+    "categoria": "U18 et séniors",
+    "lugar": "Gipuzkoa, Espagne",
+    "desde": "2017-09",
+    "hasta": "2018-08",
+    "descripcion": "Première expérience avec une équipe complète : préparation physique sur le terrain et en salle, et suivi de la charge sur toute la saison.",
+    "funciones": [
+      "Préparation physique de deux équipes en parallèle",
+      "Introduction du travail de force dans les catégories de formation"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "individual",
+    "entidad": "Athlètes individuels",
+    "rol": "Préparateur physique personnel",
+    "deporte": "Athlétisme, cyclisme et pelote basque",
+    "lugar": "En présentiel et à distance",
+    "desde": "2016-01",
+    "hasta": null,
+    "descripcion": "Travail continu avec des athlètes qui concourent de façon indépendante, avec des saisons entières planifiées autour de leurs objectifs.",
+    "funciones": [
+      "Planification annuelle individualisée",
+      "Suivi à distance avec bilans réguliers en présentiel"
+    ],
+    "imagenes": []
+  }
+]

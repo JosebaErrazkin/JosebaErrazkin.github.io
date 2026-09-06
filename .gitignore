@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+*.log
+.env
+.env.local
+
+# Copiado automáticamente desde node_modules antes de cada build
+public/pdfjs/

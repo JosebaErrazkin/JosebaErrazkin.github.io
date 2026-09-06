@@ -1,0 +1,55 @@
+[
+  {
+    "id": "maialen",
+    "nombre": "Maialen Otaegi",
+    "cargo": "Physiotherapeutin",
+    "entidad": "Klinik Oria",
+    "texto": "Die Arbeit mit Joseba hat verändert, wie wir in der Klinik Freigaben erteilen. Er improvisiert nie: Wenn er sagt, ein Patient ist bereit, bringt er die Daten mit, die es belegen.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/maialen.jpg",
+      "alt": "Porträt von Maialen Otaegi"
+    }
+  },
+  {
+    "id": "iker",
+    "nombre": "Iker Zubeldia",
+    "cargo": "Fußballspieler, Senioren",
+    "entidad": "Club Deportivo Aurrera",
+    "texto": "Nach der Operation dachte ich, ich käme nie wieder auf dasselbe Niveau. Joseba hat mir jede Phase erklärt und warum wir warten mussten. Ich kam stärker zurück als vor der Verletzung.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/iker.jpg",
+      "alt": "Porträt von Iker Zubeldia"
+    }
+  },
+  {
+    "id": "andoni",
+    "nombre": "Andoni Lizaso",
+    "cargo": "Orthopäde",
+    "texto": "Ich überweise Patienten mit ruhigem Gewissen an Joseba. Er respektiert biologische Zeitfenster und gibt dem Druck zur Beschleunigung nicht nach – genau das braucht ein Chirurg auf der anderen Seite.",
+    "foto": {
+      "archivo": "testimonios/andoni.jpg",
+      "alt": "Porträt von Andoni Lizaso"
+    }
+  },
+  {
+    "id": "nerea",
+    "nombre": "Nerea Agirre",
+    "cargo": "Mittelstreckenläuferin",
+    "texto": "Jahrelang trainierte ich ohne Gewichte, aus Angst, an Leichtigkeit zu verlieren. Mit ihm lief ich eine persönliche Bestzeit über 1500 m und meine Sehnenbeschwerden verschwanden.",
+    "estrellas": 5
+  },
+  {
+    "id": "gorka",
+    "nombre": "Gorka Etxeberria",
+    "cargo": "Co-Trainer",
+    "entidad": "Handballclub Lasarte",
+    "texto": "Er fügt sich geräuschlos ins Trainerteam ein und spricht die Sprache des Trainers, nicht nur die des Labors. Das ist der Unterschied zu anderen Athletiktrainern.",
+    "estrellas": 4,
+    "foto": {
+      "archivo": "testimonios/gorka.jpg",
+      "alt": "Porträt von Gorka Etxeberria"
+    }
+  }
+]

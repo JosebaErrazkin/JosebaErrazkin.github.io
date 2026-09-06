@@ -1,0 +1,70 @@
+[
+  {
+    "id": "grado-cafyd",
+    "grupo": "universitaria",
+    "titulo": "Degree in Physical Activity and Sport Sciences",
+    "centro": "University of the Basque Country (UPV/EHU)",
+    "anio": "2016",
+    "equivalencia": "Equivalent to a BSc in Sport and Exercise Science (240 ECTS credits)"
+  },
+  {
+    "id": "master-readaptacion",
+    "grupo": "universitaria",
+    "titulo": "Master's in Sports Injury Rehabilitation",
+    "centro": "Universidad Europea",
+    "anio": "2018",
+    "equivalencia": "Equivalent to an MSc in Sports Injury Rehabilitation (60 ECTS credits)"
+  },
+  {
+    "id": "fuerza-rendimiento",
+    "grupo": "especializacion",
+    "titulo": "Strength training applied to performance",
+    "centro": "Continuing education",
+    "anio": "2019",
+    "detalle": "120 hours · force-velocity profiling and intensity control"
+  },
+  {
+    "id": "return-to-play",
+    "grupo": "especializacion",
+    "titulo": "Return to Play: clearance criteria",
+    "centro": "Continuing education",
+    "anio": "2021",
+    "detalle": "80 hours · test batteries and shared decision-making"
+  },
+  {
+    "id": "gps",
+    "grupo": "certificacion",
+    "titulo": "GPS data analysis in team sports",
+    "centro": "Manufacturer certification",
+    "anio": "2022"
+  },
+  {
+    "id": "svb",
+    "grupo": "certificacion",
+    "titulo": "Basic Life Support and AED use",
+    "centro": "Red Cross",
+    "anio": "2023",
+    "detalle": "Renewed in 2023"
+  },
+  {
+    "id": "ingles",
+    "grupo": "idiomas",
+    "titulo": "English · level C1",
+    "centro": "Cambridge English (CAE)",
+    "anio": "2021"
+  },
+  {
+    "id": "euskera",
+    "grupo": "idiomas",
+    "titulo": "Basque · level C1 (EGA)",
+    "centro": "Basque Government",
+    "anio": "2014"
+  },
+  {
+    "id": "frances",
+    "grupo": "idiomas",
+    "titulo": "French · level B1",
+    "centro": "Official Language School",
+    "anio": "2020"
+  }
+]

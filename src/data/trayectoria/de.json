@@ -1,0 +1,103 @@
+[
+  {
+    "id": "iturbide",
+    "entidad": "Leistungszentrum Iturbide",
+    "rol": "Leitender Athletiktrainer",
+    "deporte": "Fußball und Mehrsport",
+    "categoria": "Senioren und Nachwuchs",
+    "lugar": "Donostia-San Sebastián, Spanien",
+    "desde": "2022-08",
+    "hasta": null,
+    "descripcion": "Ich leite die athletische Planung für eine Gruppe von zwanzig Sportlern und koordiniere gemeinsam mit dem medizinischen Team den Übergang vom Reha-Raum auf den Platz.",
+    "funciones": [
+      "Eingangsdiagnostik und Verlaufskontrolle jedes Sportlers mit Kraft- und Sprungtests",
+      "Saisonplanung und Gestaltung der wöchentlichen Mikrozyklen",
+      "Tägliche Abstimmung mit Physiotherapie und Trainerteam",
+      "Belastungssteuerung mit GPS und Wellness-Fragebögen"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/centro-rendimiento-1.jpg",
+        "alt": "Krafteinheit im Kraftraum des Leistungszentrums"
+      },
+      {
+        "archivo": "trayectoria/centro-rendimiento-2.jpg",
+        "alt": "Sprungtest auf der Kraftmessplatte"
+      }
+    ]
+  },
+  {
+    "id": "aurrera",
+    "entidad": "Club Deportivo Aurrera",
+    "rol": "Reha-Spezialist",
+    "deporte": "Fußball",
+    "categoria": "Erste Mannschaft und Reserve",
+    "lugar": "Gipuzkoa, Spanien",
+    "desde": "2020-07",
+    "hasta": "2022-07",
+    "descripcion": "Verantwortlich für den gesamten Return-to-Play-Prozess verletzter Spieler, von der medizinischen bis zur sportlichen Freigabe.",
+    "funciones": [
+      "Entwicklung phasenbasierter Freigabekriterien mit objektiven Tests bei jedem Schritt",
+      "Individuelles Training auf dem Platz mit Spielern in der Wiederaufbauphase",
+      "Wöchentliche Berichte an das Trainerteam zur voraussichtlichen Verfügbarkeit"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/club-aurrera-1.jpg",
+        "alt": "Feldarbeit mit einem Spieler in der Wiederaufbauphase"
+      }
+    ]
+  },
+  {
+    "id": "oria",
+    "entidad": "Klinik Oria · Physiotherapie und Sport",
+    "rol": "Athletiktrainer in der Rehabilitation",
+    "deporte": "Mehrsport",
+    "lugar": "Gipuzkoa, Spanien",
+    "desde": "2018-09",
+    "hasta": "2020-06",
+    "descripcion": "Die Brücke zwischen Behandlungsliege und Spielfeld: Ich übernahm den Sportler nach Abschluss der Behandlung und führte ihn in seinen Sport zurück.",
+    "funciones": [
+      "Kraftprogrammierung für Patienten in der Endphase der Rehabilitation",
+      "Funktionelle Testung vor der Entlassung",
+      "Patientenschulung zu Belastungssteuerung und Rezidivprophylaxe"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/clinica-oria-1.jpg",
+        "alt": "Funktionelle Testung im Raum der Klinik"
+      }
+    ]
+  },
+  {
+    "id": "lasarte",
+    "entidad": "Handballclub Lasarte",
+    "rol": "Athletiktrainer",
+    "deporte": "Handball",
+    "categoria": "U18 und Senioren",
+    "lugar": "Gipuzkoa, Spanien",
+    "desde": "2017-09",
+    "hasta": "2018-08",
+    "descripcion": "Erste Erfahrung mit einer kompletten Mannschaft: Athletiktraining in Halle und Kraftraum sowie Belastungssteuerung über die gesamte Saison.",
+    "funciones": [
+      "Athletiktraining für zwei Mannschaften parallel",
+      "Einführung strukturierter Kraftarbeit im Nachwuchsbereich"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "individual",
+    "entidad": "Einzelsportler",
+    "rol": "Persönlicher Athletiktrainer",
+    "deporte": "Leichtathletik, Radsport und Baskische Pelota",
+    "lugar": "Vor Ort und remote",
+    "desde": "2016-01",
+    "hasta": null,
+    "descripcion": "Kontinuierliche Arbeit mit eigenständig antretenden Sportlern, mit kompletter Saisonplanung rund um ihre Ziele.",
+    "funciones": [
+      "Individualisierte Jahresplanung",
+      "Remote-Betreuung mit regelmäßigen Präsenzterminen"
+    ],
+    "imagenes": []
+  }
+]

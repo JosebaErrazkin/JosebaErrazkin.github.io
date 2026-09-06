@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lca",
+    "deporte": "Fútbol",
+    "nivel": "Sénior amateur",
+    "lesion": "Rotura del ligamento cruzado anterior con cirugía",
+    "contexto": "Jugadora de 24 años, lesión sin contacto en un cambio de dirección. Objetivo declarado: volver a competir en la misma categoría.",
+    "semanas": 34,
+    "intervencion": [
+      "Recuperación de la extensión completa y del control neuromuscular antes que de la fuerza máxima",
+      "Progresión de carga guiada por la diferencia entre pierna sana y operada, con revisiones cada tres semanas",
+      "Reintroducción de la carrera solo tras superar el 80 % de simetría en fuerza",
+      "Últimas ocho semanas dedicadas a gestos de competición y fatiga acumulada"
+    ],
+    "resultado": "Alta deportiva a las 34 semanas con simetría de fuerza del 96 %. Temporada completa después, sin recaída."
+  },
+  {
+    "id": "isquios",
+    "deporte": "Fútbol",
+    "nivel": "Juvenil",
+    "lesion": "Rotura fibrilar de isquiotibiales, grado II",
+    "contexto": "Segunda lesión en la misma zona en un año, en un jugador con poco trabajo de fuerza previo.",
+    "semanas": 6,
+    "intervencion": [
+      "Trabajo excéntrico desde la primera semana, con progresión de amplitud",
+      "Corrección del déficit de fuerza de la cadena posterior, que era el origen real",
+      "Alta condicionada a igualar la fuerza del lado sano y a completar dos entrenamientos íntegros"
+    ],
+    "resultado": "Vuelta a los seis semanas y temporada y media posterior sin volver a lesionarse en esa zona."
+  },
+  {
+    "id": "tobillo",
+    "deporte": "Balonmano",
+    "nivel": "Sénior",
+    "lesion": "Esguince de tobillo grado III",
+    "contexto": "Jugador con antecedentes de inestabilidad y miedo evidente al apoyo en los saltos.",
+    "semanas": 9,
+    "intervencion": [
+      "Recuperación del apoyo monopodal con carga progresiva antes que del salto",
+      "Trabajo específico de recepción y frenada en superficies distintas",
+      "Exposición gradual a las situaciones que generaban miedo, medidas con vídeo"
+    ],
+    "resultado": "Vuelta a la competición en nueve semanas y sin episodios de inestabilidad en los dos años siguientes."
+  },
+  {
+    "id": "hombro",
+    "deporte": "Pelota vasca",
+    "nivel": "Profesional",
+    "lesion": "Tendinopatía del manguito rotador",
+    "contexto": "Dolor progresivo durante meses en el brazo de golpeo, sin parón posible a mitad de temporada.",
+    "semanas": 14,
+    "intervencion": [
+      "Reducción de volumen de golpeo sin retirar la competición, negociada con el jugador",
+      "Programa de fuerza de hombro y escápula tres días por semana",
+      "Seguimiento del dolor con una escala diaria para ajustar la carga semana a semana"
+    ],
+    "resultado": "Dolor por debajo del umbral aceptable a las catorce semanas, sin perder ni un partido oficial."
+  }
+]

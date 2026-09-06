@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lca",
+    "deporte": "Futbola",
+    "nivel": "Senior amateurra",
+    "lesion": "Aurreko gurutzatu lotailuaren haustura, ebakuntzarekin",
+    "contexto": "24 urteko jokalaria, kontakturik gabeko lesioa norabide aldaketa batean. Helburua: maila berean lehiatzera itzultzea.",
+    "semanas": 34,
+    "intervencion": [
+      "Erabateko luzapena eta kontrol neuromuskularra berreskuratzea, indar maximoa baino lehen",
+      "Kargaren progresioa hanka osasuntsuaren eta ebakitakoaren arteko aldeak gidatuta, hiru astean behin berrikusita",
+      "Korrika egitera itzultzea, indarrean % 80eko simetria lortu ondoren bakarrik",
+      "Azken zortzi asteak lehiaketako mugimenduetara eta metatutako nekera bideratuak"
+    ],
+    "resultado": "Kirol alta 34 astera, indarrean % 96ko simetriarekin. Ondoren denboraldi osoa, errezidibarik gabe."
+  },
+  {
+    "id": "isquios",
+    "deporte": "Futbola",
+    "nivel": "Gaztea",
+    "lesion": "Isquiotibialen haustura fibrilarra, II. gradua",
+    "contexto": "Urtebetean gune berean izandako bigarren lesioa, aurretik indar lan gutxi egindako jokalari batengan.",
+    "semanas": 6,
+    "intervencion": [
+      "Lan eszentrikoa lehen astetik, anplitude progresioarekin",
+      "Atzeko katearen indar defizitaren zuzenketa, benetako jatorria baitzen",
+      "Alta baldintzatua: alde osasuntsuaren indarra berdintzea eta bi entrenamendu oso osatzea"
+    ],
+    "resultado": "Sei astera itzuli zen, eta ondorengo denboraldi eta erdian ez zen gune horretan berriro lesionatu."
+  },
+  {
+    "id": "tobillo",
+    "deporte": "Eskubaloia",
+    "nivel": "Senior",
+    "lesion": "Orkatilaren III. graduko bihurritzea",
+    "contexto": "Ezegonkortasun aurrekariak zituen jokalaria, jauzietako euskarrian beldur nabarmenarekin.",
+    "semanas": 9,
+    "intervencion": [
+      "Hanka bakarreko euskarria karga progresiboarekin berreskuratzea, jauzia baino lehen",
+      "Harrera eta balaztatze lan espezifikoa gainazal desberdinetan",
+      "Beldurra sortzen zuten egoerekiko esposizio mailakatua, bideoz neurtuta"
+    ],
+    "resultado": "Bederatzi astera lehiaketara itzuli zen, eta hurrengo bi urteetan ez zuen ezegonkortasun agerraldirik izan."
+  },
+  {
+    "id": "hombro",
+    "deporte": "Euskal pilota",
+    "nivel": "Profesionala",
+    "lesion": "Biratzaileen mahuka tendinopatia",
+    "contexto": "Hilabetetako min progresiboa jotzeko besoan, denboraldi erdian gelditzeko aukerarik gabe.",
+    "semanas": 14,
+    "intervencion": [
+      "Jotze bolumena murriztea lehiaketa utzi gabe, jokalariarekin adostuta",
+      "Sorbaldako eta eskapulako indar programa, astean hiru egunetan",
+      "Minaren jarraipena eguneroko eskala batekin, karga astez aste doitzeko"
+    ],
+    "resultado": "Mina onargarritzat jotzen den atalasetik behera hamalau astera, partida ofizial bakar bat ere galdu gabe."
+  }
+]

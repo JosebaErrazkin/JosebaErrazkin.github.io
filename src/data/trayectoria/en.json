@@ -1,0 +1,103 @@
+[
+  {
+    "id": "iturbide",
+    "entidad": "Iturbide High Performance Centre",
+    "rol": "Lead strength & conditioning coach",
+    "deporte": "Football and multi-sport",
+    "categoria": "Senior and youth development",
+    "lugar": "Donostia-San Sebastián, Spain",
+    "desde": "2022-08",
+    "hasta": null,
+    "descripcion": "I lead the physical planning for a group of twenty athletes and coordinate the handover from the rehabilitation room to the pitch together with the medical team.",
+    "funciones": [
+      "Initial assessment and follow-up of every athlete using strength and jump testing",
+      "Season design and weekly microcycle planning",
+      "Daily coordination with physiotherapy and the coaching staff",
+      "Load monitoring using GPS and wellness questionnaires"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/centro-rendimiento-1.jpg",
+        "alt": "Strength session in the performance centre gym"
+      },
+      {
+        "archivo": "trayectoria/centro-rendimiento-2.jpg",
+        "alt": "Jump test on a force platform"
+      }
+    ]
+  },
+  {
+    "id": "aurrera",
+    "entidad": "Club Deportivo Aurrera",
+    "rol": "Return-to-play specialist",
+    "deporte": "Football",
+    "categoria": "First team and reserves",
+    "lugar": "Gipuzkoa, Spain",
+    "desde": "2020-07",
+    "hasta": "2022-07",
+    "descripcion": "Responsible for the entire return-to-play process of injured players, from medical clearance to full competitive clearance.",
+    "funciones": [
+      "Design of phase-by-phase clearance criteria, with objective testing at every step",
+      "Individual on-pitch work with players in the recovery process",
+      "Weekly availability forecasts reported to the coaching staff"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/club-aurrera-1.jpg",
+        "alt": "On-pitch work with a player in the return-to-play phase"
+      }
+    ]
+  },
+  {
+    "id": "oria",
+    "entidad": "Oria Clinic · Physiotherapy and Sport",
+    "rol": "Rehabilitation strength coach",
+    "deporte": "Multi-sport",
+    "lugar": "Gipuzkoa, Spain",
+    "desde": "2018-09",
+    "hasta": "2020-06",
+    "descripcion": "The bridge between the treatment table and the field of play: I picked up the athlete when treatment ended and took them back to their sport.",
+    "funciones": [
+      "Strength programming for patients in the final rehabilitation phase",
+      "Functional assessment before discharge",
+      "Patient education on load management and re-injury prevention"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/clinica-oria-1.jpg",
+        "alt": "Functional assessment in the clinic room"
+      }
+    ]
+  },
+  {
+    "id": "lasarte",
+    "entidad": "Lasarte Handball Club",
+    "rol": "Strength & conditioning coach",
+    "deporte": "Handball",
+    "categoria": "U18 and senior",
+    "lugar": "Gipuzkoa, Spain",
+    "desde": "2017-09",
+    "hasta": "2018-08",
+    "descripcion": "First experience with a full squad: on-court and gym conditioning, plus load monitoring across the whole season.",
+    "funciones": [
+      "Conditioning for two squads in parallel",
+      "Introducing structured strength work in youth categories"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "individual",
+    "entidad": "Individual athletes",
+    "rol": "Personal strength & conditioning coach",
+    "deporte": "Athletics, cycling and Basque pelota",
+    "lugar": "In person and remote",
+    "desde": "2016-01",
+    "hasta": null,
+    "descripcion": "Ongoing work with athletes who compete independently, planning full seasons around their own goals.",
+    "funciones": [
+      "Individualised annual planning",
+      "Remote follow-up with regular in-person reviews"
+    ],
+    "imagenes": []
+  }
+]

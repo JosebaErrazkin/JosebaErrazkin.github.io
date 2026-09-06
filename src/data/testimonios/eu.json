@@ -1,0 +1,55 @@
+[
+  {
+    "id": "maialen",
+    "nombre": "Maialen Otaegi",
+    "cargo": "Fisioterapeuta",
+    "entidad": "Oria Klinika",
+    "texto": "Josebarekin lan egiteak aldatu zuen klinikan alta emateko modua. Ez du inoiz inprobisatzen: paziente bat prest dagoela esaten duenean, hori frogatzen duten datuak ekartzen ditu.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/maialen.jpg",
+      "alt": "Maialen Otaegiren erretratua"
+    }
+  },
+  {
+    "id": "iker",
+    "nombre": "Iker Zubeldia",
+    "cargo": "Futbolari seniorra",
+    "entidad": "Aurrera Kirol Kluba",
+    "texto": "Ebakuntzaren ondoren, ez nuen uste maila berera itzuliko nintzenik. Josebak fase bakoitza azaldu zidan eta zergatik itxaron behar zen. Lesionatu aurretik baino hobeto itzuli nintzen.",
+    "estrellas": 5,
+    "foto": {
+      "archivo": "testimonios/iker.jpg",
+      "alt": "Iker Zubeldiaren erretratua"
+    }
+  },
+  {
+    "id": "andoni",
+    "nombre": "Andoni Lizaso",
+    "cargo": "Traumatologoa",
+    "texto": "Lasai bidaltzen dizkiot pazienteak Josebari. Epe biologikoak errespetatzen ditu eta ez dio azkartzeko presioari amore ematen; hori da, hain zuzen, kirurgialari batek beste aldetik behar duena.",
+    "foto": {
+      "archivo": "testimonios/andoni.jpg",
+      "alt": "Andoni Lizasoren erretratua"
+    }
+  },
+  {
+    "id": "nerea",
+    "nombre": "Nerea Agirre",
+    "cargo": "Erdi hondoko atleta",
+    "texto": "Urteak neramatzan pisurik ukitu gabe entrenatzen, arintasuna galtzeko beldurrez. Berarekin 1.500 metroko marka pertsonala hobetu nuen eta tendoiko minak desagertu ziren.",
+    "estrellas": 5
+  },
+  {
+    "id": "gorka",
+    "nombre": "Gorka Etxeberria",
+    "cargo": "Bigarren entrenatzailea",
+    "entidad": "Lasarte Eskubaloia",
+    "texto": "Zaratarik atera gabe integratzen da talde teknikoan, eta entrenatzailearen hizkuntza hitz egiten du, ez laborategikoa bakarrik. Hori da beste prestatzaile batzuekiko aldea.",
+    "estrellas": 4,
+    "foto": {
+      "archivo": "testimonios/gorka.jpg",
+      "alt": "Gorka Etxeberriaren erretratua"
+    }
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "iturbide",
+    "entidad": "Centro de Alto Rendimiento Iturbide",
+    "rol": "Preparador físico responsable",
+    "deporte": "Fútbol y multideporte",
+    "categoria": "Sénior y categorías de formación",
+    "lugar": "Donostia-San Sebastián, España",
+    "desde": "2022-08",
+    "hasta": null,
+    "descripcion": "Dirijo la planificación física de un grupo de veinte deportistas y coordino el paso desde la sala de rehabilitación hasta el campo con el equipo médico.",
+    "funciones": [
+      "Valoración inicial y seguimiento de cada deportista con pruebas de fuerza y salto",
+      "Diseño de la temporada y de los microciclos semanales",
+      "Coordinación diaria con fisioterapia y con el cuerpo técnico",
+      "Control de carga con GPS y cuestionarios de bienestar"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/centro-rendimiento-1.jpg",
+        "alt": "Sesión de fuerza en el gimnasio del centro de rendimiento"
+      },
+      {
+        "archivo": "trayectoria/centro-rendimiento-2.jpg",
+        "alt": "Prueba de salto con plataforma de fuerza"
+      }
+    ]
+  },
+  {
+    "id": "aurrera",
+    "entidad": "Club Deportivo Aurrera",
+    "rol": "Readaptador de lesiones",
+    "deporte": "Fútbol",
+    "categoria": "Primer equipo y filial",
+    "lugar": "Gipuzkoa, España",
+    "desde": "2020-07",
+    "hasta": "2022-07",
+    "descripcion": "Responsable de todo el proceso de vuelta a la competición de los jugadores lesionados, desde el alta médica hasta el alta deportiva.",
+    "funciones": [
+      "Diseño de los criterios de alta por fases, con pruebas objetivas en cada paso",
+      "Trabajo individual en campo con los jugadores en proceso de recuperación",
+      "Informes semanales al cuerpo técnico sobre la previsión de disponibilidad"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/club-aurrera-1.jpg",
+        "alt": "Trabajo de campo con un jugador en fase de readaptación"
+      }
+    ]
+  },
+  {
+    "id": "oria",
+    "entidad": "Clínica Oria · Fisioterapia y Deporte",
+    "rol": "Preparador físico en readaptación",
+    "deporte": "Multideporte",
+    "lugar": "Gipuzkoa, España",
+    "desde": "2018-09",
+    "hasta": "2020-06",
+    "descripcion": "Puente entre la camilla y el terreno de juego: recogía al deportista cuando terminaba el tratamiento y lo devolvía a su deporte.",
+    "funciones": [
+      "Programación de fuerza para pacientes en fase final de rehabilitación",
+      "Valoración funcional antes del alta",
+      "Educación del paciente en gestión de cargas y prevención de recaídas"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/clinica-oria-1.jpg",
+        "alt": "Valoración funcional en la sala de la clínica"
+      }
+    ]
+  },
+  {
+    "id": "lasarte",
+    "entidad": "Balonmano Lasarte",
+    "rol": "Preparador físico",
+    "deporte": "Balonmano",
+    "categoria": "Sub-18 y sénior",
+    "lugar": "Gipuzkoa, España",
+    "desde": "2017-09",
+    "hasta": "2018-08",
+    "descripcion": "Primera experiencia con un equipo completo: preparación física en pista y sala, y control de la carga durante toda la temporada.",
+    "funciones": [
+      "Preparación física de dos equipos en paralelo",
+      "Introducción del trabajo de fuerza en categorías de formación"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "individual",
+    "entidad": "Deportistas individuales",
+    "rol": "Preparador físico personal",
+    "deporte": "Atletismo, ciclismo y pelota vasca",
+    "lugar": "Presencial y en remoto",
+    "desde": "2016-01",
+    "hasta": null,
+    "descripcion": "Trabajo continuado con deportistas que compiten por su cuenta, planificando temporadas completas alrededor de sus objetivos.",
+    "funciones": [
+      "Planificación anual individualizada",
+      "Seguimiento a distancia con revisiones presenciales periódicas"
+    ],
+    "imagenes": []
+  }
+]
