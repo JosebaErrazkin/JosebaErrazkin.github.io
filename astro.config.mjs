@@ -43,5 +43,9 @@ export default defineConfig({
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   integrations: [sitemap()],
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    // pdfkit es una librería de Node: se usa tal cual al generar los PDF.
+    ssr: { external: ['pdfkit'] },
+  },
 });

@@ -1,14 +1,26 @@
 ---
+import DocumentoCV from './DocumentoCV.astro';
 import { textos } from '../i18n/ui';
 import {
   IDIOMAS_PUBLICADOS,
   NOMBRE_IDIOMA,
+  SIGLA_IDIOMA,
   CODIGO_HREFLANG,
   type Idioma,
 } from '../i18n/idiomas';
-import { CV_ARCHIVO } from '../config/sitio';
+import { curriculum } from '../data';
 import { recurso } from '../rutas';
 
+/**
+ * Ventana del currículum.
+ *
+ * Va una sola vez por página; el botón que la abre puede estar en varios
+ * sitios (ver BotonCV.astro).
+ *
+ * El idioma que se elige aquí dentro solo afecta al currículum: la web sigue
+ * en el suyo. El botón de descarga se escribe en el idioma de la web, pero
+ * entrega el PDF del idioma que se esté viendo en ese momento.
+ */
 interface Props {
   idioma: Idioma;
 }
@@ -16,274 +28,121 @@ interface Props {
 const { idioma } = Astro.props;
 const t = textos(idioma);
 
-/** El currículum arranca en el idioma en el que se está viendo la web. */
-const archivos = Object.fromEntries(
-  IDIOMAS_PUBLICADOS.map((i) => [i, recurso(CV_ARCHIVO[i]!)]),
-) as Record<Idioma, string>;
+const versiones = IDIOMAS_PUBLICADOS.map((otro) => ({
+  idioma: otro,
+  cv: curriculum(otro),
+  pdf: recurso(`cv/${otro}.pdf`),
+}));
 
-const datos = {
-  archivos,
-  inicial: idioma,
-  base: import.meta.env.BASE_URL.replace(/\/$/, ''),
-  textos: {
-    cargando: t.presentacion.cargando,
-    error: t.presentacion.errorCV,
-    abrirAparte: t.presentacion.abrirAparte,
-    paginaDe: t.presentacion.paginaDe,
-  },
-};
-const nombreDescarga = `Joseba-Errazkin-CV`;
+const pdfs = Object.fromEntries(versiones.map((v) => [v.idioma, v.pdf]));
 ---
-
-<div
-  class="mt-8 border border-linea rounded-xl overflow-hidden bg-papel-2"
-  data-cv
-  data-inicial={idioma}
->
-  <div class="p-6 md:p-8">
-    <h2 class="text-2xl md:text-3xl">{t.presentacion.cvTitulo}</h2>
-    <p class="mt-3 text-gris max-w-xl">{t.presentacion.cvTexto}</p>
-
-    <div class="mt-6 flex flex-wrap items-end gap-4">
-      <p class="flex flex-col gap-1.5">
-        <label for="idioma-cv" class="text-xs uppercase tracking-[0.14em] font-semibold text-gris">
-          {t.presentacion.idiomaDelCV}
-        </label>
-        <select
-          id="idioma-cv"
-          data-idioma-cv
-          class="h-11 px-3 pr-8 border border-linea rounded-lg bg-papel text-tinta font-medium"
-        >
-          {
-            IDIOMAS_PUBLICADOS.map((otro) => (
-              <option value={otro} selected={otro === idioma} lang={CODIGO_HREFLANG[otro]}>
-                {NOMBRE_IDIOMA[otro]}
-              </option>
-            ))
-          }
-        </select>
-      </p>
-
-      <button
-        type="button"
-        data-abrir-cv
-        class="h-11 px-6 inline-flex items-center gap-2 bg-tinta text-papel font-semibold rounded-lg hover:bg-fuego transition-colors"
-      >
-        {t.presentacion.verCV}
-      </button>
-
-      <a
-        data-descargar-cv
-        href={archivos[idioma]}
-        download={`${nombreDescarga}-${idioma}.pdf`}
-        class="h-11 px-6 inline-flex items-center gap-2 border border-tinta text-tinta font-semibold rounded-lg hover:bg-tinta hover:text-papel transition-colors"
-      >
-        ↓ {t.presentacion.descargarCV}
-      </a>
-    </div>
-  </div>
-</div>
 
 <dialog
   id="visor-cv"
   class="bg-transparent p-0 m-0 max-w-none max-h-none w-full h-full backdrop:bg-tinta/90"
   aria-label={t.presentacion.visorTitulo}
+  data-pdfs={JSON.stringify(pdfs)}
 >
   <div class="flex flex-col h-full">
-    <div class="flex flex-wrap items-center gap-2 md:gap-3 p-3 bg-tinta text-papel">
-      <p class="font-semibold mr-auto text-sm md:text-base">{t.presentacion.visorTitulo}</p>
-
-      <label class="sr-only" for="idioma-cv-visor">{t.presentacion.idiomaDelCV}</label>
-      <select
-        id="idioma-cv-visor"
-        data-idioma-cv
-        class="h-10 px-2 pr-7 rounded-lg bg-papel/10 border border-papel/25 text-papel text-sm"
-      >
+    <!-- Barra superior: idiomas a la izquierda, descarga a la derecha -->
+    <div class="flex items-center justify-between gap-3 p-3 bg-tinta text-papel">
+      <fieldset class="flex items-center gap-1 min-w-0">
+        <legend class="sr-only">{t.presentacion.idiomaDelCV}</legend>
         {
           IDIOMAS_PUBLICADOS.map((otro) => (
-            <option value={otro} selected={otro === idioma} class="text-tinta">
-              {NOMBRE_IDIOMA[otro]}
-            </option>
+            <button
+              type="button"
+              data-idioma-cv={otro}
+              lang={CODIGO_HREFLANG[otro]}
+              aria-pressed={otro === idioma ? 'true' : 'false'}
+              title={NOMBRE_IDIOMA[otro]}
+              class="h-9 px-2.5 sm:px-3 rounded-md text-sm font-semibold border border-papel/25 text-papel/70 hover:text-papel hover:border-papel/60 transition-colors aria-pressed:bg-papel aria-pressed:text-tinta aria-pressed:border-papel"
+            >
+              <span aria-hidden="true">{SIGLA_IDIOMA[otro]}</span>
+              <span class="sr-only">{NOMBRE_IDIOMA[otro]}</span>
+            </button>
           ))
         }
-      </select>
+      </fieldset>
 
-      <a
-        data-descargar-cv
-        href={archivos[idioma]}
-        download={`${nombreDescarga}-${idioma}.pdf`}
-        class="h-10 px-4 inline-flex items-center gap-2 bg-papel text-tinta text-sm font-semibold rounded-lg hover:bg-fuego hover:text-papel transition-colors"
-      >
-        ↓ <span class="hidden sm:inline">{t.presentacion.descargarCV}</span>
-      </a>
+      <div class="flex items-center gap-2 shrink-0">
+        <a
+          data-descargar-cv
+          href={recurso(`cv/${idioma}.pdf`)}
+          download={`Joseba-Errazkin-CV-${idioma}.pdf`}
+          class="h-9 px-3 sm:px-4 inline-flex items-center gap-2 bg-fuego text-papel text-sm font-semibold rounded-md hover:bg-papel hover:text-tinta transition-colors"
+        >
+          <span aria-hidden="true">↓</span>
+          <span class="hidden sm:inline">{t.presentacion.descargarCV}</span>
+          <span class="sm:hidden">PDF</span>
+        </a>
 
-      <button
-        type="button"
-        data-cerrar-cv
-        class="h-10 w-10 inline-flex items-center justify-center rounded-lg bg-papel/10 border border-papel/25 hover:bg-papel hover:text-tinta transition-colors"
-        aria-label={t.general.cerrar}>✕</button
-      >
+        <button
+          type="button"
+          data-cerrar-cv
+          class="h-9 w-9 inline-flex items-center justify-center rounded-md bg-papel/10 border border-papel/25 hover:bg-papel hover:text-tinta transition-colors"
+          aria-label={t.general.cerrar}>✕</button
+        >
+      </div>
     </div>
 
-    <div data-lienzo class="flex-1 overflow-auto bg-tinta/95 p-3 md:p-6 flex justify-center">
-      <p data-estado class="text-papel/80 self-center text-center">{t.presentacion.cargando}</p>
-      <canvas data-canvas class="hidden max-w-full h-auto shadow-2xl bg-white"></canvas>
-    </div>
-
-    <div class="flex items-center justify-center gap-4 p-3 bg-tinta text-papel">
-      <button
-        type="button"
-        data-pagina-anterior
-        class="h-10 px-4 rounded-lg bg-papel/10 border border-papel/25 hover:bg-papel hover:text-tinta transition-colors disabled:opacity-40 disabled:hover:bg-papel/10 disabled:hover:text-papel"
-        >‹ <span class="hidden sm:inline">{t.general.anterior}</span></button
-      >
-      <p data-contador-cv class="text-sm tabular-nums min-w-32 text-center"></p>
-      <button
-        type="button"
-        data-pagina-siguiente
-        class="h-10 px-4 rounded-lg bg-papel/10 border border-papel/25 hover:bg-papel hover:text-tinta transition-colors disabled:opacity-40 disabled:hover:bg-papel/10 disabled:hover:text-papel"
-        ><span class="hidden sm:inline">{t.general.siguiente}</span> ›</button
-      >
+    <!-- El documento -->
+    <div class="flex-1 overflow-y-auto bg-tinta/95 px-3 py-6 sm:px-6 sm:py-10">
+      {
+        versiones.map((version) => (
+          <DocumentoCV cv={version.cv} idioma={version.idioma} oculto={version.idioma !== idioma} />
+        ))
+      }
     </div>
   </div>
 </dialog>
 
-<script type="application/json" id="datos-cv" set:html={JSON.stringify(datos)} />
-
 <script>
-  import * as pdfjs from 'pdfjs-dist';
-  import trabajador from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
-
-  type Datos = {
-    archivos: Record<string, string>;
-    inicial: string;
-    base: string;
-    textos: { cargando: string; error: string; abrirAparte: string; paginaDe: string };
-  };
-
-  const bloque = document.getElementById('datos-cv');
   const dialogo = document.getElementById('visor-cv');
-  if (bloque && dialogo instanceof HTMLDialogElement) {
-    const datos: Datos = JSON.parse(bloque.textContent ?? '{}');
-    pdfjs.GlobalWorkerOptions.workerSrc = trabajador;
 
-    const canvas = dialogo.querySelector('[data-canvas]') as HTMLCanvasElement;
-    const estado = dialogo.querySelector('[data-estado]') as HTMLElement;
-    const lienzo = dialogo.querySelector('[data-lienzo]') as HTMLElement;
-    const contador = dialogo.querySelector('[data-contador-cv]') as HTMLElement;
-    const anterior = dialogo.querySelector('[data-pagina-anterior]') as HTMLButtonElement;
-    const siguiente = dialogo.querySelector('[data-pagina-siguiente]') as HTMLButtonElement;
-
-    let documento: Awaited<ReturnType<typeof pdfjs.getDocument>['promise']> | null = null;
-    let pagina = 1;
-    let idiomaCV = datos.inicial;
+  if (dialogo instanceof HTMLDialogElement) {
+    const pdfs: Record<string, string> = JSON.parse(dialogo.dataset.pdfs ?? '{}');
+    const documentos = dialogo.querySelectorAll<HTMLElement>('[data-documento]');
+    const botonesIdioma = dialogo.querySelectorAll<HTMLButtonElement>('[data-idioma-cv]');
+    const descarga = dialogo.querySelector<HTMLAnchorElement>('[data-descargar-cv]');
+    const zona = dialogo.querySelector<HTMLElement>('.overflow-y-auto');
     let ultimoBoton: HTMLElement | null = null;
 
-    const mostrarEstado = (texto: string, conEnlace = false) => {
-      canvas.classList.add('hidden');
-      estado.classList.remove('hidden');
-      estado.textContent = texto;
-      if (conEnlace) {
-        const enlace = document.createElement('a');
-        enlace.href = datos.archivos[idiomaCV]!;
-        enlace.target = '_blank';
-        enlace.rel = 'noopener';
-        enlace.className = 'block mt-3 underline underline-offset-4 text-papel';
-        enlace.textContent = datos.textos.abrirAparte;
-        estado.appendChild(enlace);
+    /** Cambia solo el currículum: la web se queda en su idioma. */
+    const mostrar = (idiomaCV: string) => {
+      for (const documento of documentos) {
+        documento.hidden = documento.dataset.documento !== idiomaCV;
       }
-    };
-
-    const dibujar = async () => {
-      if (!documento) return;
-      const hoja = await documento.getPage(pagina);
-      const anchoDisponible = Math.min(lienzo.clientWidth - 24, 1100);
-      const base = hoja.getViewport({ scale: 1 });
-      const escala = Math.max(0.2, anchoDisponible / base.width);
-      const densidad = Math.min(window.devicePixelRatio || 1, 2);
-      const vista = hoja.getViewport({ scale: escala * densidad });
-
-      canvas.width = Math.floor(vista.width);
-      canvas.height = Math.floor(vista.height);
-      canvas.style.width = `${Math.floor(vista.width / densidad)}px`;
-      canvas.style.height = `${Math.floor(vista.height / densidad)}px`;
-
-      const contexto = canvas.getContext('2d');
-      if (!contexto) return;
-      await hoja.render({ canvas, canvasContext: contexto, viewport: vista }).promise;
-
-      estado.classList.add('hidden');
-      canvas.classList.remove('hidden');
-      contador.textContent = datos.textos.paginaDe
-        .replace('{n}', String(pagina))
-        .replace('{total}', String(documento.numPages));
-      anterior.disabled = pagina <= 1;
-      siguiente.disabled = pagina >= documento.numPages;
-    };
-
-    const cargar = async () => {
-      mostrarEstado(datos.textos.cargando);
-      try {
-        documento = await pdfjs.getDocument({
-          url: datos.archivos[idiomaCV]!,
-          standardFontDataUrl: `${datos.base}/pdfjs/standard_fonts/`,
-          cMapUrl: `${datos.base}/pdfjs/cmaps/`,
-          cMapPacked: true,
-          wasmUrl: `${datos.base}/pdfjs/wasm/`,
-          iccUrl: `${datos.base}/pdfjs/iccs/`,
-        }).promise;
-        pagina = 1;
-        await dibujar();
-      } catch (error) {
-        console.error(error);
-        mostrarEstado(datos.textos.error, true);
+      for (const boton of botonesIdioma) {
+        boton.setAttribute(
+          'aria-pressed',
+          boton.dataset.idiomaCv === idiomaCV ? 'true' : 'false',
+        );
       }
+      if (descarga && pdfs[idiomaCV]) {
+        descarga.href = pdfs[idiomaCV];
+        descarga.setAttribute('download', `Joseba-Errazkin-CV-${idiomaCV}.pdf`);
+      }
+      zona?.scrollTo({ top: 0 });
     };
 
-    // Cambiar el idioma del currículum, dentro y fuera del visor.
-    for (const selector of document.querySelectorAll<HTMLSelectElement>('[data-idioma-cv]')) {
-      selector.addEventListener('change', async () => {
-        idiomaCV = selector.value;
-        for (const otro of document.querySelectorAll<HTMLSelectElement>('[data-idioma-cv]')) {
-          otro.value = idiomaCV;
-        }
-        for (const enlace of document.querySelectorAll<HTMLAnchorElement>('[data-descargar-cv]')) {
-          enlace.href = datos.archivos[idiomaCV]!;
-          enlace.setAttribute('download', `Joseba-Errazkin-CV-${idiomaCV}.pdf`);
-        }
-        if (dialogo.open) await cargar();
-      });
+    for (const boton of botonesIdioma) {
+      boton.addEventListener('click', () => mostrar(boton.dataset.idiomaCv!));
     }
 
-    for (const boton of document.querySelectorAll<HTMLButtonElement>('[data-abrir-cv]')) {
-      boton.addEventListener('click', async () => {
-        ultimoBoton = boton;
+    for (const abrir of document.querySelectorAll<HTMLElement>('[data-abrir-cv]')) {
+      abrir.addEventListener('click', () => {
+        ultimoBoton = abrir;
         dialogo.showModal();
-        await cargar();
       });
     }
 
     dialogo.querySelector('[data-cerrar-cv]')?.addEventListener('click', () => dialogo.close());
     dialogo.addEventListener('close', () => ultimoBoton?.focus());
 
-    const irA = async (destino: number) => {
-      if (!documento) return;
-      pagina = Math.min(Math.max(1, destino), documento.numPages);
-      await dibujar();
-      lienzo.scrollTo({ top: 0 });
-    };
-    anterior.addEventListener('click', () => irA(pagina - 1));
-    siguiente.addEventListener('click', () => irA(pagina + 1));
-    dialogo.addEventListener('keydown', (evento) => {
-      if (evento.key === 'ArrowRight') irA(pagina + 1);
-      if (evento.key === 'ArrowLeft') irA(pagina - 1);
-    });
-
-    let temporizador: number;
-    window.addEventListener('resize', () => {
-      if (!dialogo.open) return;
-      clearTimeout(temporizador);
-      temporizador = window.setTimeout(() => void dibujar(), 200);
+    // Cerrar al pulsar fuera del documento.
+    dialogo.addEventListener('click', (evento) => {
+      if (evento.target === dialogo) dialogo.close();
     });
   }
 </script>

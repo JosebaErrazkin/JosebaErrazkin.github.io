@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import { getEntry, render } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import TituloPagina from '../components/TituloPagina.astro';
+import BotonCV from '../components/BotonCV.astro';
 import VisorCV from '../components/VisorCV.astro';
 import { textos } from '../i18n/ui';
 import type { Idioma } from '../i18n/idiomas';
@@ -31,12 +32,14 @@ const { Content } = await render(entrada);
   />
 
   <div class="contenedor grid gap-12 lg:grid-cols-[1fr_360px] lg:gap-16 items-start pb-20">
-    <div>
-      <div class="prosa max-w-2xl">
+    <div class="max-w-2xl">
+      <div class="prosa">
         <Content />
       </div>
 
-      <VisorCV idioma={idioma} />
+      <div class="mt-12 border-t border-linea pt-8">
+        <BotonCV idioma={idioma} />
+      </div>
     </div>
 
     <Image
@@ -49,4 +52,6 @@ const { Content } = await render(entrada);
       aria-hidden="true"
     />
   </div>
+
+  <VisorCV idioma={idioma} />
 </Base>

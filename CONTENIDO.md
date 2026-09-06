@@ -16,10 +16,12 @@ Estos datos están puestos como ejemplo y hay que sustituirlos por los reales.
 |---|---|
 | Teléfono, LinkedIn y ciudad | `src/config/sitio.ts` |
 | Clave del formulario de contacto | `src/config/sitio.ts` (ver más abajo) |
-| Los cinco currículums en PDF | `public/cv/` |
 | Las fotografías | `src/assets/img/` |
 | Trayectoria, formación, casos, deportes y valoraciones | `src/data/` |
 | Biografía y filosofía de trabajo | `src/content/` |
+| Titular y resumen del currículum | `src/data/cv/` |
+
+El currículum en PDF **no está en esta lista a propósito**: se genera solo. Ver más abajo.
 
 ---
 
@@ -102,6 +104,9 @@ En `src/data/trayectoria/es.json`:
 
 Las etapas se ordenan solas, de la más reciente a la más antigua.
 
+**Ojo:** esta misma etapa aparecerá también en el currículum. En la página de trayectoria se
+ve la `descripcion` y las `funciones`; en el currículum solo las `funciones`.
+
 ---
 
 ## Añadir una foto
@@ -142,20 +147,60 @@ Arriba del todo, entre las líneas `---`, hay tres datos:
 
 ---
 
-## Los currículums en PDF
+## El currículum
 
-Van en `public/cv/` con estos nombres exactos:
+**No hay ningún currículum que mantener ni ningún PDF que subir.** Se construye solo, en los
+cinco idiomas, a partir de lo que ya está escrito en la web:
 
+| Parte del currículum | De dónde sale |
+|---|---|
+| Experiencia profesional | `src/data/trayectoria/` |
+| Formación | `src/data/formacion/`, grupos `universitaria` y `especializacion` |
+| Certificaciones | `src/data/formacion/`, grupo `certificacion` |
+| Idiomas | `src/data/formacion/`, grupo `idiomas` |
+| Situación profesional | `src/data/disponibilidad/` |
+| Nombre, correo, teléfono y ciudad | `src/config/sitio.ts` |
+| Titular, resumen y títulos de los apartados | `src/data/cv/` |
+
+Añade una etapa a la trayectoria y aparecerá en el currículum de los cinco idiomas: tanto en
+el que se ve en pantalla como en el PDF que se descarga. Es imposible que digan cosas
+distintas, porque salen del mismo sitio.
+
+### Cómo se ve
+
+En la pantalla de inicio y en la de presentación hay un botón **«Ver el currículum»**. Abre
+una ventana con el documento dentro. Arriba a la izquierda se puede cambiar el idioma **solo
+del currículum**: la web se queda en el idioma en el que estaba. Arriba a la derecha, el botón
+de descarga entrega siempre el PDF **del idioma que se esté viendo** en ese momento.
+
+### Lo único propio del currículum
+
+Está en `src/data/cv/es.json` y sus cuatro hermanos:
+
+```json
+{
+  "titular": "Preparador físico de alto rendimiento · Readaptador de lesiones",
+  "resumen": "El párrafo de presentación que abre el currículum.",
+  "actualidad": "Actualidad",
+  "secciones": {
+    "perfil": "Perfil",
+    "experiencia": "Experiencia profesional",
+    "estudios": "Formación",
+    "certificaciones": "Certificaciones",
+    "idiomas": "Idiomas",
+    "datos": "Situación profesional"
+  }
+}
 ```
-joseba-errazkin-cv-es.pdf
-joseba-errazkin-cv-en.pdf
-joseba-errazkin-cv-fr.pdf
-joseba-errazkin-cv-eu.pdf
-joseba-errazkin-cv-de.pdf
-```
 
-Sustituye los archivos de ejemplo por los reales manteniendo el nombre. El visor de la web
-los muestra tal cual, sin que nadie tenga que descargarlos.
+- `titular`: la línea que va bajo el nombre.
+- `resumen`: el párrafo del apartado «Perfil».
+- `actualidad`: cómo se dice «sigo aquí» en ese idioma, para las etapas sin fecha de fin.
+- `secciones`: los títulos de los apartados del currículum en ese idioma.
+
+Los PDF se generan al publicar y quedan en `/cv/es.pdf`, `/cv/en.pdf` y así con los cinco.
+Si el currículum se hace largo, la forma de acortarlo es quitar funciones de las etapas más
+antiguas en `src/data/trayectoria/`.
 
 ---
 
@@ -181,8 +226,8 @@ En `src/i18n/idiomas.ts` hay una lista:
 export const IDIOMAS_PUBLICADOS = ['es', 'en', 'fr', 'eu', 'de'];
 ```
 
-Quita de ahí el idioma que no quieras enseñar todavía y desaparecerá del selector y de los
-buscadores. Para publicarlo, vuelve a añadirlo. No hay que tocar nada más.
+Quita de ahí el idioma que no quieras enseñar todavía y desaparecerá del selector, del
+currículum y de los buscadores. Para publicarlo, vuelve a añadirlo. No hay que tocar nada más.
 
 ---
 
@@ -201,12 +246,11 @@ actualiza sola. Para pararlo, pulsa `Ctrl + C`.
 
 ## Recuperar el contenido de ejemplo
 
-Si quieres volver a generar los datos, las fotos o los PDF de ejemplo:
+Si quieres volver a generar los datos o las fotos de ejemplo:
 
 ```powershell
 npm run contenido-ejemplo -- --forzar
 npm run imagenes-ejemplo -- --forzar
-npm run cv-ejemplo -- --forzar
 ```
 
 Sin `--forzar`, estos comandos **nunca** sobrescriben lo que ya existe.

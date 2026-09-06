@@ -1,6 +1,9 @@
 import { z } from 'zod';
 import type { ImageMetadata } from 'astro';
 import { IDIOMAS_PUBLICADOS, type Idioma } from '../i18n/idiomas';
+import { SITIO } from '../config/sitio';
+// Módulo JavaScript compartido con el generador de los PDF del currículum.
+import { construirCV } from '../utilidades/cv.mjs';
 
 /* ------------------------------------------------------------------ *
  *  CONTENIDO EN FICHA (trayectoria, formación, casos, deportes,
@@ -213,3 +216,50 @@ export function formacionPorGrupo(idioma: Idioma): [GrupoFormacion, Titulacion[]
     (grupo) => [grupo, FORMACION[idioma].filter((t) => t.grupo === grupo)] as [GrupoFormacion, Titulacion[]],
   ).filter(([, lista]) => lista.length > 0);
 }
+
+/* ------------------------------------------------------------------ *
+ *  CURRÍCULUM
+ *  Se arma solo con la trayectoria, la formación y la situación
+ *  profesional de arriba. Lo único propio del currículum es la cabecera
+ *  y los títulos de sus apartados, en src/data/cv/<idioma>.json.
+ * ------------------------------------------------------------------ */
+
+const DatosCV = z.object({
+  titular: z.string().min(1),
+  resumen: z.string().min(1),
+  actualidad: z.string().min(1),
+  secciones: z.object({
+    perfil: z.string().min(1),
+    experiencia: z.string().min(1),
+    estudios: z.string().min(1),
+    certificaciones: z.string().min(1),
+    idiomas: z.string().min(1),
+    datos: z.string().min(1),
+  }),
+});
+
+export const CV = cargar(
+  cargarJson(import.meta.glob('./cv/*.json', { eager: true, import: 'default' })),
+  DatosCV,
+  'cv',
+);
+
+/** Currículum completo de un idioma, listo para pintar o para generar el PDF. */
+export function curriculum(idioma: Idioma) {
+  return construirCV({
+    idioma,
+    cv: CV[idioma],
+    trayectoria: TRAYECTORIA[idioma],
+    formacion: FORMACION[idioma],
+    disponibilidad: DISPONIBILIDAD[idioma],
+    contacto: {
+      nombre: SITIO.nombre,
+      correo: SITIO.correo,
+      telefono: SITIO.telefono,
+      ubicacion: SITIO.ubicacion,
+      linkedin: SITIO.linkedin ? SITIO.linkedin.replace(/^https?:\/\//, '') : '',
+    },
+  });
+}
+
+export type Curriculum = ReturnType<typeof curriculum>;

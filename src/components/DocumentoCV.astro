@@ -1,0 +1,157 @@
+---
+import type { Curriculum } from '../data';
+import { CODIGO_HREFLANG, type Idioma } from '../i18n/idiomas';
+
+/**
+ * El currículum dibujado como un documento, con el mismo contenido y el mismo
+ * orden que el PDF que se descarga. Se construye con los datos de la web, así
+ * que se traduce solo y nunca se queda desfasado.
+ */
+interface Props {
+  cv: Curriculum;
+  idioma: Idioma;
+  oculto: boolean;
+}
+
+const { cv, idioma, oculto } = Astro.props;
+---
+
+<article
+  class="documento-cv bg-white text-tinta mx-auto w-full max-w-[46rem] px-8 py-10 sm:px-12 sm:py-14 shadow-2xl"
+  lang={CODIGO_HREFLANG[idioma]}
+  data-documento={idioma}
+  hidden={oculto}
+>
+  <header>
+    <h3 class="text-3xl sm:text-4xl leading-none">{cv.nombre}</h3>
+    <p class="mt-2 text-sm text-gris">{cv.titular}</p>
+    <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[0.8125rem]">
+      {cv.contacto.map((dato) => <span>{dato}</span>)}
+    </p>
+    <div class="mt-5 border-t border-linea"></div>
+  </header>
+
+  <section class="mt-6">
+    <h4>{cv.titulos.perfil}</h4>
+    <p class="mt-3 text-[0.9375rem] leading-relaxed">{cv.resumen}</p>
+  </section>
+
+  <section class="mt-8">
+    <h4>{cv.titulos.experiencia}</h4>
+    <ol class="mt-4 space-y-6">
+      {
+        cv.experiencia.map((etapa) => (
+          <li class="grid gap-1 sm:grid-cols-[7.5rem_1fr] sm:gap-4">
+            <p class="text-[0.75rem] font-semibold text-fuego-texto tabular-nums pt-0.5">
+              {etapa.periodo}
+            </p>
+            <div>
+              <p class="font-semibold leading-snug">{etapa.puesto}</p>
+              <p class="text-[0.9375rem]">{etapa.entidad}</p>
+              {etapa.detalle && <p class="text-[0.8125rem] text-gris mt-0.5">{etapa.detalle}</p>}
+              {etapa.puntos.length > 0 && (
+                <ul class="mt-2.5 space-y-1">
+                  {etapa.puntos.map((punto: string) => (
+                    <li class="relative pl-4 text-[0.875rem] text-gris leading-relaxed">
+                      <span class="absolute left-0 top-[0.62em] w-2 h-[2px] bg-fuego" aria-hidden="true" />
+                      {punto}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="mt-8">
+    <h4>{cv.titulos.estudios}</h4>
+    <ol class="mt-4 space-y-4">
+      {
+        cv.estudios.map((estudio) => (
+          <li class="grid gap-1 sm:grid-cols-[7.5rem_1fr] sm:gap-4">
+            <p class="text-[0.75rem] font-semibold text-fuego-texto tabular-nums pt-0.5">
+              {estudio.periodo}
+            </p>
+            <div>
+              <p class="font-semibold leading-snug">{estudio.titulo}</p>
+              <p class="text-[0.9375rem]">{estudio.centro}</p>
+              {estudio.nota && <p class="text-[0.8125rem] text-gris mt-0.5">{estudio.nota}</p>}
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  {
+    cv.certificaciones.length > 0 && (
+      <section class="mt-8">
+        <h4>{cv.titulos.certificaciones}</h4>
+        <ol class="mt-4 space-y-4">
+          {cv.certificaciones.map((certificacion) => (
+            <li class="grid gap-1 sm:grid-cols-[7.5rem_1fr] sm:gap-4">
+              <p class="text-[0.75rem] font-semibold text-fuego-texto tabular-nums pt-0.5">
+                {certificacion.periodo}
+              </p>
+              <div>
+                <p class="font-semibold leading-snug">{certificacion.titulo}</p>
+                <p class="text-[0.9375rem]">{certificacion.centro}</p>
+                {certificacion.nota && (
+                  <p class="text-[0.8125rem] text-gris mt-0.5">{certificacion.nota}</p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
+
+  {
+    cv.idiomas.length > 0 && (
+      <section class="mt-8">
+        <h4>{cv.titulos.idiomas}</h4>
+        <ul class="mt-4 space-y-1.5">
+          {cv.idiomas.map((lengua) => (
+            <li class="relative pl-4 text-[0.9375rem]">
+              <span class="absolute left-0 top-[0.62em] w-2 h-[2px] bg-fuego" aria-hidden="true" />
+              <span class="font-semibold">{lengua.texto}</span>
+              {lengua.nota && <span class="text-gris"> · {lengua.nota}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    cv.datos.length > 0 && (
+      <section class="mt-8">
+        <h4>{cv.titulos.datos}</h4>
+        <dl class="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2 text-[0.875rem]">
+          {cv.datos.map((dato) => (
+            <div>
+              <dt class="font-semibold">{dato.etiqueta}</dt>
+              <dd class="text-gris">{dato.valor}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )
+  }
+</article>
+
+<style>
+  .documento-cv h4 {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid var(--color-fuego);
+    display: inline-block;
+  }
+</style>

@@ -96,16 +96,9 @@ const es = {
   },
   presentacion: {
     biografiaTitulo: 'Quién soy',
-    cvTitulo: 'Currículum',
-    cvTexto:
-      'El currículum completo, disponible en cinco idiomas. Se puede leer aquí mismo, sin descargar nada.',
     verCV: 'Ver el currículum',
     descargarCV: 'Descargar en PDF',
     idiomaDelCV: 'Idioma del currículum',
-    cargando: 'Cargando el currículum…',
-    errorCV: 'No se ha podido mostrar el currículum aquí.',
-    abrirAparte: 'Abrir el PDF en una pestaña nueva',
-    paginaDe: 'Página {n} de {total}',
     visorTitulo: 'Currículum de Joseba Errazkin',
   },
   trayectoria: {
@@ -276,16 +269,9 @@ const en: Traduccion = {
   },
   presentacion: {
     biografiaTitulo: 'Who I am',
-    cvTitulo: 'Curriculum vitae',
-    cvTexto:
-      'The full CV, available in five languages. You can read it right here, no download required.',
     verCV: 'View the CV',
     descargarCV: 'Download as PDF',
     idiomaDelCV: 'CV language',
-    cargando: 'Loading the CV…',
-    errorCV: 'The CV could not be displayed here.',
-    abrirAparte: 'Open the PDF in a new tab',
-    paginaDe: 'Page {n} of {total}',
     visorTitulo: 'Joseba Errazkin — CV',
   },
   trayectoria: {
@@ -446,16 +432,9 @@ const fr: Traduccion = {
   },
   presentacion: {
     biografiaTitulo: 'Qui je suis',
-    cvTitulo: 'Curriculum vitae',
-    cvTexto:
-      'Le CV complet, disponible en cinq langues. Consultable directement ici, sans rien télécharger.',
     verCV: 'Voir le CV',
     descargarCV: 'Télécharger en PDF',
     idiomaDelCV: 'Langue du CV',
-    cargando: 'Chargement du CV…',
-    errorCV: "Le CV n'a pas pu être affiché ici.",
-    abrirAparte: 'Ouvrir le PDF dans un nouvel onglet',
-    paginaDe: 'Page {n} sur {total}',
     visorTitulo: 'CV de Joseba Errazkin',
   },
   trayectoria: {
@@ -617,16 +596,9 @@ const eu: Traduccion = {
   },
   presentacion: {
     biografiaTitulo: 'Nor naizen',
-    cvTitulo: 'Curriculuma',
-    cvTexto:
-      'Curriculum osoa, bost hizkuntzatan. Hemen bertan irakur daiteke, ezer deskargatu gabe.',
     verCV: 'Ikusi curriculuma',
     descargarCV: 'Deskargatu PDF gisa',
     idiomaDelCV: 'Curriculumaren hizkuntza',
-    cargando: 'Curriculuma kargatzen…',
-    errorCV: 'Ezin izan da curriculuma hemen erakutsi.',
-    abrirAparte: 'Ireki PDFa fitxa berrian',
-    paginaDe: '{n}. orria, {total}(e)tik',
     visorTitulo: 'Joseba Errazkinen curriculuma',
   },
   trayectoria: {
@@ -786,16 +758,9 @@ const de: Traduccion = {
   },
   presentacion: {
     biografiaTitulo: 'Wer ich bin',
-    cvTitulo: 'Lebenslauf',
-    cvTexto:
-      'Der vollständige Lebenslauf in fünf Sprachen. Direkt hier lesbar, ohne etwas herunterzuladen.',
     verCV: 'Lebenslauf ansehen',
     descargarCV: 'Als PDF herunterladen',
     idiomaDelCV: 'Sprache des Lebenslaufs',
-    cargando: 'Lebenslauf wird geladen…',
-    errorCV: 'Der Lebenslauf konnte hier nicht angezeigt werden.',
-    abrirAparte: 'PDF in neuem Tab öffnen',
-    paginaDe: 'Seite {n} von {total}',
     visorTitulo: 'Lebenslauf von Joseba Errazkin',
   },
   trayectoria: {
@@ -875,7 +840,7 @@ export function textos(idioma: Idioma): Textos {
   return TODOS[idioma] as Textos;
 }
 
-/** Sustituye {marcadores}: formatear(t.paginaDe, { n: 1, total: 3 }) */
+/** Sustituye {marcadores}: formatear(t.valoraciones.valoracion, { n: 5 }) */
 export function formatear(
   plantilla: string,
   valores: Record<string, string | number>,

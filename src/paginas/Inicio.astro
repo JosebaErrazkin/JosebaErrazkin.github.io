@@ -1,6 +1,8 @@
 ---
 import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
+import BotonCV from '../components/BotonCV.astro';
+import VisorCV from '../components/VisorCV.astro';
 import { textos } from '../i18n/ui';
 import type { Idioma } from '../i18n/idiomas';
 import { ruta } from '../rutas';
@@ -67,12 +69,7 @@ const accesos = [
       </p>
 
       <div class="mt-10 flex flex-wrap gap-3">
-        <a
-          href={ruta('presentacion', idioma)}
-          class="h-12 px-7 inline-flex items-center bg-fuego text-papel font-semibold rounded-lg hover:bg-papel hover:text-tinta transition-colors"
-        >
-          {t.inicio.verCV}
-        </a>
+        <BotonCV idioma={idioma} tono="claro" />
         <a
           href={ruta('contacto', idioma)}
           class="h-12 px-7 inline-flex items-center border border-papel/40 font-semibold rounded-lg hover:bg-papel hover:text-tinta transition-colors"
@@ -165,4 +162,6 @@ const accesos = [
       />
     </div>
   </section>
+
+  <VisorCV idioma={idioma} />
 </Base>

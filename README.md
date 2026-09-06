@@ -17,7 +17,7 @@ publica gratis en GitHub Pages.
 
 - **Astro** genera el HTML en el momento de compilar.
 - **Tailwind CSS** para los estilos, con la paleta definida en `src/styles/global.css`.
-- **PDF.js** para ver los currículums dentro de la web, sin descargarlos.
+- **PDFKit** genera los currículums en PDF durante la compilación, a partir del mismo contenido que muestra la web.
 - **Web3Forms** para que el formulario de contacto llegue al correo sin servidor propio.
 
 ## Puesta en marcha
@@ -35,7 +35,6 @@ npm run dev
 | `npm run check` | Revisa tipos y plantillas |
 | `npm run contenido-ejemplo` | Rellena `src/data/` con datos de ejemplo |
 | `npm run imagenes-ejemplo` | Crea las imágenes de ejemplo de `src/assets/img/` |
-| `npm run cv-ejemplo` | Crea los cinco PDF de ejemplo de `public/cv/` |
 
 Requiere Node 22.12 o superior.
 
@@ -49,13 +48,15 @@ src/
 │  └─ ui.ts              Textos de menús, botones y etiquetas (5 idiomas)
 ├─ rutas.ts              Nombre de cada página en cada idioma + hreflang
 ├─ data/                 Contenido en ficha (.json por idioma) + validación
+├─ utilidades/cv.mjs     Arma el currículum; lo comparten la web y los PDF
 ├─ content/              Textos largos (.md por idioma)
 ├─ assets/img/           Fotografías originales, optimizadas al compilar
 ├─ components/           Piezas reutilizables (cabecera, visor de CV, galería…)
 ├─ paginas/              Una por sección de la web
 ├─ pages/
 │  ├─ index.astro        Redirección al idioma del navegador
-│  └─ [...ruta].astro    Genera las 45 páginas (9 secciones × 5 idiomas)
+│  ├─ [...ruta].astro    Genera las 45 páginas (9 secciones × 5 idiomas)
+│  └─ cv/[idioma].pdf.ts Genera /cv/es.pdf y sus cuatro hermanos
 └─ styles/global.css     Paleta, tipografías y utilidades propias
 ```
 
@@ -96,7 +97,7 @@ Para usar un dominio propio: escribir la dirección en `DOMINIO_PROPIO`
 - Sin cookies ni analítica: no hace falta banner de consentimiento.
 - Tipografías autoalojadas; ninguna petición a terceros al cargar la página.
 - Imágenes optimizadas a WebP en varios tamaños por Astro.
-- PDF.js se descarga solo cuando alguien abre el visor del currículum.
+- Sin PDF en el navegador: el currículum se ve como documento y solo se descarga si se pide.
 - Ventanas modales con `<dialog>`: foco atrapado y cierre con `Esc` de forma nativa.
-- La web funciona sin JavaScript salvo el visor de CV y el envío del formulario, que ofrecen
-  alternativa (enlace directo al PDF y enlace al correo).
+- La web funciona sin JavaScript salvo la ventana del currículum y el envío del formulario,
+  que tienen alternativa (el PDF en /cv/<idioma>.pdf y el enlace al correo).
