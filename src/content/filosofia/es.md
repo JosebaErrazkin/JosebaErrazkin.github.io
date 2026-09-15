@@ -1,55 +1,98 @@
 ---
 titulo: "Filosofía de trabajo"
-entradilla: "No entreno sensaciones: entreno decisiones. Todo lo que hago con un deportista se puede explicar, medir y repetir."
+entradilla: "Mi filosofía se fundamenta en poner el cuidado de la persona en el centro del proceso, alineando la salud con sus objetivos deportivos y de la vida cotidiana. Mi ciclo continuo se basa en escuchar, evaluar, planificar, ejecutar y reevaluar."
 revisado: true
 ---
 
-Mi trabajo se sostiene sobre una idea sencilla: **si no puedo explicar por qué hoy toca esto, no debería estar haciéndolo**. A partir de ahí, tres principios ordenan todo lo demás.
+Trabajo con tres perfiles de personas. El punto de partida es distinto en cada uno, pero el ciclo es siempre el mismo.
 
-## Tres principios
+## Población general
 
-- **Primero, no hacer daño.** Ninguna mejora justifica exponer a un deportista a algo para lo que todavía no está preparado. Ante la duda, se espera.
-- **El deportista decide con información.** Le explico qué mido, qué significa y en qué punto está. Un deportista que entiende su proceso no se salta fases.
-- **La última fase se parece a competir.** Si el trabajo final no reproduce las exigencias reales de su deporte, la vuelta es una apuesta, no una decisión.
+Realizo una evaluación de las capacidades de movilidad, control motor y fuerza que tiene la persona para encontrar sus puntos más debilitados.
 
-## Criterio de evaluación
+A partir de aquí realizo trabajos de recuperación o de mantenimiento de la forma según las condiciones en las que se encuentra mi cliente, pudiendo hacer trabajos individuales, grupos personalizados (2-3 personas) o grupos reducidos (4-8 personas).
 
-Evalúo siempre en cuatro capas, y las cuatro tienen que decir lo mismo antes de dar un paso adelante.
+El objetivo de las personas sin dolor es que consigan mantener la forma para poder tener **un cuerpo hábil para el día a día**.
 
-### 1. Qué dice el deportista
+## Readaptación de lesiones
 
-Dolor, confianza y percepción del esfuerzo, recogidos a diario con escalas sencillas. Es el dato más subjetivo y el que más veces ha acertado. Un deportista que no se fía de su rodilla no está listo, aunque los números digan que sí.
+Mi filosofía aquí es clara. Al ser profesional en ciencias de la actividad física y del deporte, mi trabajo va atado de la mano de un profesional de la salud.
 
-### 2. Qué dice la fuerza
+Después de su evaluación, mi trabajo comienza con **la parte activa de la lesión**, donde hago hincapié en restablecer los valores iniciales de movilidad, control motor y fuerza de la persona.
 
-Comparo el lado lesionado con el sano y con los valores previos del propio deportista, no con una tabla genérica. Me interesan tres cosas: cuánta fuerza produce, en cuánto tiempo la produce y cuánta diferencia hay entre lados. Reviso cada dos o tres semanas, nunca solo al final.
+## Rendimiento deportivo
 
-### 3. Qué dice el movimiento
+El trabajo con estas personas es conseguir la máxima expresión de sus capacidades físicas para que puedan llegar en la mejor forma a su modalidad deportiva específica.
 
-Cómo aterriza, cómo frena, cómo cambia de dirección. Con vídeo y con la vista, buscando el gesto que evita cargar la zona lesionada. Ese gesto de evitación es lo último que desaparece y lo primero que vuelve cuando aparece la fatiga.
+Aquí me junto con el deportista y, si lo veo necesario, con el equipo técnico, para poder concretar periodos de competición y objetivos.
 
-### 4. Qué dice la carga
+Tal y como se menciona en las líneas anteriores, mi trabajo es con personas, por lo que establezco como prioridad **una comunicación directa y activa** con cada uno de los perfiles que he mencionado.
 
-Cuánto ha entrenado de verdad esta semana comparado con lo que venía haciendo. La mayoría de las recaídas no vienen de una sesión mala, sino de un salto de carga demasiado grande entre dos semanas.
+## Metodología de trabajo
 
-**Ninguna de las cuatro capas manda sobre las demás.** Cuando una discrepa, se espera y se busca por qué.
+Mi forma de trabajar se basa en construir cada proceso desde unos cimientos, garantizando que cada etapa esté fundamentada en la valoración objetiva y la individualización.
+
+### 1. Entrevista e historial inicial
+
+Comienzo con una toma de contacto a través de un cuestionario inicial. El objetivo es conocer la trayectoria previa del atleta o cliente, su historial de entrenamiento y sus metas específicas.
+
+Me explican la causa de su asistencia conmigo como entrenador. A partir de aquí pasamos una entrevista para asegurarnos de los temas de salud deportivos y no tan deportivos, como lo son el sueño, la alimentación y el estrés.
+
+Con eso establecemos objetivos —entrenamiento para el día a día, readaptación de lesión o rendimiento deportivo— y los limitantes principales: movilidad, control motor y fuerza.
+
+### 2. Valoración integral y detección de necesidades
+
+Diseño una evaluación adaptada a los objetivos individuales. Combino análisis postural estático, valoración funcional, tests globales y pruebas analíticas (tanto activas como pasivas) para identificar el «eslabón débil» o los factores limitantes que debemos mejorar.
+
+#### Valoración funcional
+
+Ejecuto una valoración de la estática postural, analizando posibles defectos llamativos que puedan estar involucrados en las molestias: el morfotipo de la persona, diferencias visuales de la masa muscular o diferencias visuales de las asimetrías óseas o estructurales.
+
+También realizo tests globales para observar cuáles son los limitantes más llamativos del cuerpo en movimiento, como por ejemplo el *deep squat* o el *toe touch test*. Para completarlo realizo tests pasivos, para ver cuál es la movilidad que tienen las estructuras corporales en diferentes rangos de movimiento.
+
+En los centros en los que he participado he podido utilizar instrumentos tecnológicos como Kinvent o VALD, para analizar las medidas del equilibrio bipodal y unipodal, por ejemplo. También he utilizado instrumentos para medir la dorsiflexión de tobillo.
+
+#### Valoración de fuerza
+
+Las asimetrías entre hemisferio izquierdo y derecho son la clave en muchos de los casos. Por esto mismo es fundamental utilizar herramientas de valoración subjetiva y objetiva, y esto no falla en mi valoración.
+
+- **Herramientas subjetivas.** Realizo tests manuales de las estructuras necesarias a valorar y hago una comparación entre hemisferios.
+- **Herramientas objetivas.** Mediante instrumentos como VALD o Kinvent he podido ampliar mi conocimiento y pasar mis sensaciones subjetivas a objetivas. Con ellos he utilizado tests isométricos máximos para todas las articulaciones del cuerpo, plataformas de equilibrio (K-Plates), plataformas de fuerza (K-Push) y el K-Grip para valorar la fuerza de agarre.
+
+#### Valoración del movimiento
+
+Podemos adentrarnos en las mecánicas de movimiento de nuestro deportista mediante el uso de vídeos y en directo. Las mecánicas de movimiento, desde caminar hasta la habilidad deportiva específica, son otro punto a trabajar en diferentes momentos de la vuelta al deporte.
+
+Tengo en cuenta cuál es el objetivo de la persona —caminar, subir escaleras, correr— y del deportista, teniendo en cuenta su deporte, su posición y sus características personales.
+
+### 3. Planificación individualizada
+
+Estructuro la programación del entrenamiento alineándola con el calendario personal, laboral o competitivo de la persona, garantizando la sostenibilidad del proceso.
+
+### 4. Ejecución y control del entrenamiento
+
+Llevo a cabo el plan de trabajo con el acompañamiento necesario, ajustando las cargas y los contenidos según la evolución diaria.
+
+Utilizo escalas de percepción y la escala EVA para hacer el seguimiento de las personas. También utilizo el WELLNESS o el RPE con los deportistas profesionales.
+
+El control de las cargas y el principio de la progresión es esencial para que mi trabajo salga adelante. Al fin y al cabo, somos profesionales de las progresiones y las regresiones, para que una persona pueda avanzar en su medida más adecuada.
+
+### 5. Reevaluación y ajuste de resultados
+
+Realizo valoraciones periódicas para medir el progreso real respecto a los datos iniciales y reajustar los objetivos si es necesario.
+
+### Trabajo multidisciplinar
+
+Entiendo la readaptación y el rendimiento como un proceso interdisciplinar: el trabajo en equipo multiplica los resultados y aporta una visión global del deportista. Mantener un contacto continuo y coordinado con otros especialistas nos permite compartir el proceso de la persona y acompañarla hacia sus objetivos con las máximas garantías de éxito.
 
 ## Estructura de los entrenamientos
 
-Cada sesión sigue el mismo esqueleto, sea de readaptación o de rendimiento puro. El deportista sabe siempre en qué parte está y por qué.
+1. **Movilidad y activación.** Preparo el cuerpo para que esté listo en la parte principal. Dependiendo de los objetivos de la sesión se encarará hacia un lado o hacia otro.
+2. **Estabilidad.** Trabajo de estabilidad sobre los puntos más débiles de la persona: propiocepción, control motor.
+3. **Pliometría.** En el caso de que sea necesario, trabajo con pliometría tanto en miembro inferior como en miembro superior.
+4. **Fuerza.** Patrones de movimiento encarados según las demandas establecidas para la sesión, según mi organización personal de las cargas.
+5. **Habilidades.** Representación de las habilidades cotidianas o deportivas en un entorno seguro.
 
-1. **Preparar** · 10-15 min. Elevar la temperatura, movilidad de lo que va a trabajar y activación de lo que suele apagarse. No es un calentamiento de relleno: aquí ya observo cómo ha llegado hoy.
-2. **Lo que más importa** · 15-25 min. Lo de mayor exigencia neural, con el deportista fresco: velocidad, saltos, cambios de dirección o gesto específico. Si un día hay que recortar la sesión, esto no se toca.
-3. **Fuerza** · 20-30 min. Dos o tres ejercicios grandes, con series de calidad y un margen claro de repeticiones. Prefiero hacer menos y hacerlo bien que llenar la hoja.
-4. **Lo que sostiene** · 10-15 min. Trabajo específico de la zona vulnerable de ese deporte y de ese deportista: isquiotibiales, hombro, tobillo, lo que toque.
-5. **Cerrar** · 5 min. Bajar pulsaciones y, sobre todo, hablar: cómo ha ido, qué ha notado, qué anotamos para mañana.
+Esto varía dependiendo de la fase en la que se encuentra cada persona. Como he dicho, cada persona es un mundo y no hay una regla estricta y perfecta.
 
-## Cómo progreso la carga
-
-Subo una sola variable cada vez y la mantengo al menos una semana antes de tocar la siguiente: primero la calidad del movimiento, después el volumen, después la intensidad y por último la velocidad o el contacto real.
-
-Un salto de carga semanal demasiado grande es la señal de alarma más fiable que conozco. Si aparece, la semana siguiente se recorta, aunque el deportista se encuentre bien.
-
-## Qué no hago
-
-No doy altas por calendario. No copio el programa de un deportista a otro. Y no trabajo de espaldas al fisioterapeuta ni al entrenador: si no hay conversación diaria, tarde o temprano alguien tira en la dirección contraria.
+Los entrenamientos que suelo preparar son de **60 minutos**. En el caso de lesionados y rendimiento, **90 minutos**.

@@ -6,8 +6,7 @@ import { SITIO } from '../config/sitio';
 import { construirCV } from '../utilidades/cv.mjs';
 
 /* ------------------------------------------------------------------ *
- *  CONTENIDO EN FICHA (trayectoria, formación, casos, deportes,
- *  testimonios y disponibilidad).
+ *  CONTENIDO EN FICHA (trayectoria, formación y disponibilidad).
  *
  *  Todo vive en archivos .json dentro de esta carpeta, uno por idioma.
  *  Cada archivo se comprueba al compilar: si falta un dato obligatorio
@@ -16,7 +15,7 @@ import { construirCV } from '../utilidades/cv.mjs';
  * ------------------------------------------------------------------ */
 
 const Imagen = z.object({
-  /** Ruta dentro de src/assets/img/, por ejemplo "trayectoria/aurrera-1.jpg". */
+  /** Ruta dentro de src/assets/img/, por ejemplo "trayectoria/balonmano-sant-joan-despi.jpg". */
   archivo: z.string().min(1),
   /** Descripción de la foto para quien no puede verla. Obligatoria. */
   alt: z.string().min(3),
@@ -54,41 +53,6 @@ const Titulacion = z.object({
   detalle: z.string().optional(),
 });
 export type Titulacion = z.infer<typeof Titulacion>;
-
-const Caso = z.object({
-  id: z.string().min(1),
-  deporte: z.string().min(1),
-  nivel: z.string().min(1),
-  lesion: z.string().min(1),
-  contexto: z.string().min(1),
-  /** Semanas hasta volver a competir. */
-  semanas: z.number().int().positive(),
-  intervencion: z.array(z.string()).min(1),
-  resultado: z.string().min(1),
-});
-export type Caso = z.infer<typeof Caso>;
-
-const Deporte = z.object({
-  id: z.string().min(1),
-  deporte: z.string().min(1),
-  resumen: z.string().min(1),
-  exigencias: z.array(z.string()).min(1),
-  enfoque: z.array(z.string()).min(1),
-  imagen: Imagen.optional(),
-});
-export type Deporte = z.infer<typeof Deporte>;
-
-const Testimonio = z.object({
-  id: z.string().min(1),
-  nombre: z.string().min(1),
-  cargo: z.string().min(1),
-  entidad: z.string().optional(),
-  texto: z.string().min(1),
-  /** Opcional: de 0 a 5. Si no se pone, ese testimonio sale sin estrellas. */
-  estrellas: z.number().min(0).max(5).optional(),
-  foto: Imagen.optional(),
-});
-export type Testimonio = z.infer<typeof Testimonio>;
 
 const Disponibilidad = z.object({
   etiqueta: z.string().min(1),
@@ -147,24 +111,6 @@ export const FORMACION = cargar(
   cargarJson(import.meta.glob('./formacion/*.json', { eager: true, import: 'default' })),
   z.array(Titulacion),
   'formacion',
-);
-
-export const CASOS = cargar(
-  cargarJson(import.meta.glob('./casos/*.json', { eager: true, import: 'default' })),
-  z.array(Caso),
-  'casos',
-);
-
-export const DEPORTES = cargar(
-  cargarJson(import.meta.glob('./deportes/*.json', { eager: true, import: 'default' })),
-  z.array(Deporte),
-  'deportes',
-);
-
-export const TESTIMONIOS = cargar(
-  cargarJson(import.meta.glob('./testimonios/*.json', { eager: true, import: 'default' })),
-  z.array(Testimonio),
-  'testimonios',
 );
 
 export const DISPONIBILIDAD = cargar(

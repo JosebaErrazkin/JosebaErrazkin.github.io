@@ -1,29 +1,40 @@
 ---
 titulo: "Wer ich bin"
-entradilla: "Athletiktrainer und Reha-Spezialist. Meine Arbeit beginnt dort, wo die medizinische Behandlung endet, und sie ist erst abgeschlossen, wenn der Sportler wieder wettkämpft, ohne an die Verletzung zu denken."
+entradilla: "Athletiktrainer im Leistungssport und Reha-Spezialist. Meine Arbeit beginnt nach den passiven medizinischen Phasen und endet, wenn die Person ihre Ziele wieder erreichen kann – von der täglichen Bewegung bis zur sportlichen Höchstleistung."
 revisado: false
 ---
 
-Ich bin Joseba Errazkin, Athletiktrainer im Leistungssport und Spezialist für Return-to-Play. Ich lebe in Gipuzkoa im Baskenland und arbeite seit 2016 mit Sportlerinnen und Sportlern aus Fußball, Handball, Leichtathletik und Baskischer Pelota – in Vereinen, in Leistungszentren und in der Einzelbetreuung.
+Hallo. Ich bin **Joseba Errazkin**, Absolvent der Sportwissenschaft mit Schwerpunkt Leistungssport und Rehabilitation nach Verletzungen. Mein Weg hat mich dazu geführt, in Spanien, Finnland und derzeit in der Schweiz zu leben und mich beruflich weiterzuentwickeln.
+
+Im Laufe meiner Laufbahn habe ich mit sehr unterschiedlichen Disziplinen gearbeitet und mich vor allem auf Fussball, **Handball, Baskische Pelota sowie Berg- und Natursportarten** spezialisiert. In dieser Zeit habe ich eng mit Vereinen unterschiedlicher Niveaus und Bereiche zusammengearbeitet, den Weg zurück nach Verletzungen begleitet und Programme entworfen, die auf individuelle wie auf Mannschaftsziele ausgerichtet sind.
+
+Meine Erfahrung reicht von der motorischen Entwicklung im Kindesalter bis zur Vorbereitung von Profisportlern. Das erlaubt mir einen breiten Blick, der sich an den tatsächlichen Bedürfnissen jeder Athletin und jedes Athleten ausrichtet.
 
 ## Wie ich hierhergekommen bin
 
-Ich habe angefangen wie viele: als Trainer einer Nachwuchsmannschaft, und unterwegs habe ich gemerkt, dass ich zwar eine Einheit planen konnte, aber nicht wusste, was zu tun war, wenn sich ein Spieler verletzte. Dieses Unbehagen hat mich in die Rehabilitation geführt – zuerst über ein Masterstudium und dann dorthin, wo man es wirklich lernt: in eine Klinik, an der Seite von Physiotherapeuten und Orthopäden.
+Meine Verbindung zum Sport begann als Kind über den Wettkampf in Disziplinen wie **Handball und Judo**. In der Jugend erreichte ich ein anspruchsvolles Niveau, das mir erlaubte, den Sport von innen zu verstehen. In diesen Jahren begann ich auch als Trainer und Schiedsrichter und erlebte das Spiel aus der Perspektive der Organisation und der Entscheidungsfindung.
 
-Dort habe ich verstanden, was heute den Kern meiner Arbeit bildet. **Zwischen medizinischer und sportlicher Freigabe klafft eine große Lücke**, und in dieser Lücke gehen ganze Saisons verloren. Der Sportler hat keine Schmerzen mehr, wird freigegeben, kehrt in die Gruppe zurück – und drei Wochen später folgt der Rückfall. Nicht weil die Behandlung schlecht war, sondern weil niemand die Brücke gebaut hat.
+Der Wendepunkt kam, als ich mein Studium auf die Sportwissenschaft ausrichtete. Angetrieben von einer tiefen Berufung für die Betreuung und Gesundheit von Menschen, nutzte ich die Ferienzeiten, um mich im Bereich des **adaptierten Sports** weiterzubilden und zu arbeiten.
 
-## Was ich mache
+Mit der Zeit und der Erfahrung als Trainer entdeckte ich, dass der **Leistungssport** das ideale Umfeld ist, um über die volle Entfaltung der menschlichen Leistungsfähigkeit einen Beitrag zu leisten. Im Spitzensport ist der Umgang mit Schmerz und Verletzungen unvermeidlich. So verstand ich, wie nötig die Rolle des **Reha-Spezialisten** ist: eine Fachkraft, die nicht nur den Genesungsprozess begleitet, sondern die Sportlerin oder den Sportler bis zur sicheren und optimalen Rückkehr in den Wettkampf führt.
 
-Ich baue diese Brücke. In der Praxis bedeutet das dreierlei:
+Aus all diesen Gründen ist meine Laufbahn auf der Verbindung zweier grundlegender und einander ergänzender Säulen aufgebaut: **der Betreuung und Gesundheit des Menschen und dem Streben nach der höchsten Ausprägung menschlicher Leistung.**
 
-- **Messen**, um zu wissen, wo der Sportler wirklich steht, statt sich auf Gefühle zu verlassen.
-- **In Phasen fortschreiten**, mit klaren Übergangskriterien, die vor dem Start schriftlich festgehalten werden.
-- **Den Sportler in seinen Sport zurückführen**, nicht in ein Fitnessstudio: Die letzte Phase muss dem Wettkampf ähneln, sonst taugt sie nichts.
+## Aktuelle Situation und Verfügbarkeit
 
-Ich arbeite eng mit dem Trainerteam und dem medizinischen Team zusammen. Ich glaube nicht an den Athletiktrainer, der in seiner eigenen Ecke lebt: Informationen müssen täglich in beide Richtungen fließen.
+Ich lebe derzeit in der **Schweiz** und suche aktiv nach neuen beruflichen Herausforderungen, die es mir erlauben, in einem dynamischen und zu meinen Werten passenden Umfeld weiterzuwachsen.
 
-## Was ich jetzt suche
+Ich bin offen für Möglichkeiten der Zusammenarbeit in:
 
-Ich möchte mich in einer professionellen Struktur außerhalb Spaniens weiterentwickeln – in einem Verein oder Leistungszentrum, in dem Rehabilitation ernst genommen wird und Teil des sportlichen Projekts ist, nicht Teil der Krankenstation.
+- Gesundheits- und Leistungszentren
+- Fitnessstudios und Personal-Training-Zentren
+- Sportvereinen
+- Sportunterkünften oder Resorts mit Schwerpunkt Aktivtourismus
 
-Ich habe einen EU-Pass, bin sofort verfügbar und an nichts gebunden. Spanisch und Baskisch spreche ich muttersprachlich, Englisch auf C1-Niveau und Französisch auf B1-Niveau – und ich bin bereit, die Sprache des Landes zu lernen, in das ich gehe.
+Mein Ziel ist es, meine Erfahrung in Athletiktraining und Rehabilitation einzubringen und mich in ein Team zu integrieren, in dem ich vom ersten Tag an einen Beitrag leisten kann.
+
+### Eckdaten und Logistik
+
+- **Bewilligungen und Mobilität.** Europäischer Pass (EU/EWR), voll verfügbar für einen Stellenantritt. Führerausweis Kategorie B und die Möglichkeit eines eigenen Fahrzeugs.
+- **Fliessende oder berufliche Sprachen.** Spanisch, Baskisch, Katalanisch und Englisch.
+- **Im aktiven Spracherwerb.** Französisch, mit voller Bereitschaft, die Ortssprache der jeweiligen Region oder des Kantons zu lernen.

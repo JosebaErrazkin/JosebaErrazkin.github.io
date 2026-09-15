@@ -1,103 +1,116 @@
 [
   {
-    "id": "iturbide",
-    "entidad": "Iturbide High Performance Centre",
-    "rol": "Lead strength & conditioning coach",
-    "deporte": "Football and multi-sport",
-    "categoria": "Senior and youth development",
-    "lugar": "Donostia-San Sebastián, Spain",
-    "desde": "2022-08",
-    "hasta": null,
-    "descripcion": "I lead the physical planning for a group of twenty athletes and coordinate the handover from the rehabilitation room to the pitch together with the medical team.",
+    "id": "ernio-endurance",
+    "entidad": "Ernio Endurance",
+    "rol": "Strength and conditioning coach, return-to-play specialist and centre coordinator",
+    "deporte": "Handball, Basque pelota, football, athletics, trail running and basketball",
+    "categoria": "Professional and amateur athletes, and the general population",
+    "lugar": "Tolosa, Spain",
+    "desde": "2024-09",
+    "hasta": "2026-09",
+    "descripcion": "Rehabilitation and return-to-play centre. I led the centre from its creation in September 2024, with everything that running it involves: managing staff, reporting to management, producing content, invoicing, setting the lines of work and monitoring the centre.",
     "funciones": [
-      "Initial assessment and follow-up of every athlete using strength and jump testing",
-      "Season design and weekly microcycle planning",
-      "Daily coordination with physiotherapy and the coaching staff",
-      "Load monitoring using GPS and wellness questionnaires"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/centro-rendimiento-1.jpg",
-        "alt": "Strength session in the performance centre gym"
-      },
-      {
-        "archivo": "trayectoria/centro-rendimiento-2.jpg",
-        "alt": "Jump test on a force platform"
-      }
-    ]
-  },
-  {
-    "id": "aurrera",
-    "entidad": "Club Deportivo Aurrera",
-    "rol": "Return-to-play specialist",
-    "deporte": "Football",
-    "categoria": "First team and reserves",
-    "lugar": "Gipuzkoa, Spain",
-    "desde": "2020-07",
-    "hasta": "2022-07",
-    "descripcion": "Responsible for the entire return-to-play process of injured players, from medical clearance to full competitive clearance.",
-    "funciones": [
-      "Design of phase-by-phase clearance criteria, with objective testing at every step",
-      "Individual on-pitch work with players in the recovery process",
-      "Weekly availability forecasts reported to the coaching staff"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/club-aurrera-1.jpg",
-        "alt": "On-pitch work with a player in the return-to-play phase"
-      }
-    ]
-  },
-  {
-    "id": "oria",
-    "entidad": "Oria Clinic · Physiotherapy and Sport",
-    "rol": "Rehabilitation strength coach",
-    "deporte": "Multi-sport",
-    "lugar": "Gipuzkoa, Spain",
-    "desde": "2018-09",
-    "hasta": "2020-06",
-    "descripcion": "The bridge between the treatment table and the field of play: I picked up the athlete when treatment ended and took them back to their sport.",
-    "funciones": [
-      "Strength programming for patients in the final rehabilitation phase",
-      "Functional assessment before discharge",
-      "Patient education on load management and re-injury prevention"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/clinica-oria-1.jpg",
-        "alt": "Functional assessment in the clinic room"
-      }
-    ]
-  },
-  {
-    "id": "lasarte",
-    "entidad": "Lasarte Handball Club",
-    "rol": "Strength & conditioning coach",
-    "deporte": "Handball",
-    "categoria": "U18 and senior",
-    "lugar": "Gipuzkoa, Spain",
-    "desde": "2017-09",
-    "hasta": "2018-08",
-    "descripcion": "First experience with a full squad: on-court and gym conditioning, plus load monitoring across the whole season.",
-    "funciones": [
-      "Conditioning for two squads in parallel",
-      "Introducing structured strength work in youth categories"
+      "Strength and conditioning coach for four professional Basque pelota players, with positive competitive results in every case",
+      "Day-to-day work in direct contact with their coaches and their management companies",
+      "Strength and conditioning coach for a group of amateur trail runners",
+      "Return-to-play rehabilitation for injuries such as anterior cruciate ligament tears, knee replacements, and shoulder and ankle surgery",
+      "Work with patients in a range of health situations, such as returning to activity after cancer or a cervical myelopathy",
+      "Functional training in groups of eight people to keep the body strong"
     ],
     "imagenes": []
   },
   {
-    "id": "individual",
-    "entidad": "Individual athletes",
-    "rol": "Personal strength & conditioning coach",
-    "deporte": "Athletics, cycling and Basque pelota",
-    "lugar": "In person and remote",
-    "desde": "2016-01",
-    "hasta": null,
-    "descripcion": "Ongoing work with athletes who compete independently, planning full seasons around their own goals.",
+    "id": "sant-joan-despi",
+    "entidad": "Club Balonmano Sant Joan Despí",
+    "rol": "Strength and conditioning coach and team coach",
+    "deporte": "Handball",
+    "categoria": "Ages 6 to 12 and women’s junior team",
+    "lugar": "Sant Joan Despí, Spain",
+    "desde": "2023-09",
+    "hasta": "2024-06",
+    "descripcion": "I worked as a strength and conditioning coach with children aged 6 to 12. The aim was to develop better motor skills for everyday life. To do so I followed the youth athlete development model, which is essential when planning for young people.",
     "funciones": [
-      "Individualised annual planning",
-      "Remote follow-up with regular in-person reviews"
+      "Strength and conditioning for the development age groups, from 6 to 12 years old",
+      "Head coach of a women’s junior handball team"
     ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/balonmano-sant-joan-despi.jpg",
+        "alt": "Joseba Errazkin directing his team from the sideline during a handball match"
+      }
+    ]
+  },
+  {
+    "id": "hegalak-zabalik",
+    "entidad": "Hegalak Zabalik Foundation",
+    "rol": "Assistant for supported sea bathing",
+    "deporte": "Adapted physical activity",
+    "lugar": "Donostia-San Sebastián, Spain",
+    "desde": "2023-06",
+    "hasta": "2024-09",
+    "descripcion": "Summers of 2023 and 2024. The main role was to help people without the physical means to do so to bathe at La Concha beach. This has been part of my experience in adapted sport and adapted physical activity.",
+    "funciones": [
+      "Seasonal work: summers of 2023 and 2024",
+      "Accompanying and assisting people with reduced mobility in the water",
+      "Handling amphibious chairs and beach accessibility equipment"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/hegalak-zabalik-donostia.jpg",
+        "alt": "Moving an amphibious chair towards the shoreline at La Concha beach"
+      }
+    ]
+  },
+  {
+    "id": "balonmano-lleida",
+    "entidad": "Club Balonmano Lleida",
+    "rol": "Coach",
+    "deporte": "Handball",
+    "categoria": "Women’s under-16",
+    "lugar": "Lleida, Spain",
+    "desde": "2022-09",
+    "hasta": "2023-06",
+    "descripcion": "Coach of the club’s women’s under-16 team, alongside my undergraduate studies in Lleida.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-tiempo-libre",
+    "entidad": "GAUTENA · Gipuzkoa Autism Association",
+    "rol": "Leisure-time support worker",
+    "deporte": "Leisure and adapted physical activity",
+    "lugar": "Gipuzkoa, Spain",
+    "desde": "2019-06",
+    "hasta": "2024-09",
+    "descripcion": "Summers of 2019, 2020, 2021, 2022 and 2024. Day-to-day support during the holidays for a group of adults with autism.",
+    "funciones": [
+      "Seasonal work: summers of 2019, 2020, 2021, 2022 and 2024"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "balonmano-urnieta",
+    "entidad": "Balonmano Urnieta",
+    "rol": "Assistant coach",
+    "deporte": "Handball",
+    "categoria": "Men’s under-16",
+    "lugar": "Urnieta, Spain",
+    "desde": "2018-09",
+    "hasta": "2019-06",
+    "descripcion": "Assistant to the handball coach of a men’s under-16 team, in my home town.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-acondicionamiento",
+    "entidad": "GAUTENA · Gipuzkoa Autism Association",
+    "rol": "Physical conditioning instructor",
+    "deporte": "Adapted physical activity",
+    "lugar": "Gipuzkoa, Spain",
+    "desde": "2018-09",
+    "hasta": "2019-07",
+    "descripcion": "For a year I assisted in the physical exercise classes of a group of adults with autism.",
+    "funciones": [],
     "imagenes": []
   }
 ]

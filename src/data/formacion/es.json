@@ -3,68 +3,52 @@
     "id": "grado-cafyd",
     "grupo": "universitaria",
     "titulo": "Grado en Ciencias de la Actividad Física y del Deporte",
-    "centro": "Universidad del País Vasco (UPV/EHU)",
-    "anio": "2016",
-    "equivalencia": "Equivale a un BSc in Sport and Exercise Science (240 créditos ECTS)"
+    "centro": "INEFC Lleida · Universitat de Lleida (UdL)",
+    "anio": "2019-2023"
   },
   {
-    "id": "master-readaptacion",
+    "id": "master-retan",
     "grupo": "universitaria",
-    "titulo": "Máster en Readaptación de Lesiones Deportivas",
-    "centro": "Universidad Europea",
-    "anio": "2018",
-    "equivalencia": "Equivale a un MSc in Sports Injury Rehabilitation (60 créditos ECTS)"
+    "titulo": "Máster en Rendimiento Deportivo: Tecnificación y Alto Nivel (RETAN)",
+    "centro": "INEFC Barcelona · Universitat de Barcelona",
+    "anio": "2023-2024"
   },
   {
-    "id": "fuerza-rendimiento",
+    "id": "master-profesorado",
+    "grupo": "universitaria",
+    "titulo": "Máster en Formación del Profesorado de Educación Secundaria Obligatoria, mención en Educación Física",
+    "centro": "UNED · Centro asociado de Bergara",
+    "anio": "2025-2026",
+    "detalle": "En curso."
+  },
+  {
+    "id": "eudapa",
     "grupo": "especializacion",
-    "titulo": "Entrenamiento de la fuerza aplicado al rendimiento",
-    "centro": "Formación continua",
-    "anio": "2019",
-    "detalle": "120 horas · perfil fuerza-velocidad y control de la intensidad"
+    "titulo": "Diploma Europeo Universitario en Actividad Física Adaptada (EUDAPA)",
+    "centro": "Haaga-Helia University of Applied Sciences · Vierumäki, Finlandia",
+    "anio": "2022",
+    "detalle": "Primavera de 2022."
   },
   {
-    "id": "return-to-play",
-    "grupo": "especializacion",
-    "titulo": "Return to Play: criterios de alta deportiva",
-    "centro": "Formación continua",
-    "anio": "2021",
-    "detalle": "80 horas · baterías de pruebas y toma de decisiones compartida"
-  },
-  {
-    "id": "gps",
+    "id": "amma-fundamentals",
     "grupo": "certificacion",
-    "titulo": "Análisis de datos GPS en deportes de equipo",
-    "centro": "Certificación de fabricante",
-    "anio": "2022"
+    "titulo": "AMMMA Fundamentals",
+    "centro": "Formación privada",
+    "anio": "2025-2026",
+    "detalle": "Trabajo y funcionamiento de un centro deportivo y metodologías de entrenamiento. Formación no oficial."
   },
   {
-    "id": "svb",
-    "grupo": "certificacion",
-    "titulo": "Soporte Vital Básico y uso del desfibrilador",
-    "centro": "Cruz Roja",
-    "anio": "2023",
-    "detalle": "Renovada en 2023"
-  },
-  {
-    "id": "ingles",
+    "id": "ingles-b2",
     "grupo": "idiomas",
-    "titulo": "Inglés · nivel C1",
-    "centro": "Cambridge English (CAE)",
-    "anio": "2021"
+    "titulo": "Inglés · nivel B2",
+    "centro": "Cambridge English (B2 First)",
+    "anio": "2018"
   },
   {
-    "id": "euskera",
+    "id": "euskera-ega",
     "grupo": "idiomas",
-    "titulo": "Euskera · nivel C1 (EGA)",
+    "titulo": "Euskera · EGA (Euskararen Gaitasun Agiria)",
     "centro": "Gobierno Vasco",
-    "anio": "2014"
-  },
-  {
-    "id": "frances",
-    "grupo": "idiomas",
-    "titulo": "Francés · nivel B1",
-    "centro": "Escuela Oficial de Idiomas",
-    "anio": "2020"
+    "anio": "2017"
   }
 ]

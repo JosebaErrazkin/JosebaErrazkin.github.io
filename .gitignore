@@ -6,3 +6,9 @@ dist/
 .env
 .env.local
 
+
+# Documentos de trabajo. El repositorio es público y estos archivos son
+# notas internas que no forman parte de la web.
+/*.pdf
+/*.docx
+~$*

@@ -1,103 +1,116 @@
 [
   {
-    "id": "iturbide",
-    "entidad": "Iturbide Errendimendu Handiko Zentroa",
-    "rol": "Prestatzaile fisiko arduraduna",
-    "deporte": "Futbola eta kirol anitzak",
-    "categoria": "Senior eta formakuntza kategoriak",
-    "lugar": "Donostia, Espainia",
-    "desde": "2022-08",
-    "hasta": null,
-    "descripcion": "Hogei kirolariren plangintza fisikoa zuzentzen dut eta errehabilitazio gelatik zelairako jauzia koordinatzen dut talde medikoarekin batera.",
+    "id": "ernio-endurance",
+    "entidad": "Ernio Endurance",
+    "rol": "Prestatzaile fisikoa, birgaitzailea eta zentroko koordinatzailea",
+    "deporte": "Eskubaloia, euskal pilota, futbola, atletismoa, trail running-a eta saskibaloia",
+    "categoria": "Kirolari profesionalak, amateurrak eta biztanleria orokorra",
+    "lugar": "Tolosa, Espainia",
+    "desde": "2024-09",
+    "hasta": "2026-09",
+    "descripcion": "Birgaitze eta errehabilitazio zentroa. Zentroa zuzendu nuen 2024ko irailean sortu zenetik, antolaketak dakarren guztiarekin: langileen kudeaketa, goi mailakoekin komunikazioa, edukien lanketa, fakturazioa, lan ildoak eta zentroaren jarraipena.",
     "funciones": [
-      "Kirolari bakoitzaren hasierako ebaluazioa eta jarraipena, indar eta jauzi probekin",
-      "Denboraldiaren eta asteko mikrozikloen diseinua",
-      "Eguneroko koordinazioa fisioterapiarekin eta talde teknikoarekin",
-      "Kargaren kontrola GPSarekin eta ongizate galdetegiekin"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/centro-rendimiento-1.jpg",
-        "alt": "Indar saioa errendimendu zentroko gimnasioan"
-      },
-      {
-        "archivo": "trayectoria/centro-rendimiento-2.jpg",
-        "alt": "Jauzi proba indar plataformarekin"
-      }
-    ]
-  },
-  {
-    "id": "aurrera",
-    "entidad": "Aurrera Kirol Kluba",
-    "rol": "Lesioen birgaitzailea",
-    "deporte": "Futbola",
-    "categoria": "Lehen taldea eta filiala",
-    "lugar": "Gipuzkoa, Espainia",
-    "desde": "2020-07",
-    "hasta": "2022-07",
-    "descripcion": "Lesionatutako jokalarien lehiaketara itzultzeko prozesu osoaren arduraduna, alta medikotik alta kiroleraino.",
-    "funciones": [
-      "Faseka altak emateko irizpideen diseinua, urrats bakoitzean proba objektiboekin",
-      "Banakako lana zelaian, berreskuratze prozesuan dauden jokalariekin",
-      "Asteko txostenak talde teknikoari, eskuragarritasun aurreikuspenari buruz"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/club-aurrera-1.jpg",
-        "alt": "Zelaiko lana birgaitze fasean dagoen jokalari batekin"
-      }
-    ]
-  },
-  {
-    "id": "oria",
-    "entidad": "Oria Klinika · Fisioterapia eta Kirola",
-    "rol": "Prestatzaile fisikoa birgaitzean",
-    "deporte": "Kirol anitzak",
-    "lugar": "Gipuzkoa, Espainia",
-    "desde": "2018-09",
-    "hasta": "2020-06",
-    "descripcion": "Ohatilaren eta jokalekuaren arteko zubia: tratamendua amaitzean kirolaria hartu eta bere kirolera itzultzen nuen.",
-    "funciones": [
-      "Indar programazioa errehabilitazioaren azken fasean dauden pazienteentzat",
-      "Ebaluazio funtzionala alta eman aurretik",
-      "Pazientearen heziketa kargen kudeaketan eta errezidiben prebentzioan"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/clinica-oria-1.jpg",
-        "alt": "Ebaluazio funtzionala klinikako gelan"
-      }
-    ]
-  },
-  {
-    "id": "lasarte",
-    "entidad": "Lasarte Eskubaloia",
-    "rol": "Prestatzaile fisikoa",
-    "deporte": "Eskubaloia",
-    "categoria": "Sub-18 eta senior",
-    "lugar": "Gipuzkoa, Espainia",
-    "desde": "2017-09",
-    "hasta": "2018-08",
-    "descripcion": "Talde oso batekin izandako lehen esperientzia: prestakuntza fisikoa pistan eta gimnasioan, eta kargaren kontrola denboraldi osoan.",
-    "funciones": [
-      "Bi talderen prestakuntza fisikoa aldi berean",
-      "Indar lana txertatzea formakuntza kategorietan"
+      "Euskal pilotako lau kirolari profesionalen prestatzaile fisikoa, kasu guztietan emaitza positiboekin",
+      "Eguneroko lana, beren entrenatzaileekin eta enpresekin harreman zuzena mantenduz",
+      "Trail running-eko kirolari amateurren talde baten prestatzaile fisikoa",
+      "Lesioen birgaitzea: gurutze lotailu aurrearen hausturak, belauneko protesiak, sorbaldako eta orkatileko ebakuntzak",
+      "Osasun egoera desberdinetako pazienteekin lana: minbizi baten edo zerbikaleko mielopatia baten ondorengo jardueraren itzulera",
+      "Zortzi pertsonako taldeetan entrenamendu funtzionalak, gorputz sendo bat mantentzeko"
     ],
     "imagenes": []
   },
   {
-    "id": "individual",
-    "entidad": "Banakako kirolariak",
-    "rol": "Prestatzaile fisiko pertsonala",
-    "deporte": "Atletismoa, txirrindularitza eta pilota",
-    "lugar": "Aurrez aurre eta urrutitik",
-    "desde": "2016-01",
-    "hasta": null,
-    "descripcion": "Beren kabuz lehiatzen diren kirolariekin lan jarraitua, denboraldi osoak beren helburuen inguruan planifikatuz.",
+    "id": "sant-joan-despi",
+    "entidad": "Club Balonmano Sant Joan Despí",
+    "rol": "Prestatzaile fisikoa eta entrenatzailea",
+    "deporte": "Eskubaloia",
+    "categoria": "6tik 12 urtera eta emakumezkoen gazte mailakoa",
+    "lugar": "Sant Joan Despí, Espainia",
+    "desde": "2023-09",
+    "hasta": "2024-06",
+    "descripcion": "Prestatzaile fisiko gisa lan egiten nuen 6 eta 12 urte bitarteko haurrekin. Helburua gaur egungo bizitzarako trebetasun motor garatuagoak lortzea zen. Horretarako youth athlete development eredua jarraitu nuen, gazteentzako planifikazioan funtsezkoa.",
     "funciones": [
-      "Urteko plangintza indibidualizatua",
-      "Urrutiko jarraipena, aldizkako berrikuspen presentzialekin"
+      "Oinarrizko kategorien prestakuntza fisikoa, 6tik 12 urtera",
+      "Emakumezkoen eskubaloi gazte talde bateko entrenatzaile nagusia"
     ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/balonmano-sant-joan-despi.jpg",
+        "alt": "Joseba Errazkin bere taldea bazterretik zuzentzen eskubaloi partida batean"
+      }
+    ]
+  },
+  {
+    "id": "hegalak-zabalik",
+    "entidad": "Hegalak Zabalik Fundazioa",
+    "rol": "Itsasoko bainu lagunduetan laguntzailea",
+    "deporte": "Jarduera fisiko egokitua",
+    "lugar": "Donostia, Espainia",
+    "desde": "2023-06",
+    "hasta": "2024-09",
+    "descripcion": "2023ko eta 2024ko udak. Zeregin nagusia baliabide fisikorik ez zuten pertsonei Kontxako hondartzan bainatzen laguntzea zen. Hori kirol egokituan eta jarduera fisiko egokituan dudan esperientziaren parte izan da.",
+    "funciones": [
+      "Denboraldiko lana: 2023ko eta 2024ko udak",
+      "Mugikortasun murriztua duten pertsonei bainuan laguntzea",
+      "Aulki anfibioen eta hondartzako irisgarritasun materialaren erabilera"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/hegalak-zabalik-donostia.jpg",
+        "alt": "Aulki anfibio bat itsasertzerantz eramaten Kontxako hondartzan"
+      }
+    ]
+  },
+  {
+    "id": "balonmano-lleida",
+    "entidad": "Lleidako Eskubaloi Kluba",
+    "rol": "Entrenatzailea",
+    "deporte": "Eskubaloia",
+    "categoria": "Emakumezkoen kadete maila",
+    "lugar": "Lleida, Espainia",
+    "desde": "2022-09",
+    "hasta": "2023-06",
+    "descripcion": "Klubeko emakumezkoen kadete taldeko entrenatzailea, Lleidan graduko ikasketekin batera.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-tiempo-libre",
+    "entidad": "GAUTENA · Gipuzkoako Autismoaren Elkartea",
+    "rol": "Aisialdiko begiralea",
+    "deporte": "Aisia eta jarduera fisiko egokitua",
+    "lugar": "Gipuzkoa, Espainia",
+    "desde": "2019-06",
+    "hasta": "2024-09",
+    "descripcion": "2019, 2020, 2021, 2022 eta 2024ko udak. Autismoa duten pertsona helduen talde baten oporretako egunerokoan laguntzea.",
+    "funciones": [
+      "Denboraldiko lana: 2019, 2020, 2021, 2022 eta 2024ko udak"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "balonmano-urnieta",
+    "entidad": "Urnietako Eskubaloia",
+    "rol": "Bigarren entrenatzailea",
+    "deporte": "Eskubaloia",
+    "categoria": "Gizonezkoen kadete maila",
+    "lugar": "Urnieta, Espainia",
+    "desde": "2018-09",
+    "hasta": "2019-06",
+    "descripcion": "Eskubaloi entrenatzailearen laguntzailea gizonezkoen kadete talde batean, nire jaioterrian.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-acondicionamiento",
+    "entidad": "GAUTENA · Gipuzkoako Autismoaren Elkartea",
+    "rol": "Egokitze fisikoko begiralea",
+    "deporte": "Jarduera fisiko egokitua",
+    "lugar": "Gipuzkoa, Espainia",
+    "desde": "2018-09",
+    "hasta": "2019-07",
+    "descripcion": "Urtebetez autismoa duten pertsona helduen talde baten ariketa fisikoko klaseetan lagundu nuen.",
+    "funciones": [],
     "imagenes": []
   }
 ]

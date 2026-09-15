@@ -1,103 +1,116 @@
 [
   {
-    "id": "iturbide",
-    "entidad": "Centre de haute performance Iturbide",
-    "rol": "Préparateur physique responsable",
-    "deporte": "Football et multisport",
-    "categoria": "Séniors et catégories de formation",
-    "lugar": "Donostia-Saint-Sébastien, Espagne",
-    "desde": "2022-08",
-    "hasta": null,
-    "descripcion": "Je dirige la planification physique d'un groupe de vingt athlètes et je coordonne le passage de la salle de rééducation au terrain avec le staff médical.",
+    "id": "ernio-endurance",
+    "entidad": "Ernio Endurance",
+    "rol": "Préparateur physique, réathlétiseur et coordinateur du centre",
+    "deporte": "Handball, pelote basque, football, athlétisme, trail et basket-ball",
+    "categoria": "Sportifs professionnels, amateurs et population générale",
+    "lugar": "Tolosa, Espagne",
+    "desde": "2024-09",
+    "hasta": "2026-09",
+    "descripcion": "Centre de réathlétisation et de rééducation. J’ai dirigé le centre depuis sa création, en septembre 2024, avec tout ce que cela implique : gestion du personnel, communication avec la direction, élaboration de contenus, facturation, définition des axes de travail et suivi du centre.",
     "funciones": [
-      "Évaluation initiale et suivi de chaque athlète par tests de force et de détente",
-      "Conception de la saison et des microcycles hebdomadaires",
-      "Coordination quotidienne avec la kinésithérapie et le staff technique",
-      "Suivi de la charge avec GPS et questionnaires de bien-être"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/centro-rendimiento-1.jpg",
-        "alt": "Séance de force dans la salle du centre de performance"
-      },
-      {
-        "archivo": "trayectoria/centro-rendimiento-2.jpg",
-        "alt": "Test de détente sur plateforme de force"
-      }
-    ]
-  },
-  {
-    "id": "aurrera",
-    "entidad": "Club Deportivo Aurrera",
-    "rol": "Spécialiste de la réathlétisation",
-    "deporte": "Football",
-    "categoria": "Équipe première et réserve",
-    "lugar": "Gipuzkoa, Espagne",
-    "desde": "2020-07",
-    "hasta": "2022-07",
-    "descripcion": "Responsable de tout le processus de retour à la compétition des joueurs blessés, de la reprise médicale à la reprise sportive complète.",
-    "funciones": [
-      "Conception des critères de reprise par phases, avec des tests objectifs à chaque étape",
-      "Travail individuel sur le terrain avec les joueurs en récupération",
-      "Rapports hebdomadaires au staff technique sur la disponibilité prévue"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/club-aurrera-1.jpg",
-        "alt": "Travail sur le terrain avec un joueur en phase de réathlétisation"
-      }
-    ]
-  },
-  {
-    "id": "oria",
-    "entidad": "Clinique Oria · Kinésithérapie et sport",
-    "rol": "Préparateur physique en réathlétisation",
-    "deporte": "Multisport",
-    "lugar": "Gipuzkoa, Espagne",
-    "desde": "2018-09",
-    "hasta": "2020-06",
-    "descripcion": "Le pont entre la table de soins et le terrain : je prenais le relais à la fin du traitement pour ramener l'athlète à son sport.",
-    "funciones": [
-      "Programmation de la force pour les patients en fin de rééducation",
-      "Évaluation fonctionnelle avant la sortie",
-      "Éducation du patient à la gestion des charges et à la prévention des récidives"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/clinica-oria-1.jpg",
-        "alt": "Évaluation fonctionnelle dans la salle de la clinique"
-      }
-    ]
-  },
-  {
-    "id": "lasarte",
-    "entidad": "Handball Lasarte",
-    "rol": "Préparateur physique",
-    "deporte": "Handball",
-    "categoria": "U18 et séniors",
-    "lugar": "Gipuzkoa, Espagne",
-    "desde": "2017-09",
-    "hasta": "2018-08",
-    "descripcion": "Première expérience avec une équipe complète : préparation physique sur le terrain et en salle, et suivi de la charge sur toute la saison.",
-    "funciones": [
-      "Préparation physique de deux équipes en parallèle",
-      "Introduction du travail de force dans les catégories de formation"
+      "Préparateur physique de quatre pelotaris professionnels, avec des résultats sportifs positifs dans tous les cas",
+      "Travail quotidien en contact direct avec leurs entraîneurs et leurs structures",
+      "Préparateur physique d’un groupe de traileurs amateurs",
+      "Réathlétisation de blessures telles que ruptures du ligament croisé antérieur, prothèses de genou, opérations de l’épaule et de la cheville",
+      "Travail avec des patients dans des situations de santé variées, comme la reprise d’activité après un cancer ou une myélopathie cervicale",
+      "Entraînements fonctionnels en groupes de huit personnes pour entretenir un corps solide"
     ],
     "imagenes": []
   },
   {
-    "id": "individual",
-    "entidad": "Athlètes individuels",
-    "rol": "Préparateur physique personnel",
-    "deporte": "Athlétisme, cyclisme et pelote basque",
-    "lugar": "En présentiel et à distance",
-    "desde": "2016-01",
-    "hasta": null,
-    "descripcion": "Travail continu avec des athlètes qui concourent de façon indépendante, avec des saisons entières planifiées autour de leurs objectifs.",
+    "id": "sant-joan-despi",
+    "entidad": "Club Balonmano Sant Joan Despí",
+    "rol": "Préparateur physique et entraîneur",
+    "deporte": "Handball",
+    "categoria": "De 6 à 12 ans et équipe junior féminine",
+    "lugar": "Sant Joan Despí, Espagne",
+    "desde": "2023-09",
+    "hasta": "2024-06",
+    "descripcion": "Je travaillais comme préparateur physique avec des enfants de 6 à 12 ans. L’objectif était de développer de meilleures habiletés motrices pour la vie d’aujourd’hui. Pour cela, j’ai suivi le modèle du youth athlete development, essentiel dans la planification pour les jeunes.",
     "funciones": [
-      "Planification annuelle individualisée",
-      "Suivi à distance avec bilans réguliers en présentiel"
+      "Préparation physique des catégories de formation, de 6 à 12 ans",
+      "Entraîneur principal d’une équipe junior féminine de handball"
     ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/balonmano-sant-joan-despi.jpg",
+        "alt": "Joseba Errazkin dirigeant son équipe depuis le banc lors d’un match de handball"
+      }
+    ]
+  },
+  {
+    "id": "hegalak-zabalik",
+    "entidad": "Fondation Hegalak Zabalik",
+    "rol": "Assistant pour les baignades accompagnées en mer",
+    "deporte": "Activité physique adaptée",
+    "lugar": "Donostia-Saint-Sébastien, Espagne",
+    "desde": "2023-06",
+    "hasta": "2024-09",
+    "descripcion": "Étés 2023 et 2024. Le rôle principal consistait à aider des personnes n’ayant pas les ressources physiques nécessaires à se baigner sur la plage de La Concha. Cela fait partie de mon expérience dans le sport adapté et l’activité physique adaptée.",
+    "funciones": [
+      "Travail saisonnier : étés 2023 et 2024",
+      "Accompagnement et assistance à la baignade de personnes à mobilité réduite",
+      "Manipulation de fauteuils amphibies et de matériel d’accessibilité sur la plage"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/hegalak-zabalik-donostia.jpg",
+        "alt": "Transport d’un fauteuil amphibie vers le rivage sur la plage de La Concha"
+      }
+    ]
+  },
+  {
+    "id": "balonmano-lleida",
+    "entidad": "Club Balonmano Lleida",
+    "rol": "Entraîneur",
+    "deporte": "Handball",
+    "categoria": "Cadettes (moins de 16 ans)",
+    "lugar": "Lleida, Espagne",
+    "desde": "2022-09",
+    "hasta": "2023-06",
+    "descripcion": "Entraîneur de l’équipe cadette féminine du club, en parallèle de mes études de licence à Lleida.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-tiempo-libre",
+    "entidad": "GAUTENA · Association guipuscoane de l’autisme",
+    "rol": "Animateur de temps libre",
+    "deporte": "Loisirs et activité physique adaptée",
+    "lugar": "Gipuzkoa, Espagne",
+    "desde": "2019-06",
+    "hasta": "2024-09",
+    "descripcion": "Étés 2019, 2020, 2021, 2022 et 2024. Accompagnement au quotidien, pendant les vacances, d’un groupe d’adultes autistes.",
+    "funciones": [
+      "Travail saisonnier : étés 2019, 2020, 2021, 2022 et 2024"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "balonmano-urnieta",
+    "entidad": "Balonmano Urnieta",
+    "rol": "Entraîneur adjoint",
+    "deporte": "Handball",
+    "categoria": "Cadets (moins de 16 ans)",
+    "lugar": "Urnieta, Espagne",
+    "desde": "2018-09",
+    "hasta": "2019-06",
+    "descripcion": "Adjoint de l’entraîneur de handball d’une équipe cadette masculine, dans mon village natal.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-acondicionamiento",
+    "entidad": "GAUTENA · Association guipuscoane de l’autisme",
+    "rol": "Moniteur de conditionnement physique",
+    "deporte": "Activité physique adaptée",
+    "lugar": "Gipuzkoa, Espagne",
+    "desde": "2018-09",
+    "hasta": "2019-07",
+    "descripcion": "Pendant un an, j’ai assisté aux cours d’exercice physique d’un groupe d’adultes autistes.",
+    "funciones": [],
     "imagenes": []
   }
 ]

@@ -20,34 +20,30 @@ export const SITIO: DatosSitio = {
   /** Correo real de contacto. */
   correo: 'josebaerrazkin562@gmail.com',
 
-  /** PENDIENTE: teléfono real de Joseba. Se muestra tal cual está escrito. */
-  telefono: '+34 600 00 00 00',
+  /**
+   * Teléfono de Joseba. Se muestra tal cual está escrito.
+   * Si se deja vacío no aparece en ningún sitio: ni en la web, ni en el pie,
+   * ni en el currículum.
+   */
+  telefono: '+34 688 82 31 22',
   /** El mismo teléfono sin espacios: es lo que marca el móvil al pulsarlo. */
-  telefonoEnlace: '+34600000000',
+  telefonoEnlace: '+34688823122',
 
   /** PENDIENTE: dirección de su perfil de LinkedIn. Déjalo vacío para ocultarlo. */
   linkedin: '',
 
   /** Ciudad y país de residencia actual. */
-  ubicacion: 'Donostia-San Sebastián, España',
+  ubicacion: 'Suiza',
 
   /**
-   * PENDIENTE: clave del formulario de contacto.
-   * Se obtiene gratis en https://web3forms.com poniendo el correo de arriba;
-   * llega por email en un minuto. Mientras esté vacío, el formulario avisa
-   * de que no está configurado y ofrece escribir directamente al correo.
+   * Clave del formulario de contacto (Web3Forms).
+   *
+   * Es pública a propósito: viaja en el HTML de la web y lo único que permite
+   * es enviar un mensaje al correo de arriba. Si se deja vacía, el formulario
+   * avisa de que no está configurado y ofrece escribir directamente al correo.
    */
-  claveFormulario: '',
+  claveFormulario: 'fbae6cfe-9ce3-4b41-8f43-47a9d80eb698',
 
   /** Año en el que empezó a trabajar; se usa en el pie de página. */
-  anioInicio: 2016,
-};
-
-/** Rutas de los currículums dentro de la carpeta public/cv/. */
-export const CV_ARCHIVO: Record<string, string> = {
-  es: 'cv/joseba-errazkin-cv-es.pdf',
-  en: 'cv/joseba-errazkin-cv-en.pdf',
-  fr: 'cv/joseba-errazkin-cv-fr.pdf',
-  eu: 'cv/joseba-errazkin-cv-eu.pdf',
-  de: 'cv/joseba-errazkin-cv-de.pdf',
+  anioInicio: 2018,
 };

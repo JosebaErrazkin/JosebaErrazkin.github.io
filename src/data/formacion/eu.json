@@ -2,69 +2,58 @@
   {
     "id": "grado-cafyd",
     "grupo": "universitaria",
-    "titulo": "Jarduera Fisikoaren eta Kirolaren Zientzietako gradua",
-    "centro": "Euskal Herriko Unibertsitatea (UPV/EHU)",
-    "anio": "2016",
-    "equivalencia": "BSc in Sport and Exercise Science baten baliokidea (240 ECTS kreditu)"
+    "titulo": "Jarduera Fisikoaren eta Kirolaren Zientzietako Gradua",
+    "centro": "INEFC Lleida · Lleidako Unibertsitatea (UdL)",
+    "anio": "2019-2023",
+    "equivalencia": "240 ECTS kreditu · MECESeko 2. maila eta Europako Kualifikazio Esparruko (EQF) 6. maila. Bachelor of Science (BSc) in Sport and Exercise Sciences titulazioaren baliokidea."
   },
   {
-    "id": "master-readaptacion",
+    "id": "master-retan",
     "grupo": "universitaria",
-    "titulo": "Kirol Lesioen Birgaitzeko masterra",
-    "centro": "Universidad Europea",
-    "anio": "2018",
-    "equivalencia": "MSc in Sports Injury Rehabilitation baten baliokidea (60 ECTS kreditu)"
+    "titulo": "Kirol Errendimenduko Masterra: Teknifikazioa eta Maila Altua (RETAN)",
+    "centro": "INEFC Bartzelona · Bartzelonako Unibertsitatea",
+    "anio": "2023-2024",
+    "equivalencia": "Unibertsitateko master ofiziala · MECESeko 3. maila eta EQFko 7. maila. Master of Science (MSc) in Sport Performance titulazioaren baliokidea, Europar Batasun osoan balio akademikoarekin."
   },
   {
-    "id": "fuerza-rendimiento",
+    "id": "master-profesorado",
+    "grupo": "universitaria",
+    "titulo": "Bigarren Hezkuntzako Irakasleen Prestakuntzako Masterra, Gorputz Hezkuntzako aipamena",
+    "centro": "UNED · Bergarako elkartutako zentroa",
+    "anio": "2025-2026",
+    "equivalencia": "60 ECTS kredituko unibertsitateko master ofiziala · MECESeko 3. maila eta EQFko 7. maila. Espainian bigarren hezkuntzan irakasle aritzeko gaitzen duen titulazioa da, PGCE motako irakasle prestakuntzako kualifikazioaren parekoa.",
+    "detalle": "Egiten ari naiz."
+  },
+  {
+    "id": "eudapa",
     "grupo": "especializacion",
-    "titulo": "Errendimendura aplikatutako indar entrenamendua",
-    "centro": "Etengabeko prestakuntza",
-    "anio": "2019",
-    "detalle": "120 ordu · indar-abiadura profila eta intentsitatearen kontrola"
+    "titulo": "Jarduera Fisiko Egokituko Europako Unibertsitate Diploma (EUDAPA)",
+    "centro": "Haaga-Helia University of Applied Sciences · Vierumäki, Finlandia",
+    "anio": "2022",
+    "equivalencia": "Haaga-Heliak koordinatutako 60 ECTS kredituko Europako programa, Vierumäkin (Finlandia) aurrez aurreko aldi trinko batekin.",
+    "detalle": "2022ko udaberria."
   },
   {
-    "id": "return-to-play",
-    "grupo": "especializacion",
-    "titulo": "Return to Play: kirol altaren irizpideak",
-    "centro": "Etengabeko prestakuntza",
-    "anio": "2021",
-    "detalle": "80 ordu · proba baterien erabilera eta erabaki partekatuak"
-  },
-  {
-    "id": "gps",
+    "id": "amma-fundamentals",
     "grupo": "certificacion",
-    "titulo": "GPS datuen analisia talde kiroletan",
-    "centro": "Fabrikatzailearen ziurtagiria",
-    "anio": "2022"
+    "titulo": "AMMMA Fundamentals",
+    "centro": "Prestakuntza pribatua",
+    "anio": "2025-2026",
+    "detalle": "Kirol zentro baten lana eta funtzionamendua, eta entrenamendu metodologiak. Prestakuntza ez ofiziala."
   },
   {
-    "id": "svb",
-    "grupo": "certificacion",
-    "titulo": "Oinarrizko Bizi Euskarria eta desfibriladorearen erabilera",
-    "centro": "Gurutze Gorria",
-    "anio": "2023",
-    "detalle": "2023an berritua"
-  },
-  {
-    "id": "ingles",
+    "id": "ingles-b2",
     "grupo": "idiomas",
-    "titulo": "Ingelesa · C1 maila",
-    "centro": "Cambridge English (CAE)",
-    "anio": "2021"
+    "titulo": "Ingelesa · B2 maila",
+    "centro": "Cambridge English (B2 First)",
+    "anio": "2018"
   },
   {
-    "id": "euskera",
+    "id": "euskera-ega",
     "grupo": "idiomas",
-    "titulo": "Euskara · C1 maila (EGA)",
+    "titulo": "Euskara · EGA (Euskararen Gaitasun Agiria)",
     "centro": "Eusko Jaurlaritza",
-    "anio": "2014"
-  },
-  {
-    "id": "frances",
-    "grupo": "idiomas",
-    "titulo": "Frantsesa · B1 maila",
-    "centro": "Hizkuntza Eskola Ofiziala",
-    "anio": "2020"
+    "anio": "2017",
+    "equivalencia": "Hizkuntzen Europako Erreferentzia Marko Bateratuko C1 mailaren baliokidea da."
   }
 ]

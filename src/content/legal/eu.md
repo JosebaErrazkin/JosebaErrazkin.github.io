@@ -29,6 +29,6 @@ Zure kontsulta artatzeko eta elkarrizketaren haria mantentzeko behar den denbora
 
 Zure datuak eskuratzeko, zuzentzeko edo ezabatzeko eska dezakezu, edo haien tratamenduaren aurka egin, helbide honetara idatziz: **josebaerrazkin562@gmail.com**. Halaber, erreklamazioa aurkez dezakezu Datuak Babesteko Espainiako Agentzian (AEPD).
 
-## Irudiak eta iritziak
+## Irudiak
 
-Webgune honetan argitaratutako argazkiek eta iritziek bertan agertzen diren pertsonen berariazko baimena dute. Birgaitze kasuak anonimoak dira eta ez dute kirolaria identifikatzeko aukera ematen duen daturik.
+Webgune honetan argitaratutako argazkiek bertan agertzen diren pertsonen berariazko baimena dute.

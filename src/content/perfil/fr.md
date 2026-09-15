@@ -1,29 +1,40 @@
 ---
 titulo: "Qui je suis"
-entradilla: "Préparateur physique et spécialiste de la réathlétisation. Mon travail commence là où s'arrête le traitement médical et ne s'achève que lorsque l'athlète recompétit sans penser à sa blessure."
+entradilla: "Préparateur physique de haut niveau et spécialiste de la réathlétisation. Mon travail commence après les phases médicales passives et se termine lorsque la personne est de nouveau capable d'atteindre ses objectifs, de l'activité physique quotidienne à la performance sportive."
 revisado: false
 ---
 
-Je suis Joseba Errazkin, préparateur physique de haut niveau et spécialiste de la réathlétisation. Je vis en Gipuzkoa, au Pays basque, et depuis 2016 je travaille avec des athlètes de football, de handball, d'athlétisme et de pelote basque, en club, en centre de performance et en accompagnement individuel.
+Bonjour. Je suis **Joseba Errazkin**, diplômé en Sciences de l'activité physique et du sport, spécialisé en haut niveau et en réathlétisation. Mon parcours m'a amené à vivre et à me développer professionnellement en Espagne, en Finlande et, actuellement, en Suisse.
 
-## Mon parcours
+Tout au long de ma carrière, j'ai travaillé avec des disciplines très diverses, en me spécialisant surtout dans le football, le **handball, la pelote basque et les sports de montagne et de pleine nature**. Pendant cette période, j'ai collaboré étroitement avec des clubs de différents niveaux et de différents milieux sportifs, en accompagnant la récupération des blessures et en concevant des programmes orientés vers des objectifs de performance individuels comme collectifs.
 
-J'ai commencé comme beaucoup : en entraînant une équipe de jeunes et en découvrant en chemin que je savais construire une séance, mais pas quoi faire lorsqu'un joueur se blessait. Cet inconfort m'a poussé vers la réathlétisation, d'abord par un master, puis en allant là où l'on apprend vraiment : une clinique, aux côtés de kinésithérapeutes et de chirurgiens orthopédistes.
+Mon expérience va du développement moteur chez les plus jeunes à la préparation de sportifs professionnels, ce qui me permet d'offrir une vision large et adaptée aux besoins réels de chaque athlète.
 
-C'est là que j'ai compris ce qui constitue aujourd'hui le cœur de mon métier. **Entre la reprise médicale et la reprise sportive, il existe un vide immense**, et des saisons entières s'y perdent. L'athlète n'a plus mal, on lui donne le feu vert, il réintègre le groupe — et trois semaines plus tard, il rechute. Non pas parce que le traitement était mauvais, mais parce que personne n'a construit le pont.
+## Comment j'en suis arrivé là
 
-## Ce que je fais
+Mon lien avec le sport a commencé dès l'enfance par la compétition, dans des disciplines comme le **handball et le judo**, en atteignant à l'adolescence un niveau très exigeant qui m'a permis de comprendre le sport de l'intérieur. Durant ces années, je me suis aussi lancé comme entraîneur et arbitre, découvrant le jeu du point de vue de la gestion et de la prise de décision.
 
-Je construis ce pont. Concrètement, cela signifie trois choses :
+Le tournant est arrivé lorsque j'ai décidé d'orienter ma formation universitaire vers les sciences du sport. Guidé par une profonde vocation pour le soin et la santé des personnes, j'ai mis à profit les périodes de vacances pour me former et travailler dans le domaine du **sport adapté**.
 
-- **Mesurer**, pour savoir précisément où en est l'athlète au lieu de dépendre des sensations.
-- **Progresser par phases**, avec des critères de passage clairs, écrits avant de commencer.
-- **Ramener l'athlète à son sport**, pas à une salle de musculation : la dernière phase doit ressembler à la compétition, sinon elle ne sert à rien.
+Avec le temps et l'expérience d'entraîneur, j'ai découvert que le **haut niveau** était le contexte idéal pour apporter de la valeur à travers le plein développement de la capacité humaine. Dans le sport de haut niveau, la gestion de la douleur et des blessures est inévitable. J'ai compris la nécessité de la figure du **réathlétiseur** : un professionnel capable non seulement de guider le processus de récupération, mais d'accompagner l'athlète jusqu'à son retour sûr et optimal à la compétition.
 
-Je travaille au plus près du staff technique et du staff médical. Je ne crois pas au préparateur physique qui vit dans son coin : l'information doit circuler dans les deux sens, tous les jours.
+C'est pourquoi ma carrière s'est construite sur l'union de ces deux piliers fondamentaux et complémentaires : **le soin et la santé de la personne, et la recherche de la plus haute expression de la performance humaine.**
 
-## Ce que je cherche aujourd'hui
+## Situation actuelle et disponibilité
 
-Je souhaite continuer à progresser au sein d'une structure professionnelle hors d'Espagne, dans un club ou un centre de performance où la réathlétisation est prise au sérieux et fait partie du projet sportif, et non de l'infirmerie.
+Je réside actuellement en **Suisse**, à la recherche active de nouveaux défis professionnels qui me permettent de continuer à progresser dans un environnement dynamique et aligné sur mes valeurs.
 
-Je possède un passeport de l'Union européenne, je suis disponible immédiatement et rien ne me retient ici. Je parle espagnol et basque en langues maternelles, anglais au niveau C1 et français au niveau B1, et je suis prêt à apprendre la langue du pays où j'irai.
+Je suis ouvert à explorer des opportunités de collaboration dans :
+
+- Les centres de santé et de performance
+- Les salles de sport et centres d'entraînement personnalisé
+- Les clubs sportifs
+- Les hébergements sportifs ou resorts spécialisés dans le tourisme actif
+
+Mon objectif est d'apporter mon expérience en préparation physique et en réathlétisation, en m'intégrant dans des équipes où je puisse être utile dès le premier jour.
+
+### Données clés et logistique
+
+- **Autorisations et mobilité.** Passeport européen (UE/EEE) et pleine disponibilité pour prendre un poste. Permis de conduire B et possibilité de véhicule personnel.
+- **Langues courantes ou professionnelles.** Espagnol, basque, catalan et anglais.
+- **En cours d'apprentissage.** Français, avec une totale disposition à apprendre la langue locale de la région ou du canton de destination.

@@ -2,69 +2,58 @@
   {
     "id": "grado-cafyd",
     "grupo": "universitaria",
-    "titulo": "Bachelorstudium Sport- und Bewegungswissenschaft",
-    "centro": "Universität des Baskenlandes (UPV/EHU)",
-    "anio": "2016",
-    "equivalencia": "Entspricht einem BSc in Sport and Exercise Science (240 ECTS-Punkte)"
+    "titulo": "Bachelorstudium Sportwissenschaft",
+    "centro": "INEFC Lleida · Universität Lleida (UdL)",
+    "anio": "2019-2023",
+    "equivalencia": "240 ECTS-Punkte · MECES-Stufe 2 und Stufe 6 des Europäischen Qualifikationsrahmens (EQR). Entspricht einem Bachelor of Science (BSc) in Sport and Exercise Sciences."
   },
   {
-    "id": "master-readaptacion",
+    "id": "master-retan",
     "grupo": "universitaria",
-    "titulo": "Masterstudium Sportrehabilitation",
-    "centro": "Universidad Europea",
-    "anio": "2018",
-    "equivalencia": "Entspricht einem MSc in Sports Injury Rehabilitation (60 ECTS-Punkte)"
+    "titulo": "Masterstudium Sportliche Leistung: Talentförderung und Spitzensport (RETAN)",
+    "centro": "INEFC Barcelona · Universität Barcelona",
+    "anio": "2023-2024",
+    "equivalencia": "Offizieller universitärer Masterabschluss · MECES-Stufe 3 und EQR-Stufe 7. Entspricht einem Master of Science (MSc) in Sport Performance mit akademischer Gültigkeit in der gesamten Europäischen Union."
   },
   {
-    "id": "fuerza-rendimiento",
+    "id": "master-profesorado",
+    "grupo": "universitaria",
+    "titulo": "Masterstudium Lehramt für die Sekundarstufe, Schwerpunkt Sportunterricht",
+    "centro": "UNED · Studienzentrum Bergara",
+    "anio": "2025-2026",
+    "equivalencia": "Offizieller universitärer Masterabschluss mit 60 ECTS-Punkten · MECES-Stufe 3 und EQR-Stufe 7. Es ist die Qualifikation, die in Spanien zum Unterrichten an weiterführenden Schulen berechtigt, vergleichbar mit einer Lehramtsqualifikation vom Typ PGCE.",
+    "detalle": "Laufend."
+  },
+  {
+    "id": "eudapa",
     "grupo": "especializacion",
-    "titulo": "Krafttraining in der Leistungsentwicklung",
-    "centro": "Weiterbildung",
-    "anio": "2019",
-    "detalle": "120 Stunden · Kraft-Geschwindigkeits-Profil und Intensitätssteuerung"
+    "titulo": "Europäisches Hochschuldiplom für adaptierte körperliche Aktivität (EUDAPA)",
+    "centro": "Haaga-Helia University of Applied Sciences · Vierumäki, Finnland",
+    "anio": "2022",
+    "equivalencia": "Europäisches Programm mit 60 ECTS-Punkten, koordiniert von Haaga-Helia, mit einer Präsenz-Intensivphase in Vierumäki (Finnland).",
+    "detalle": "Frühjahr 2022."
   },
   {
-    "id": "return-to-play",
-    "grupo": "especializacion",
-    "titulo": "Return to Play: Kriterien der sportlichen Freigabe",
-    "centro": "Weiterbildung",
-    "anio": "2021",
-    "detalle": "80 Stunden · Testbatterien und gemeinsame Entscheidungsfindung"
-  },
-  {
-    "id": "gps",
+    "id": "amma-fundamentals",
     "grupo": "certificacion",
-    "titulo": "GPS-Datenanalyse im Mannschaftssport",
-    "centro": "Herstellerzertifikat",
-    "anio": "2022"
+    "titulo": "AMMMA Fundamentals",
+    "centro": "Private Weiterbildung",
+    "anio": "2025-2026",
+    "detalle": "Betrieb und Führung eines Sportzentrums sowie Trainingsmethodik. Nicht staatlich anerkannte Weiterbildung."
   },
   {
-    "id": "svb",
-    "grupo": "certificacion",
-    "titulo": "Basismaßnahmen der Wiederbelebung und AED-Anwendung",
-    "centro": "Rotes Kreuz",
-    "anio": "2023",
-    "detalle": "2023 aufgefrischt"
-  },
-  {
-    "id": "ingles",
+    "id": "ingles-b2",
     "grupo": "idiomas",
-    "titulo": "Englisch · Niveau C1",
-    "centro": "Cambridge English (CAE)",
-    "anio": "2021"
+    "titulo": "Englisch · Niveau B2",
+    "centro": "Cambridge English (B2 First)",
+    "anio": "2018"
   },
   {
-    "id": "euskera",
+    "id": "euskera-ega",
     "grupo": "idiomas",
-    "titulo": "Baskisch · Niveau C1 (EGA)",
+    "titulo": "Baskisch · EGA (Euskararen Gaitasun Agiria)",
     "centro": "Baskische Regierung",
-    "anio": "2014"
-  },
-  {
-    "id": "frances",
-    "grupo": "idiomas",
-    "titulo": "Französisch · Niveau B1",
-    "centro": "Staatliche Sprachenschule",
-    "anio": "2020"
+    "anio": "2017",
+    "equivalencia": "Entspricht Niveau C1 des Gemeinsamen Europäischen Referenzrahmens für Sprachen."
   }
 ]

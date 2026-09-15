@@ -29,6 +29,6 @@ Le temps nécessaire pour traiter votre demande et conserver le fil de la conver
 
 Vous pouvez demander l'accès à vos données, leur rectification ou leur effacement, ou vous opposer à leur traitement, en écrivant à **josebaerrazkin562@gmail.com**. Vous pouvez également déposer une réclamation auprès de l'autorité espagnole de protection des données (AEPD).
 
-## Images et témoignages
+## Images
 
-Les photographies et témoignages publiés sur ce site disposent du consentement exprès des personnes qui y figurent. Les cas de réathlétisation sont anonymisés et ne contiennent aucune donnée permettant d'identifier l'athlète.
+Les photographies publiées sur ce site disposent du consentement exprès des personnes qui y figurent.

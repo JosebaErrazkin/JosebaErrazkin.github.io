@@ -12,9 +12,9 @@
   --color-gris: #55575e;
   --color-linea: #e3e0da;
 
-  /* Acentos enérgicos */
-  --color-fuego: #f24405;        /* fondos, trazos, títulos grandes */
-  --color-fuego-texto: #b03203;  /* mismo naranja legible en texto pequeño */
+  /* Acentos (el nombre "fuego" viene del naranja original; hoy es azul) */
+  --color-fuego: #4a8aba;        /* fondos, trazos, títulos grandes */
+  --color-fuego-texto: #35719b;  /* mismo azul, oscurecido para que se lea en texto pequeño */
   --color-electrico: #0057ff;    /* acento secundario */
 
   --font-titulo: 'Archivo Variable', 'Arial Narrow', system-ui, sans-serif;
@@ -83,6 +83,7 @@
     display: inline-block;
   }
   & h3 { font-size: 1.25rem; margin-block-start: 2em; }
+  & h4 { font-size: 1.0625rem; margin-block-start: 1.75em; color: var(--color-fuego-texto); }
   & strong { font-weight: 650; }
   & a {
     color: var(--color-fuego-texto);

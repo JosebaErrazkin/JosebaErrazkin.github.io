@@ -28,8 +28,6 @@ const es = {
     filosofia: 'Filosofía',
     trayectoria: 'Trayectoria',
     formacion: 'Formación',
-    especialidades: 'Especialidades',
-    valoraciones: 'Valoraciones',
     contacto: 'Contacto',
     privacidad: 'Privacidad',
   },
@@ -37,7 +35,7 @@ const es = {
     inicio: {
       titulo: 'Preparador físico y readaptador de lesiones',
       descripcion:
-        'Joseba Errazkin, preparador físico de alto rendimiento y readaptador de lesiones. Trayectoria, método de trabajo y casos de vuelta a la competición.',
+        'Joseba Errazkin, preparador físico de alto rendimiento y readaptador de lesiones. Trayectoria, método de trabajo y formación, con disponibilidad para trabajar en el extranjero.',
     },
     presentacion: {
       titulo: 'Presentación y currículum',
@@ -47,7 +45,7 @@ const es = {
     filosofia: {
       titulo: 'Filosofía de trabajo',
       descripcion:
-        'Criterios de evaluación, estructura de los entrenamientos y principios que guían el trabajo diario con el deportista.',
+        'Metodología de trabajo paso a paso, estructura de los entrenamientos y principios que guían el trabajo diario con la persona.',
     },
     trayectoria: {
       titulo: 'Trayectoria profesional',
@@ -58,16 +56,6 @@ const es = {
       titulo: 'Formación y titulaciones',
       descripcion:
         'Titulación universitaria, especializaciones y certificaciones, con su equivalencia internacional.',
-    },
-    especialidades: {
-      titulo: 'Especialidades',
-      descripcion:
-        'Casos reales de readaptación de lesiones y preparación física específica por deporte.',
-    },
-    valoraciones: {
-      titulo: 'Valoraciones',
-      descripcion:
-        'Qué dicen deportistas, cuerpos técnicos y profesionales sanitarios que han trabajado con Joseba Errazkin.',
     },
     contacto: {
       titulo: 'Contacto',
@@ -82,7 +70,7 @@ const es = {
   inicio: {
     rotulo: 'Preparación física de alto rendimiento · Readaptación de lesiones',
     entradilla:
-      'Acompaño a deportistas desde la lesión hasta el rendimiento competitivo, con criterios medibles en cada paso del camino.',
+      'Acompaño a personas desde la lesión hasta el rendimiento competitivo.',
     verCV: 'Ver el currículum',
     contactar: 'Hablar con Joseba',
     disponibilidadTitulo: 'Situación profesional',
@@ -91,11 +79,13 @@ const es = {
     accesoFilosofiaTexto: 'Qué mido, cómo decido y cómo se estructura una sesión.',
     accesoTrayectoria: 'Dónde he estado',
     accesoTrayectoriaTexto: 'Clubes, deportes y categorías, con fechas.',
-    accesoEspecialidades: 'Qué resultados doy',
-    accesoEspecialidadesTexto: 'Casos de vuelta a competición y deportes que domino.',
+    accesoFormacion: 'Qué he estudiado',
+    accesoFormacionTexto:
+      'Titulación universitaria, especializaciones y su equivalencia internacional.',
   },
   presentacion: {
     biografiaTitulo: 'Quién soy',
+    retratoAlt: 'Retrato de Joseba Errazkin',
     verCV: 'Ver el currículum',
     descargarCV: 'Descargar en PDF',
     idiomaDelCV: 'Idioma del currículum',
@@ -103,7 +93,7 @@ const es = {
   },
   trayectoria: {
     entradilla:
-      'Cada etapa, con el deporte, la categoría y las funciones que asumí. Las más recientes, primero.',
+      'Cada etapa, con el deporte, la categoría y las funciones que asumí.',
     actualidad: 'Actualidad',
     galeria: 'Imágenes de esta etapa',
     ampliar: 'Ampliar imagen',
@@ -117,29 +107,6 @@ const es = {
     grupoEspecializacion: 'Especialización',
     grupoCertificacion: 'Certificaciones',
     grupoIdiomas: 'Idiomas',
-  },
-  especialidades: {
-    casosTitulo: 'Readaptación de lesiones',
-    casosEntradilla:
-      'Casos reales, sin nombres ni datos que permitan identificar al deportista. Los plazos son los que fueron.',
-    casosAviso:
-      'Todos los casos están anonimizados y se publican con el consentimiento de las personas implicadas.',
-    deportesTitulo: 'Preparación física por deporte',
-    deportesEntradilla:
-      'Cada deporte exige cosas distintas. Esto es lo que priorizo en cada uno de ellos.',
-    lesion: 'Lesión',
-    contexto: 'Contexto',
-    vuelta: 'Vuelta a competir',
-    semanas: 'semanas',
-    intervencion: 'Intervención',
-    resultado: 'Resultado',
-    exigencias: 'Exigencias del deporte',
-    enfoque: 'Cómo lo abordo',
-  },
-  valoraciones: {
-    entradilla:
-      'Deportistas, cuerpos técnicos y profesionales sanitarios con los que he trabajado.',
-    valoracion: 'Valoración: {n} sobre 5',
   },
   contacto: {
     entradilla:
@@ -201,8 +168,6 @@ const en: Traduccion = {
     filosofia: 'Philosophy',
     trayectoria: 'Career',
     formacion: 'Education',
-    especialidades: 'Expertise',
-    valoraciones: 'Testimonials',
     contacto: 'Contact',
     privacidad: 'Privacy',
   },
@@ -220,7 +185,7 @@ const en: Traduccion = {
     filosofia: {
       titulo: 'Working philosophy',
       descripcion:
-        'Assessment criteria, training structure and the principles behind the daily work with the athlete.',
+        'A step-by-step working method, the structure of a session and the principles behind the daily work with each person.',
     },
     trayectoria: {
       titulo: 'Professional career',
@@ -231,16 +196,6 @@ const en: Traduccion = {
       titulo: 'Education and qualifications',
       descripcion:
         'University degree, specialisations and certifications, with their international equivalence.',
-    },
-    especialidades: {
-      titulo: 'Expertise',
-      descripcion:
-        'Real return-to-play case studies and sport-specific strength and conditioning.',
-    },
-    valoraciones: {
-      titulo: 'Testimonials',
-      descripcion:
-        'What athletes, coaching staff and healthcare professionals say about working with Joseba Errazkin.',
     },
     contacto: {
       titulo: 'Contact',
@@ -255,7 +210,7 @@ const en: Traduccion = {
   inicio: {
     rotulo: 'High-performance strength & conditioning · Return to play',
     entradilla:
-      'I take athletes from injury back to competitive performance, with measurable criteria at every step of the way.',
+      'I take people from injury through to competitive performance.',
     verCV: 'View the CV',
     contactar: 'Get in touch',
     disponibilidadTitulo: 'Professional status',
@@ -264,11 +219,12 @@ const en: Traduccion = {
     accesoFilosofiaTexto: 'What I measure, how I decide, and how a session is built.',
     accesoTrayectoria: 'Where I have been',
     accesoTrayectoriaTexto: 'Clubs, sports and age groups, with dates.',
-    accesoEspecialidades: 'What I deliver',
-    accesoEspecialidadesTexto: 'Return-to-play case studies and the sports I know best.',
+    accesoFormacion: 'What I have studied',
+    accesoFormacionTexto: 'University degree, specialisations and their international equivalence.',
   },
   presentacion: {
     biografiaTitulo: 'Who I am',
+    retratoAlt: 'Portrait of Joseba Errazkin',
     verCV: 'View the CV',
     descargarCV: 'Download as PDF',
     idiomaDelCV: 'CV language',
@@ -276,7 +232,7 @@ const en: Traduccion = {
   },
   trayectoria: {
     entradilla:
-      'Every stage, with the sport, the level and the responsibilities I held. Most recent first.',
+      'Every stage, with the sport, the level and the responsibilities I held.',
     actualidad: 'Present',
     galeria: 'Images from this stage',
     ampliar: 'Enlarge image',
@@ -290,28 +246,6 @@ const en: Traduccion = {
     grupoEspecializacion: 'Specialisation',
     grupoCertificacion: 'Certifications',
     grupoIdiomas: 'Languages',
-  },
-  especialidades: {
-    casosTitulo: 'Return to play',
-    casosEntradilla:
-      'Real cases, with no names or details that could identify the athlete. The timelines are the actual ones.',
-    casosAviso:
-      'All cases are anonymised and published with the consent of the people involved.',
-    deportesTitulo: 'Sport-specific conditioning',
-    deportesEntradilla:
-      'Every sport demands something different. This is what I prioritise in each of them.',
-    lesion: 'Injury',
-    contexto: 'Context',
-    vuelta: 'Return to competition',
-    semanas: 'weeks',
-    intervencion: 'Intervention',
-    resultado: 'Outcome',
-    exigencias: 'Demands of the sport',
-    enfoque: 'How I approach it',
-  },
-  valoraciones: {
-    entradilla: 'Athletes, coaching staff and healthcare professionals I have worked with.',
-    valoracion: 'Rating: {n} out of 5',
   },
   contacto: {
     entradilla: 'For roles, projects or collaborations. I reply to every message.',
@@ -363,8 +297,6 @@ const fr: Traduccion = {
     filosofia: 'Philosophie',
     trayectoria: 'Parcours',
     formacion: 'Formation',
-    especialidades: 'Spécialités',
-    valoraciones: 'Témoignages',
     contacto: 'Contact',
     privacidad: 'Confidentialité',
   },
@@ -382,7 +314,7 @@ const fr: Traduccion = {
     filosofia: {
       titulo: 'Philosophie de travail',
       descripcion:
-        "Critères d'évaluation, structure des séances et principes qui guident le travail quotidien avec l'athlète.",
+        "Méthodologie de travail étape par étape, structure des séances et principes qui guident le travail quotidien avec la personne.",
     },
     trayectoria: {
       titulo: 'Parcours professionnel',
@@ -393,16 +325,6 @@ const fr: Traduccion = {
       titulo: 'Formation et diplômes',
       descripcion:
         'Diplôme universitaire, spécialisations et certifications, avec leur équivalence internationale.',
-    },
-    especialidades: {
-      titulo: 'Spécialités',
-      descripcion:
-        'Cas réels de réathlétisation et préparation physique spécifique par sport.',
-    },
-    valoraciones: {
-      titulo: 'Témoignages',
-      descripcion:
-        'Ce que disent les athlètes, les staffs techniques et les professionnels de santé ayant travaillé avec Joseba Errazkin.',
     },
     contacto: {
       titulo: 'Contact',
@@ -417,7 +339,7 @@ const fr: Traduccion = {
   inicio: {
     rotulo: 'Préparation physique de haut niveau · Réathlétisation',
     entradilla:
-      "J'accompagne les athlètes de la blessure jusqu'au retour à la performance, avec des critères mesurables à chaque étape.",
+      "J'accompagne les personnes de la blessure jusqu'à la performance compétitive.",
     verCV: 'Voir le CV',
     contactar: 'Me contacter',
     disponibilidadTitulo: 'Situation professionnelle',
@@ -427,11 +349,13 @@ const fr: Traduccion = {
       'Ce que je mesure, comment je décide et comment se construit une séance.',
     accesoTrayectoria: 'Mon parcours',
     accesoTrayectoriaTexto: 'Clubs, sports et catégories, avec les dates.',
-    accesoEspecialidades: 'Mes résultats',
-    accesoEspecialidadesTexto: 'Cas de retour à la compétition et sports que je maîtrise.',
+    accesoFormacion: 'Ce que j’ai étudié',
+    accesoFormacionTexto:
+      'Diplôme universitaire, spécialisations et leur équivalence internationale.',
   },
   presentacion: {
     biografiaTitulo: 'Qui je suis',
+    retratoAlt: 'Portrait de Joseba Errazkin',
     verCV: 'Voir le CV',
     descargarCV: 'Télécharger en PDF',
     idiomaDelCV: 'Langue du CV',
@@ -439,7 +363,7 @@ const fr: Traduccion = {
   },
   trayectoria: {
     entradilla:
-      "Chaque étape, avec le sport, la catégorie et les fonctions occupées. Les plus récentes d'abord.",
+      'Chaque étape, avec le sport, la catégorie et les fonctions occupées.',
     actualidad: "Aujourd'hui",
     galeria: 'Images de cette étape',
     ampliar: "Agrandir l'image",
@@ -453,28 +377,6 @@ const fr: Traduccion = {
     grupoEspecializacion: 'Spécialisation',
     grupoCertificacion: 'Certifications',
     grupoIdiomas: 'Langues',
-  },
-  especialidades: {
-    casosTitulo: 'Réathlétisation',
-    casosEntradilla:
-      "Cas réels, sans nom ni détail permettant d'identifier l'athlète. Les délais indiqués sont les délais réels.",
-    casosAviso:
-      'Tous les cas sont anonymisés et publiés avec le consentement des personnes concernées.',
-    deportesTitulo: 'Préparation physique par sport',
-    deportesEntradilla: 'Chaque sport a ses exigences. Voici ce que je priorise pour chacun.',
-    lesion: 'Blessure',
-    contexto: 'Contexte',
-    vuelta: 'Retour à la compétition',
-    semanas: 'semaines',
-    intervencion: 'Intervention',
-    resultado: 'Résultat',
-    exigencias: 'Exigences du sport',
-    enfoque: 'Mon approche',
-  },
-  valoraciones: {
-    entradilla:
-      "Athlètes, staffs techniques et professionnels de santé avec qui j'ai travaillé.",
-    valoracion: 'Note : {n} sur 5',
   },
   contacto: {
     entradilla:
@@ -526,8 +428,6 @@ const eu: Traduccion = {
     filosofia: 'Filosofia',
     trayectoria: 'Ibilbidea',
     formacion: 'Prestakuntza',
-    especialidades: 'Espezialitateak',
-    valoraciones: 'Iritziak',
     contacto: 'Kontaktua',
     privacidad: 'Pribatutasuna',
   },
@@ -545,7 +445,7 @@ const eu: Traduccion = {
     filosofia: {
       titulo: 'Lan filosofia',
       descripcion:
-        'Ebaluazio irizpideak, entrenamenduen egitura eta kirolariarekiko eguneroko lana gidatzen duten printzipioak.',
+        'Lan metodologia urratsez urrats, entrenamenduen egitura eta pertsonarekiko eguneroko lana gidatzen duten printzipioak.',
     },
     trayectoria: {
       titulo: 'Ibilbide profesionala',
@@ -556,16 +456,6 @@ const eu: Traduccion = {
       titulo: 'Prestakuntza eta tituluak',
       descripcion:
         'Unibertsitate titulua, espezializazioak eta ziurtagiriak, nazioarteko baliokidetasunarekin.',
-    },
-    especialidades: {
-      titulo: 'Espezialitateak',
-      descripcion:
-        'Lesioen birgaitze kasu errealak eta kirol bakoitzerako prestakuntza fisiko espezifikoa.',
-    },
-    valoraciones: {
-      titulo: 'Iritziak',
-      descripcion:
-        'Joseba Errazkinekin lan egin duten kirolariek, talde teknikoek eta osasun profesionalek diotena.',
     },
     contacto: {
       titulo: 'Kontaktua',
@@ -580,7 +470,7 @@ const eu: Traduccion = {
   inicio: {
     rotulo: 'Errendimendu handiko prestakuntza fisikoa · Lesioen birgaitzea',
     entradilla:
-      'Kirolariak lesiotik lehiaketa mailako errendimendura eramaten ditut, urrats bakoitzean irizpide neurgarriekin.',
+      'Pertsonak lesiotik lehiaketa mailako errendimendura eramaten ditut.',
     verCV: 'Ikusi curriculuma',
     contactar: 'Jarri harremanetan',
     disponibilidadTitulo: 'Egoera profesionala',
@@ -590,12 +480,13 @@ const eu: Traduccion = {
       'Zer neurtzen dudan, nola erabakitzen dudan eta saio bat nola eraikitzen den.',
     accesoTrayectoria: 'Non ibili naizen',
     accesoTrayectoriaTexto: 'Klubak, kirolak eta kategoriak, datekin.',
-    accesoEspecialidades: 'Zer emaitza ematen ditudan',
-    accesoEspecialidadesTexto:
-      'Lehiaketara itzultzeko kasuak eta ondoen menderatzen ditudan kirolak.',
+    accesoFormacion: 'Zer ikasi dudan',
+    accesoFormacionTexto:
+      'Unibertsitate titulua, espezializazioak eta nazioarteko baliokidetasuna.',
   },
   presentacion: {
     biografiaTitulo: 'Nor naizen',
+    retratoAlt: 'Joseba Errazkinen erretratua',
     verCV: 'Ikusi curriculuma',
     descargarCV: 'Deskargatu PDF gisa',
     idiomaDelCV: 'Curriculumaren hizkuntza',
@@ -603,7 +494,7 @@ const eu: Traduccion = {
   },
   trayectoria: {
     entradilla:
-      'Etapa bakoitza, kirolarekin, kategoriarekin eta bete nituen funtzioekin. Berrienak lehenengo.',
+      'Etapa bakoitza, kirolarekin, kategoriarekin eta bete nituen funtzioekin.',
     actualidad: 'Gaur egun',
     galeria: 'Etapa honetako irudiak',
     ampliar: 'Handitu irudia',
@@ -617,28 +508,6 @@ const eu: Traduccion = {
     grupoEspecializacion: 'Espezializazioa',
     grupoCertificacion: 'Ziurtagiriak',
     grupoIdiomas: 'Hizkuntzak',
-  },
-  especialidades: {
-    casosTitulo: 'Lesioen birgaitzea',
-    casosEntradilla:
-      'Kasu errealak, kirolaria identifikatzeko izenik edo daturik gabe. Epeak benetakoak dira.',
-    casosAviso:
-      'Kasu guztiak anonimoak dira eta inplikatutako pertsonen baimenarekin argitaratzen dira.',
-    deportesTitulo: 'Prestakuntza fisikoa kirolez kirol',
-    deportesEntradilla:
-      'Kirol bakoitzak bere eskakizunak ditu. Hau da bakoitzean lehenesten dudana.',
-    lesion: 'Lesioa',
-    contexto: 'Testuingurua',
-    vuelta: 'Lehiaketara itzultzea',
-    semanas: 'aste',
-    intervencion: 'Esku-hartzea',
-    resultado: 'Emaitza',
-    exigencias: 'Kirolaren eskakizunak',
-    enfoque: 'Nola lantzen dudan',
-  },
-  valoraciones: {
-    entradilla: 'Nirekin lan egin duten kirolariak, talde teknikoak eta osasun profesionalak.',
-    valoracion: 'Balorazioa: {n} 5etik',
   },
   contacto: {
     entradilla: 'Lanpostu, proiektu edo lankidetzetarako. Mezu guztiei erantzuten diet.',
@@ -689,8 +558,6 @@ const de: Traduccion = {
     filosofia: 'Philosophie',
     trayectoria: 'Werdegang',
     formacion: 'Ausbildung',
-    especialidades: 'Schwerpunkte',
-    valoraciones: 'Referenzen',
     contacto: 'Kontakt',
     privacidad: 'Datenschutz',
   },
@@ -708,7 +575,7 @@ const de: Traduccion = {
     filosofia: {
       titulo: 'Arbeitsphilosophie',
       descripcion:
-        'Bewertungskriterien, Trainingsaufbau und die Prinzipien hinter der täglichen Arbeit mit dem Sportler.',
+        'Arbeitsmethodik Schritt für Schritt, Trainingsaufbau und die Prinzipien hinter der täglichen Arbeit mit dem Menschen.',
     },
     trayectoria: {
       titulo: 'Beruflicher Werdegang',
@@ -719,16 +586,6 @@ const de: Traduccion = {
       titulo: 'Ausbildung und Qualifikationen',
       descripcion:
         'Hochschulabschluss, Spezialisierungen und Zertifikate mit internationaler Entsprechung.',
-    },
-    especialidades: {
-      titulo: 'Schwerpunkte',
-      descripcion:
-        'Echte Return-to-Play-Fallbeispiele und sportartspezifisches Athletiktraining.',
-    },
-    valoraciones: {
-      titulo: 'Referenzen',
-      descripcion:
-        'Was Sportler, Trainerteams und medizinische Fachkräfte über die Zusammenarbeit mit Joseba Errazkin sagen.',
     },
     contacto: {
       titulo: 'Kontakt',
@@ -743,7 +600,7 @@ const de: Traduccion = {
   inicio: {
     rotulo: 'Athletiktraining im Leistungssport · Return to Play',
     entradilla:
-      'Ich begleite Sportler von der Verletzung zurück zur Wettkampfleistung – mit messbaren Kriterien bei jedem Schritt.',
+      'Ich begleite Menschen von der Verletzung bis zur Wettkampfleistung.',
     verCV: 'Lebenslauf ansehen',
     contactar: 'Kontakt aufnehmen',
     disponibilidadTitulo: 'Beruflicher Status',
@@ -752,12 +609,13 @@ const de: Traduccion = {
     accesoFilosofiaTexto: 'Was ich messe, wie ich entscheide und wie eine Einheit aufgebaut ist.',
     accesoTrayectoria: 'Wo ich war',
     accesoTrayectoriaTexto: 'Vereine, Sportarten und Altersklassen, mit Zeiträumen.',
-    accesoEspecialidades: 'Was ich liefere',
-    accesoEspecialidadesTexto:
-      'Return-to-Play-Fallbeispiele und die Sportarten, die ich am besten kenne.',
+    accesoFormacion: 'Was ich studiert habe',
+    accesoFormacionTexto:
+      'Hochschulabschluss, Spezialisierungen und ihre internationale Entsprechung.',
   },
   presentacion: {
     biografiaTitulo: 'Wer ich bin',
+    retratoAlt: 'Porträt von Joseba Errazkin',
     verCV: 'Lebenslauf ansehen',
     descargarCV: 'Als PDF herunterladen',
     idiomaDelCV: 'Sprache des Lebenslaufs',
@@ -765,7 +623,7 @@ const de: Traduccion = {
   },
   trayectoria: {
     entradilla:
-      'Jede Station mit Sportart, Altersklasse und übernommenen Aufgaben. Die jüngsten zuerst.',
+      'Jede Station mit Sportart, Altersklasse und übernommenen Aufgaben.',
     actualidad: 'Heute',
     galeria: 'Bilder aus dieser Station',
     ampliar: 'Bild vergrößern',
@@ -779,29 +637,6 @@ const de: Traduccion = {
     grupoEspecializacion: 'Spezialisierung',
     grupoCertificacion: 'Zertifikate',
     grupoIdiomas: 'Sprachen',
-  },
-  especialidades: {
-    casosTitulo: 'Return to Play',
-    casosEntradilla:
-      'Echte Fälle, ohne Namen oder Angaben, die den Sportler identifizierbar machen. Die Zeiträume sind die tatsächlichen.',
-    casosAviso:
-      'Alle Fälle sind anonymisiert und werden mit Zustimmung der Beteiligten veröffentlicht.',
-    deportesTitulo: 'Athletiktraining nach Sportart',
-    deportesEntradilla:
-      'Jede Sportart fordert etwas anderes. Das setze ich jeweils an die erste Stelle.',
-    lesion: 'Verletzung',
-    contexto: 'Kontext',
-    vuelta: 'Rückkehr in den Wettkampf',
-    semanas: 'Wochen',
-    intervencion: 'Maßnahme',
-    resultado: 'Ergebnis',
-    exigencias: 'Anforderungen der Sportart',
-    enfoque: 'Mein Ansatz',
-  },
-  valoraciones: {
-    entradilla:
-      'Sportler, Trainerteams und medizinische Fachkräfte, mit denen ich gearbeitet habe.',
-    valoracion: 'Bewertung: {n} von 5',
   },
   contacto: {
     entradilla: 'Für Stellen, Projekte oder Kooperationen. Ich beantworte jede Nachricht.',
@@ -840,7 +675,7 @@ export function textos(idioma: Idioma): Textos {
   return TODOS[idioma] as Textos;
 }
 
-/** Sustituye {marcadores}: formatear(t.valoraciones.valoracion, { n: 5 }) */
+/** Sustituye {marcadores}: formatear(t.contacto.error, { correo: '…' }) */
 export function formatear(
   plantilla: string,
   valores: Record<string, string | number>,

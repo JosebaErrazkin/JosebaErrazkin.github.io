@@ -1,55 +1,98 @@
 ---
 titulo: "Working philosophy"
-entradilla: "I do not train feelings, I train decisions. Everything I do with an athlete can be explained, measured and repeated."
-revisado: true
+entradilla: "My philosophy is built on putting care for the person at the centre of the process, aligning their health with their sporting and everyday goals. My continuous cycle rests on listening, assessing, planning, delivering and reassessing."
+revisado: false
 ---
 
-My work rests on one simple idea: **if I cannot explain why today's session looks like this, I should not be doing it**. From there, three principles order everything else.
+I work with three types of people. The starting point is different for each, but the cycle is always the same.
 
-## Three principles
+## General population
 
-- **First, do no harm.** No gain justifies exposing an athlete to something they are not yet ready for. When in doubt, we wait.
-- **The athlete decides with information.** I explain what I measure, what it means and where they stand. An athlete who understands the process does not skip phases.
-- **The final phase looks like competing.** If the last block of work does not reproduce the real demands of their sport, the return is a gamble, not a decision.
+I assess the person's mobility, motor control and strength in order to find their weakest points.
 
-## Assessment criteria
+From there I work on recovery or on maintaining fitness, depending on the condition the client is in. This can be one-to-one work, tailored groups (2-3 people) or small groups (4-8 people).
 
-I always assess across four layers, and all four have to agree before we take a step forward.
+For people who are not in pain, the goal is to keep them fit enough to have **a body that copes with daily life**.
 
-### 1. What the athlete says
+## Return-to-play rehabilitation
 
-Pain, confidence and perceived exertion, collected daily on simple scales. It is the most subjective piece of data and the one that has been right most often. An athlete who does not trust their knee is not ready, even if the numbers say otherwise.
+My philosophy here is clear. As a sport and exercise science professional, my work goes hand in hand with a health professional.
 
-### 2. What strength says
+After their assessment, my work begins with **the active phase of the injury**, where I focus on restoring the person's baseline values of mobility, motor control and strength.
 
-I compare the injured side with the healthy one and with the athlete's own earlier values — not with a generic table. Three things matter: how much force they produce, how quickly they produce it, and how big the gap between sides is. I retest every two or three weeks, never only at the end.
+## Sporting performance
 
-### 3. What movement says
+With these people the work is to achieve the fullest expression of their physical capacities, so that they arrive in the best possible shape for their specific sport.
 
-How they land, how they decelerate, how they change direction. On video and by eye, looking for the pattern that avoids loading the injured area. That avoidance pattern is the last thing to disappear and the first thing to return once fatigue sets in.
+Here I work directly with the athlete and, where I think it necessary, with the coaching staff, so that we can pin down competition periods and objectives.
 
-### 4. What load says
+As the lines above make clear, my work is with people. That is why I make **direct, active communication** a priority with every one of the profiles I have described.
 
-How much they have actually trained this week compared with what they had been doing. Most re-injuries do not come from one bad session, but from too big a jump in load between two weeks.
+## Working method
 
-**No layer overrules the others.** When one disagrees, we wait and find out why.
+My way of working is based on building every process from the foundations up, making sure each stage rests on objective assessment and individualisation.
 
-## Training structure
+### 1. Interview and initial history
 
-Every session follows the same skeleton, whether it is rehabilitation or pure performance. The athlete always knows which part they are in and why.
+I start with an initial questionnaire. The aim is to understand the athlete's or client's background, their training history and their specific goals.
 
-1. **Prepare** · 10-15 min. Raise temperature, mobilise what we are about to work on, activate what tends to switch off. This is not filler: it is where I see how they have arrived today.
-2. **What matters most** · 15-25 min. The most neurally demanding work, done fresh: speed, jumps, changes of direction or the sport-specific action. If a session has to be cut short, this part stays.
-3. **Strength** · 20-30 min. Two or three big exercises, quality sets and a clear rep margin. I would rather do less and do it well than fill a sheet of paper.
-4. **What holds it together** · 10-15 min. Specific work for the vulnerable area of that sport and that athlete: hamstrings, shoulder, ankle, whatever applies.
-5. **Close** · 5 min. Bring the heart rate down and, above all, talk: how it went, what they felt, what we note down for tomorrow.
+They explain why they have come to me as a coach. From there we go through an interview to cover both the sporting and the less obviously sporting health topics: sleep, nutrition and stress.
 
-## How I progress load
+With that we set the objectives — training for daily life, return-to-play rehabilitation or sporting performance — and the main limiting factors: mobility, motor control and strength.
 
-I raise one variable at a time and hold it for at least a week before touching the next: movement quality first, then volume, then intensity, and finally speed or real contact.
+### 2. Comprehensive assessment and needs analysis
 
-Too large a weekly jump in load is the most reliable warning sign I know. When it appears, the following week is cut back, even if the athlete feels fine.
+I design an evaluation tailored to each person's goals. I combine static postural analysis, functional assessment, global tests and analytical tests (both active and passive) to identify the "weak link" or the limiting factors we need to improve.
 
-## What I do not do
+#### Functional assessment
 
-I do not clear athletes by the calendar. I do not copy one athlete's programme onto another. And I do not work behind the physiotherapist's or the head coach's back: without a daily conversation, sooner or later somebody pulls in the opposite direction.
+I carry out a static postural assessment, looking at any striking features that may be involved in the complaint: the person's body type, visible differences in muscle mass, or visible bony or structural asymmetries.
+
+I also run global tests to see the most obvious limitations of the body in movement, such as the deep squat or the toe touch test. To complete this I run passive tests, to see what mobility the body's structures have across different ranges of motion.
+
+In the centres where I have worked I have been able to use technology such as Kinvent or VALD, to analyse measurements of double- and single-leg balance, for example. I have also used instruments to measure ankle dorsiflexion.
+
+#### Strength assessment
+
+Asymmetries between the left and right sides are the key in many cases. That is exactly why it is essential to use both subjective and objective assessment tools, and this never fails in my assessment.
+
+- **Subjective tools.** I run manual tests of the structures that need assessing and compare one side against the other.
+- **Objective tools.** With instruments such as VALD or Kinvent I have been able to broaden my knowledge and turn my subjective impressions into objective data. With them I have used maximal isometric tests for every joint in the body, balance plates (K-Plates), force plates (K-Push) and the K-Grip to assess grip strength.
+
+#### Movement assessment
+
+We can look into the athlete's movement mechanics through video and live observation. Movement mechanics, from walking through to the specific sporting skill, are another point to work on at different stages of the return to sport.
+
+I take into account what the person's goal is — walking, climbing stairs, running — and, for the athlete, their sport, their position and their personal characteristics.
+
+### 3. Individualised planning
+
+I structure the training programme around the person's personal, work or competitive calendar, so that the process is sustainable.
+
+### 4. Delivery and monitoring of training
+
+I carry out the plan with the support required, adjusting loads and content according to how the person progresses day by day.
+
+I use perception scales and the VAS scale to follow people up. With professional athletes I also use WELLNESS or RPE.
+
+Controlling loads and applying the principle of progression is essential for my work to succeed. At the end of the day, we are professionals of progressions and regressions, so that a person can move forward at the pace that suits them best.
+
+### 5. Reassessment and adjustment of results
+
+I carry out periodic assessments to measure real progress against the baseline data and readjust the goals where necessary.
+
+### Multidisciplinary work
+
+I see rehabilitation and performance as an interdisciplinary process: teamwork multiplies the results and gives a complete picture of the athlete. Keeping continuous, coordinated contact with other specialists lets us share the person's process and accompany them towards their goals with the greatest chance of success.
+
+## Structure of a session
+
+1. **Mobility and activation.** I prepare the body so that it is ready for the main part. Depending on the aims of the session, this leans one way or another.
+2. **Stability.** Stability work on the person's weakest points: proprioception, motor control.
+3. **Plyometrics.** Where necessary, I work with plyometrics for both the lower and the upper body.
+4. **Strength.** Movement patterns oriented to the demands set for the session, according to how I organise the loads.
+5. **Skills.** Reproducing everyday or sporting skills in a safe environment.
+
+This varies depending on the phase each person is in. As I have said, every person is a world of their own and there is no strict, perfect rule.
+
+The sessions I usually prepare last **60 minutes**. For injured athletes and performance work, **90 minutes**.

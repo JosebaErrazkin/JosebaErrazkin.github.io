@@ -16,7 +16,25 @@ const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DESTINO = join(RAIZ, 'src', 'assets', 'img');
 
 const TINTA = '#14161a';
-const FUEGO = '#f24405';
+const FUEGO = '#4a8aba';
+
+/* ------------------------------------------------------------------ *
+ *  SCRIPT DESACTIVADO
+ *
+ *  Este script solo servía para arrancar el proyecto con imágenes
+ *  de ejemplo, mientras no había contenido real. Ese contenido real ya
+ *  está puesto, así que ejecutarlo ahora solo puede hacer daño.
+ *
+ *  Se conserva por si alguna vez hiciera falta volver a partir de cero.
+ *  Para reactivarlo, borra este bloque.
+ * ------------------------------------------------------------------ */
+console.log(
+  '\nEste script está desactivado a propósito.\n' +
+    'La web ya tiene el contenido real de Joseba; volver a generar los\n' +
+    'datos de ejemplo lo sobrescribiría. Ver ASSETS-PENDIENTES.md.\n',
+);
+process.exit(0);
+
 const PAPEL = '#faf9f7';
 
 /** archivo, ancho, alto, etiqueta, tono */
@@ -28,14 +46,6 @@ const IMAGENES = [
   ['trayectoria/centro-rendimiento-2.jpg', 1600, 1067, 'Centro de rendimiento 2', 'claro'],
   ['trayectoria/club-aurrera-1.jpg', 1600, 1067, 'Club Aurrera', 'oscuro'],
   ['trayectoria/clinica-oria-1.jpg', 1600, 1067, 'Clínica Oria', 'claro'],
-  ['deportes/futbol.jpg', 1400, 1050, 'Fútbol', 'oscuro'],
-  ['deportes/balonmano.jpg', 1400, 1050, 'Balonmano', 'claro'],
-  ['deportes/atletismo.jpg', 1400, 1050, 'Atletismo', 'oscuro'],
-  ['deportes/pelota.jpg', 1400, 1050, 'Pelota vasca', 'claro'],
-  ['testimonios/maialen.jpg', 600, 600, 'MO', 'retrato'],
-  ['testimonios/iker.jpg', 600, 600, 'IZ', 'retrato'],
-  ['testimonios/andoni.jpg', 600, 600, 'AL', 'retrato'],
-  ['testimonios/gorka.jpg', 600, 600, 'GE', 'retrato'],
 ];
 
 function svg(ancho, alto, etiqueta, tono) {

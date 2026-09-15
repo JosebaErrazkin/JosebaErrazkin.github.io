@@ -1,55 +1,98 @@
 ---
 titulo: "Lan filosofia"
-entradilla: "Ez ditut sentsazioak entrenatzen: erabakiak entrenatzen ditut. Kirolari batekin egiten dudan guztia azaldu, neurtu eta errepika daiteke."
+entradilla: "Nire filosofiaren oinarria pertsonaren zaintza prozesuaren erdigunean jartzea da, osasuna bere kirol helburuekin eta eguneroko bizitzako helburuekin lerrokatuz. Nire etengabeko zikloa bost urratsetan oinarritzen da: entzun, ebaluatu, planifikatu, exekutatu eta berrebaluatu."
 revisado: false
 ---
 
-Nire lana ideia sinple batean oinarritzen da: **gaur hau zergatik tokatzen den azaldu ezin badut, ez nuke egin behar**. Hortik aurrera, hiru printzipiok antolatzen dute gainerako guztia.
+Hiru pertsona profilekin egiten dut lan. Abiapuntua desberdina da bakoitzarentzat, baina zikloa beti bera da.
 
-## Hiru printzipio
+## Biztanleria orokorra
 
-- **Lehenik, kalterik ez egin.** Hobekuntza batek ere ez du justifikatzen kirolari bat oraindik prest ez dagoen zerbaiten aurrean jartzea. Zalantza izanez gero, itxaron egiten da.
-- **Kirolariak informazioarekin erabakitzen du.** Zer neurtzen dudan, zer esan nahi duen eta zein puntutan dagoen azaltzen diot. Bere prozesua ulertzen duen kirolariak ez ditu faseak saltatzen.
-- **Azken faseak lehiatzearen antza du.** Azken lanak bere kirolaren benetako eskakizunak errepikatzen ez baditu, itzulera apustu bat da, ez erabaki bat.
+Pertsonak dituen mugikortasun, kontrol motor eta indar gaitasunen ebaluazioa egiten dut, bere puntu ahulenak aurkitzeko.
 
-## Ebaluazio irizpideak
+Hortik aurrera, errekuperazio edo forma mantentzeko lanak egiten ditut, nire bezeroa dagoen baldintzen arabera: banakako lanak, talde pertsonalizatuak (2-3 pertsona) edo talde murriztuak (4-8 pertsona).
 
-Beti lau geruzatan ebaluatzen dut, eta laurek gauza bera esan behar dute urrats bat aurrera egin aurretik.
+Minik ez duten pertsonen helburua forma mantentzea da, **egunerokorako gorputz trebe bat** izateko.
 
-### 1. Zer dioen kirolariak
+## Lesioen birgaitzea
 
-Mina, konfiantza eta ahaleginaren pertzepzioa, egunero eskala sinpleekin jasota. Daturik subjektiboena da, eta gehien asmatu duena. Bere belaunaz fidatzen ez den kirolaria ez dago prest, zenbakiek baietz esan arren.
+Hemen nire filosofia argia da. Jarduera fisikoaren eta kirolaren zientzietako profesionala naizenez, nire lana osasun profesional baten eskutik doa.
 
-### 2. Zer dioen indarrak
+Bere ebaluazioaren ondoren, nire lana **lesioaren parte aktiboarekin** hasten da, non pertsonaren mugikortasun, kontrol motor eta indar hasierako balioak berrezartzean jartzen dudan indarra.
 
-Lesionatutako aldea osasuntsuarekin eta kirolariaren beraren aurreko balioekin alderatzen dut, ez taula generiko batekin. Hiru gauza interesatzen zaizkit: zenbat indar sortzen duen, zenbat denboran sortzen duen eta bi alderen artean zenbateko aldea dagoen. Bi edo hiru astean behin berrikusten dut, inoiz ez amaieran bakarrik.
+## Kirol errendimendua
 
-### 3. Zer dioen mugimenduak
+Pertsona hauekin egiten dudan lana beren gaitasun fisikoen adierazpen gorena lortzea da, beren kirol modalitate zehatzera ahalik eta forma onenean iristeko.
 
-Nola lurreratzen den, nola balaztatzen duen, nola aldatzen duen norabidea. Bideoz eta begiz, lesionatutako gunea kargatzea saihesten duen keinuaren bila. Saihestapen keinu hori da desagertzen azkena eta nekea agertzean itzultzen lehena.
+Hemen kirolariarekin biltzen naiz eta, beharrezkotzat jotzen badut, talde teknikoarekin ere bai, lehiaketa aldiak eta helburuak zehazteko.
 
-### 4. Zer dioen kargak
+Aurreko lerroetan aipatzen den bezala, nire lana pertsonekin da; horregatik, lehentasun gisa ezartzen dut **komunikazio zuzena eta aktiboa** aipatu ditudan profil bakoitzarekin.
 
-Zenbat entrenatu duen benetan aste honetan, aurretik egiten zuenarekin alderatuta. Errezidiba gehienak ez datoz saio txar batetik, bi asteren arteko karga jauzi handiegi batetik baizik.
+## Lan metodologia
 
-**Lau geruzetatik batek ere ez du besteen gainetik agintzen.** Bat bat ez datorrenean, itxaron egiten da eta zergatia bilatzen da.
+Nire lan egiteko modua prozesu bakoitza zimenduetatik eraikitzean oinarritzen da, etapa bakoitza balorazio objektiboan eta indibidualizazioan oinarrituta dagoela bermatuz.
+
+### 1. Elkarrizketa eta hasierako historia
+
+Hasierako galdetegi baten bidezko lehen kontaktuarekin hasten naiz. Helburua kirolariaren edo bezeroaren aurreko ibilbidea, bere entrenamendu historia eta bere helburu zehatzak ezagutzea da.
+
+Entrenatzaile gisa niregana zergatik etorri diren azaltzen didate. Hortik aurrera elkarrizketa bat egiten dugu, kirol osasunari eta hain kirolekoak ez diren gaiei buruz ziurtatzeko: loa, elikadura eta estresa.
+
+Horrekin helburuak ezartzen ditugu —egunerokorako entrenamendua, lesio baten birgaitzea edo kirol errendimendua— eta mugatzaile nagusiak: mugikortasuna, kontrol motorra eta indarra.
+
+### 2. Balorazio integrala eta beharren detekzioa
+
+Helburu indibidualetara egokitutako ebaluazio bat diseinatzen dut. Jarrera analisi estatikoa, balorazio funtzionala, test globalak eta proba analitikoak (aktiboak zein pasiboak) konbinatzen ditut «kate ahula» edo hobetu behar ditugun faktore mugatzaileak identifikatzeko.
+
+#### Balorazio funtzionala
+
+Jarrera estatikoaren balorazioa egiten dut, molestietan eragina izan dezaketen akats deigarriak aztertuz: pertsonaren morfotipoa, gihar masaren ikusizko desberdintasunak edo hezur eta egitura asimetrien ikusizko desberdintasunak.
+
+Test globalak ere egiten ditut, gorputzaren mugatzaile deigarrienak mugimenduan ikusteko, adibidez *deep squat* edo *toe touch test* probak. Hori osatzeko, test pasiboak egiten ditut, gorputz egiturek mugimendu tarte desberdinetan duten mugikortasuna ikusteko.
+
+Parte hartu dudan zentroetan Kinvent edo VALD bezalako tresna teknologikoak erabili ahal izan ditut, adibidez oreka bipodalaren eta unipodalaren neurriak aztertzeko. Orkatilaren dortsiflexioa neurtzeko tresnak ere erabili ditut.
+
+#### Indarraren balorazioa
+
+Ezker eta eskuin hemisferioen arteko asimetriak dira gakoa kasu askotan. Horregatik da funtsezkoa balorazio subjektiboko eta objektiboko tresnak erabiltzea, eta hori ez da nire balorazioan huts egiten duena.
+
+- **Tresna subjektiboak.** Baloratu beharreko egituren esku testak egiten ditut eta hemisferioen arteko konparaketa egiten dut.
+- **Tresna objektiboak.** VALD edo Kinvent bezalako tresnen bidez nire ezagutza zabaldu ahal izan dut eta nire sentsazio subjektiboak objektibo bihurtu. Horiekin gorputzeko artikulazio guztietarako test isometriko maximoak erabili ditut, oreka plataformak (K-Plates), indar plataformak (K-Push) eta K-Grip, helduta eusteko indarra baloratzeko.
+
+#### Mugimenduaren balorazioa
+
+Gure kirolariaren mugimendu mekanikak azter ditzakegu bideoen bidez eta zuzenean. Mugimendu mekanikak, oinez ibiltzetik kirol trebetasun zehatzeraino, kirolera itzultzeko une desberdinetan landu beharreko beste puntu bat dira.
+
+Kontuan hartzen dut zein den pertsonaren helburua —oinez ibiltzea, eskailerak igotzea, korrika egitea— eta, kirolariaren kasuan, bere kirola, bere posizioa eta bere ezaugarri pertsonalak.
+
+### 3. Planifikazio indibidualizatua
+
+Entrenamenduaren programazioa egituratzen dut, pertsonaren egutegi pertsonal, lanekoa edo lehiakorrarekin lerrokatuz, prozesuaren iraunkortasuna bermatuz.
+
+### 4. Entrenamenduaren exekuzioa eta kontrola
+
+Lan plana behar den laguntzarekin gauzatzen dut, kargak eta edukiak eguneroko bilakaeraren arabera doituz.
+
+Pertzepzio eskalak eta EVA eskala erabiltzen ditut pertsonen jarraipena egiteko. Kirolari profesionalekin WELLNESS edo RPE ere erabiltzen ditut.
+
+Kargen kontrola eta progresioaren printzipioa funtsezkoak dira nire lana aurrera atera dadin. Azken finean, progresioen eta erregresioen profesionalak gara, pertsona bat bere neurri egokienean aurrera egin ahal izateko.
+
+### 5. Berrebaluazioa eta emaitzen doikuntza
+
+Balorazio periodikoak egiten ditut hasierako datuekiko benetako aurrerapena neurtzeko eta, beharrezkoa bada, helburuak berregokitzeko.
+
+### Lan diziplinartekoa
+
+Birgaitzea eta errendimendua prozesu diziplinarteko gisa ulertzen ditut: taldeko lanak emaitzak biderkatzen ditu eta kirolariaren ikuspegi global bat ematen du. Beste espezialista batzuekin etengabeko eta koordinatutako harremana mantentzeak pertsonaren prozesua partekatzeko eta bere helburuetarantz arrakasta bermeekin laguntzeko aukera ematen digu.
 
 ## Entrenamenduen egitura
 
-Saio bakoitzak eskeleto bera jarraitzen du, birgaitzekoa nahiz errendimendu hutsekoa izan. Kirolariak beti daki zein zatitan dagoen eta zergatik.
+1. **Mugikortasuna eta aktibazioa.** Gorputza prestatzen dut atal nagusirako prest egon dadin. Saioaren helburuen arabera alde batera edo bestera bideratuko da.
+2. **Egonkortasuna.** Egonkortasun lana pertsonaren puntu ahulenetan: propiozepzioa, kontrol motorra.
+3. **Pliometria.** Beharrezkoa den kasuan, pliometriarekin lan egiten dut bai beheko gorputz adarrean bai goikoan.
+4. **Indarra.** Saiorako ezarritako eskaeren arabera bideratutako mugimendu patroiak, kargen nire antolaketa pertsonalaren arabera.
+5. **Trebetasunak.** Eguneroko edo kirol trebetasunen irudikapena ingurune seguru batean.
 
-1. **Prestatu** · 10-15 min. Tenperatura igo, landu behar dena mugitu eta itzali ohi dena aktibatu. Ez da betegarrizko berotze bat: hemen ikusten dut nola iritsi den gaur.
-2. **Garrantzitsuena** · 15-25 min. Eskakizun neural handiena duena, kirolaria fresko dagoela: abiadura, jauziak, norabide aldaketak edo keinu espezifikoa. Egunen batean saioa laburtu behar bada, hau ez da ukitzen.
-3. **Indarra** · 20-30 min. Bi edo hiru ariketa handi, kalitatezko serieekin eta errepikapen tarte argi batekin. Nahiago dut gutxiago egin eta ondo egin, orria bete baino.
-4. **Eusten duena** · 10-15 min. Kirol eta kirolari horren gune ahularen lan espezifikoa: isquiotibialak, sorbalda, orkatila, dagokiona.
-5. **Itxi** · 5 min. Pultsazioak jaitsi eta, batez ere, hitz egin: nola joan den, zer nabaritu duen, zer idazten dugun biharko.
+Hau aldatu egiten da pertsona bakoitza dagoen fasearen arabera. Esan dudan bezala, pertsona bakoitza mundu bat da eta ez dago arau zorrotz eta perfekturik.
 
-## Nola egiten dudan aurrera kargarekin
-
-Aldi bakoitzean aldagai bakarra igotzen dut eta gutxienez aste batez mantentzen dut hurrengoa ukitu aurretik: lehenik mugimenduaren kalitatea, gero bolumena, gero intentsitatea eta azkenik abiadura edo benetako kontaktua.
-
-Asteko karga jauzi handiegia da ezagutzen dudan alarma seinalerik fidagarriena. Agertzen bada, hurrengo astea murrizten da, kirolaria ondo egon arren.
-
-## Zer ez dudan egiten
-
-Ez dut altarik ematen egutegiaren arabera. Ez dut kirolari baten programa beste batera kopiatzen. Eta ez dut lan egiten fisioterapeutaren edo entrenatzailearen bizkarrean: eguneroko elkarrizketarik ez badago, lehenago edo beranduago norbaitek kontrako norabidean tiratuko du.
+Normalean prestatzen ditudan entrenamenduak **60 minutukoak** dira. Lesionatuen eta errendimenduaren kasuan, **90 minutukoak**.

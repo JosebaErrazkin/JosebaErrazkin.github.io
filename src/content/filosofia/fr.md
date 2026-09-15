@@ -1,55 +1,98 @@
 ---
 titulo: "Philosophie de travail"
-entradilla: "Je n'entraîne pas des sensations, j'entraîne des décisions. Tout ce que je fais avec un athlète peut être expliqué, mesuré et reproduit."
+entradilla: "Ma philosophie repose sur le fait de placer le soin de la personne au centre du processus, en alignant sa santé sur ses objectifs sportifs et quotidiens. Mon cycle continu tient en cinq gestes : écouter, évaluer, planifier, exécuter et réévaluer."
 revisado: false
 ---
 
-Mon travail repose sur une idée simple : **si je ne peux pas expliquer pourquoi la séance du jour est celle-ci, je ne devrais pas la faire**. À partir de là, trois principes organisent tout le reste.
+Je travaille avec trois profils de personnes. Le point de départ est différent pour chacun, mais le cycle est toujours le même.
 
-## Trois principes
+## Population générale
 
-- **D'abord, ne pas nuire.** Aucun gain ne justifie d'exposer un athlète à quelque chose pour lequel il n'est pas encore prêt. Dans le doute, on attend.
-- **L'athlète décide avec de l'information.** Je lui explique ce que je mesure, ce que cela signifie et où il en est. Un athlète qui comprend son processus ne saute pas d'étapes.
-- **La dernière phase ressemble à la compétition.** Si le travail final ne reproduit pas les exigences réelles de son sport, le retour est un pari, pas une décision.
+Je réalise une évaluation des capacités de mobilité, de contrôle moteur et de force de la personne afin de repérer ses points les plus faibles.
 
-## Critères d'évaluation
+À partir de là, je mets en place un travail de récupération ou de maintien de la forme selon l'état dans lequel se trouve mon client. Cela peut prendre la forme d'un travail individuel, de groupes personnalisés (2 à 3 personnes) ou de groupes réduits (4 à 8 personnes).
 
-J'évalue toujours sur quatre plans, et les quatre doivent dire la même chose avant d'avancer d'une étape.
+Pour les personnes sans douleur, l'objectif est de maintenir la forme afin d'avoir **un corps capable d'affronter le quotidien**.
 
-### 1. Ce que dit l'athlète
+## Réathlétisation
 
-Douleur, confiance et perception de l'effort, recueillies chaque jour sur des échelles simples. C'est la donnée la plus subjective et celle qui a vu juste le plus souvent. Un athlète qui ne se fie pas à son genou n'est pas prêt, même si les chiffres disent le contraire.
+Ma philosophie est ici très claire. En tant que professionnel des sciences de l'activité physique et du sport, mon travail va de pair avec celui d'un professionnel de la santé.
 
-### 2. Ce que dit la force
+Après son évaluation, mon travail commence par **la phase active de la blessure**, où j'insiste sur le rétablissement des valeurs initiales de mobilité, de contrôle moteur et de force de la personne.
 
-Je compare le côté blessé au côté sain et aux valeurs antérieures de l'athlète lui-même, pas à un tableau générique. Trois choses m'intéressent : combien de force il produit, en combien de temps il la produit et quel écart existe entre les deux côtés. Je réévalue toutes les deux ou trois semaines, jamais uniquement à la fin.
+## Performance sportive
 
-### 3. Ce que dit le mouvement
+Avec ces personnes, le travail consiste à atteindre la plus haute expression de leurs capacités physiques, afin qu'elles arrivent dans la meilleure forme possible à leur discipline sportive.
 
-Comment il réceptionne, comment il freine, comment il change de direction. À la vidéo et à l'œil, en cherchant le geste qui évite de charger la zone blessée. Ce geste d'évitement est le dernier à disparaître et le premier à revenir dès que la fatigue arrive.
+Ici, je travaille directement avec l'athlète et, si je le juge nécessaire, avec le staff technique, afin de préciser les périodes de compétition et les objectifs.
 
-### 4. Ce que dit la charge
+Comme le montrent les lignes précédentes, mon travail se fait avec des personnes. C'est pourquoi je fais de **la communication directe et active** une priorité avec chacun des profils évoqués.
 
-Combien il s'est réellement entraîné cette semaine par rapport à ce qu'il faisait auparavant. La plupart des récidives ne viennent pas d'une mauvaise séance, mais d'un écart de charge trop important entre deux semaines.
+## Méthodologie de travail
 
-**Aucun de ces quatre plans ne prime sur les autres.** Quand l'un d'eux diverge, on attend et on cherche pourquoi.
+Ma façon de travailler consiste à construire chaque processus depuis ses fondations, en garantissant que chaque étape repose sur une évaluation objective et sur l'individualisation.
+
+### 1. Entretien et historique initial
+
+Je commence par une prise de contact au moyen d'un questionnaire initial. L'objectif est de connaître le parcours antérieur de l'athlète ou du client, son historique d'entraînement et ses objectifs précis.
+
+On m'explique la raison pour laquelle on vient me voir comme entraîneur. À partir de là, nous passons un entretien pour couvrir les questions de santé sportives et moins sportives : le sommeil, l'alimentation et le stress.
+
+Nous fixons ensuite les objectifs — entraînement pour le quotidien, réathlétisation ou performance sportive — ainsi que les principaux facteurs limitants : mobilité, contrôle moteur et force.
+
+### 2. Évaluation intégrale et détection des besoins
+
+Je conçois une évaluation adaptée aux objectifs de chacun. Je combine analyse posturale statique, évaluation fonctionnelle, tests globaux et tests analytiques (actifs comme passifs) pour identifier le « maillon faible » ou les facteurs limitants à améliorer.
+
+#### Évaluation fonctionnelle
+
+Je réalise une évaluation de la statique posturale, en analysant les défauts marquants susceptibles d'être impliqués dans les gênes : le morphotype de la personne, les différences visibles de masse musculaire ou les asymétries osseuses ou structurelles visibles.
+
+Je réalise aussi des tests globaux pour observer les limitations les plus marquées du corps en mouvement, comme le *deep squat* ou le *toe touch test*. Pour compléter cela, j'effectue des tests passifs, afin de voir la mobilité des structures corporelles dans différentes amplitudes de mouvement.
+
+Dans les centres où j'ai travaillé, j'ai pu utiliser des instruments technologiques comme Kinvent ou VALD, pour analyser par exemple les mesures d'équilibre bipodal et unipodal. J'ai également utilisé des instruments pour mesurer la dorsiflexion de cheville.
+
+#### Évaluation de la force
+
+Les asymétries entre les côtés gauche et droit sont la clé dans de nombreux cas. C'est précisément pour cela qu'il est essentiel d'utiliser des outils d'évaluation subjectifs et objectifs, et cela ne manque jamais dans mon évaluation.
+
+- **Outils subjectifs.** Je réalise des tests manuels des structures à évaluer et je compare les deux côtés.
+- **Outils objectifs.** Avec des instruments comme VALD ou Kinvent, j'ai pu élargir mes connaissances et transformer mes impressions subjectives en données objectives. J'ai ainsi utilisé des tests isométriques maximaux pour toutes les articulations du corps, des plateformes d'équilibre (K-Plates), des plateformes de force (K-Push) et le K-Grip pour évaluer la force de préhension.
+
+#### Évaluation du mouvement
+
+Nous pouvons entrer dans les mécaniques de mouvement de notre sportif par la vidéo et l'observation en direct. Les mécaniques de mouvement, de la marche jusqu'au geste sportif spécifique, constituent un autre point à travailler aux différents moments du retour au sport.
+
+Je tiens compte de l'objectif de la personne — marcher, monter des escaliers, courir — et, pour le sportif, de son sport, de son poste et de ses caractéristiques personnelles.
+
+### 3. Planification individualisée
+
+Je structure la programmation de l'entraînement en l'alignant sur le calendrier personnel, professionnel ou compétitif de la personne, afin de garantir la viabilité du processus.
+
+### 4. Exécution et contrôle de l'entraînement
+
+Je mets en œuvre le plan de travail avec l'accompagnement nécessaire, en ajustant les charges et les contenus selon l'évolution quotidienne.
+
+J'utilise des échelles de perception et l'échelle EVA pour le suivi des personnes. Avec les sportifs professionnels, j'utilise aussi le WELLNESS ou le RPE.
+
+Le contrôle des charges et le principe de progression sont essentiels pour que mon travail aboutisse. Au bout du compte, nous sommes des professionnels des progressions et des régressions, pour qu'une personne puisse avancer à la mesure qui lui convient.
+
+### 5. Réévaluation et ajustement des résultats
+
+Je réalise des évaluations périodiques pour mesurer les progrès réels par rapport aux données initiales et réajuster les objectifs si nécessaire.
+
+### Travail pluridisciplinaire
+
+Je conçois la réathlétisation et la performance comme un processus interdisciplinaire : le travail d'équipe multiplie les résultats et apporte une vision globale du sportif. Maintenir un contact continu et coordonné avec d'autres spécialistes nous permet de partager le processus de la personne et de l'accompagner vers ses objectifs avec le maximum de garanties de réussite.
 
 ## Structure des séances
 
-Chaque séance suit le même squelette, qu'il s'agisse de réathlétisation ou de performance pure. L'athlète sait toujours à quelle étape il se trouve et pourquoi.
+1. **Mobilité et activation.** Je prépare le corps pour qu'il soit prêt pour la partie principale. Selon les objectifs de la séance, l'orientation change.
+2. **Stabilité.** Travail de stabilité sur les points les plus faibles de la personne : proprioception, contrôle moteur.
+3. **Pliométrie.** Si nécessaire, je travaille la pliométrie aussi bien au membre inférieur qu'au membre supérieur.
+4. **Force.** Patrons de mouvement orientés selon les exigences fixées pour la séance, en fonction de mon organisation des charges.
+5. **Habiletés.** Reproduction des habiletés quotidiennes ou sportives dans un environnement sûr.
 
-1. **Préparer** · 10-15 min. Élever la température, mobiliser ce que l'on va travailler et activer ce qui a tendance à s'éteindre. Ce n'est pas un échauffement de remplissage : c'est là que j'observe dans quel état il arrive aujourd'hui.
-2. **Le plus important** · 15-25 min. Le travail le plus exigeant sur le plan nerveux, à froid et frais : vitesse, sauts, changements de direction ou geste spécifique. S'il faut raccourcir la séance, on n'y touche pas.
-3. **Force** · 20-30 min. Deux ou trois exercices majeurs, des séries de qualité et une marge de répétitions claire. Je préfère faire moins et bien faire que remplir une feuille.
-4. **Ce qui soutient** · 10-15 min. Travail spécifique de la zone vulnérable de ce sport et de cet athlète : ischio-jambiers, épaule, cheville, selon le cas.
-5. **Clore** · 5 min. Faire redescendre le rythme cardiaque et, surtout, parler : comment cela s'est passé, ce qu'il a ressenti, ce que l'on note pour demain.
+Cela varie selon la phase dans laquelle se trouve chaque personne. Comme je l'ai dit, chaque personne est un monde et il n'existe pas de règle stricte et parfaite.
 
-## Comment je fais progresser la charge
-
-Je n'augmente qu'une variable à la fois et je la maintiens au moins une semaine avant de toucher à la suivante : d'abord la qualité du mouvement, puis le volume, puis l'intensité et enfin la vitesse ou le contact réel.
-
-Un écart de charge hebdomadaire trop important est le signal d'alarme le plus fiable que je connaisse. S'il apparaît, la semaine suivante est allégée, même si l'athlète se sent bien.
-
-## Ce que je ne fais pas
-
-Je ne donne pas de reprise au calendrier. Je ne recopie pas le programme d'un athlète sur un autre. Et je ne travaille pas dans le dos du kinésithérapeute ou de l'entraîneur : sans conversation quotidienne, tôt ou tard quelqu'un tire dans le sens contraire.
+Les séances que je prépare durent en général **60 minutes**. Pour les blessés et le travail de performance, **90 minutes**.

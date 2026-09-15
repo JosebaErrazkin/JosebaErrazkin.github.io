@@ -30,9 +30,9 @@ const accesos = [
     numero: '02',
   },
   {
-    href: ruta('especialidades', idioma),
-    titulo: t.inicio.accesoEspecialidades,
-    texto: t.inicio.accesoEspecialidadesTexto,
+    href: ruta('formacion', idioma),
+    titulo: t.inicio.accesoFormacion,
+    texto: t.inicio.accesoFormacionTexto,
     numero: '03',
   },
 ];
@@ -153,12 +153,11 @@ const accesos = [
       </div>
       <Image
         src={imagen('portada/retrato.jpg')}
-        alt=""
+        alt={t.presentacion.retratoAlt}
         widths={[400, 800]}
         sizes="(min-width: 768px) 380px, 100vw"
         class="w-full rounded-xl object-cover aspect-[4/5] md:aspect-[4/5]"
         loading="lazy"
-        aria-hidden="true"
       />
     </div>
   </section>

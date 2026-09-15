@@ -29,6 +29,6 @@ For as long as needed to handle your enquiry and keep the conversation thread. Y
 
 You may request access to your data, or its correction or deletion, or object to its processing, by writing to **josebaerrazkin562@gmail.com**. You may also lodge a complaint with the Spanish Data Protection Agency (AEPD).
 
-## Images and testimonials
+## Images
 
-The photographs and testimonials published on this website have the express consent of the people appearing in them. The rehabilitation case studies are anonymised and contain no information that could identify the athlete.
+The photographs published on this website have the express consent of the people appearing in them.

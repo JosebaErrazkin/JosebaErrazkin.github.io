@@ -1,103 +1,116 @@
 [
   {
-    "id": "iturbide",
-    "entidad": "Centro de Alto Rendimiento Iturbide",
-    "rol": "Preparador físico responsable",
-    "deporte": "Fútbol y multideporte",
-    "categoria": "Sénior y categorías de formación",
-    "lugar": "Donostia-San Sebastián, España",
-    "desde": "2022-08",
-    "hasta": null,
-    "descripcion": "Dirijo la planificación física de un grupo de veinte deportistas y coordino el paso desde la sala de rehabilitación hasta el campo con el equipo médico.",
+    "id": "ernio-endurance",
+    "entidad": "Ernio Endurance",
+    "rol": "Preparador físico, readaptador y coordinador del centro",
+    "deporte": "Balonmano, pelota vasca, fútbol, atletismo, trail running y baloncesto",
+    "categoria": "Deportistas profesionales, amateurs y población general",
+    "lugar": "Tolosa, España",
+    "desde": "2024-09",
+    "hasta": "2026-09",
+    "descripcion": "Centro de readaptación y rehabilitación. Dirigí el centro desde su creación, en septiembre de 2024, con todo lo que conlleva la organización: manejo de personal, comunicación con superiores, elaboración de contenido, facturación, líneas de trabajo y seguimiento del centro.",
     "funciones": [
-      "Valoración inicial y seguimiento de cada deportista con pruebas de fuerza y salto",
-      "Diseño de la temporada y de los microciclos semanales",
-      "Coordinación diaria con fisioterapia y con el cuerpo técnico",
-      "Control de carga con GPS y cuestionarios de bienestar"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/centro-rendimiento-1.jpg",
-        "alt": "Sesión de fuerza en el gimnasio del centro de rendimiento"
-      },
-      {
-        "archivo": "trayectoria/centro-rendimiento-2.jpg",
-        "alt": "Prueba de salto con plataforma de fuerza"
-      }
-    ]
-  },
-  {
-    "id": "aurrera",
-    "entidad": "Club Deportivo Aurrera",
-    "rol": "Readaptador de lesiones",
-    "deporte": "Fútbol",
-    "categoria": "Primer equipo y filial",
-    "lugar": "Gipuzkoa, España",
-    "desde": "2020-07",
-    "hasta": "2022-07",
-    "descripcion": "Responsable de todo el proceso de vuelta a la competición de los jugadores lesionados, desde el alta médica hasta el alta deportiva.",
-    "funciones": [
-      "Diseño de los criterios de alta por fases, con pruebas objetivas en cada paso",
-      "Trabajo individual en campo con los jugadores en proceso de recuperación",
-      "Informes semanales al cuerpo técnico sobre la previsión de disponibilidad"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/club-aurrera-1.jpg",
-        "alt": "Trabajo de campo con un jugador en fase de readaptación"
-      }
-    ]
-  },
-  {
-    "id": "oria",
-    "entidad": "Clínica Oria · Fisioterapia y Deporte",
-    "rol": "Preparador físico en readaptación",
-    "deporte": "Multideporte",
-    "lugar": "Gipuzkoa, España",
-    "desde": "2018-09",
-    "hasta": "2020-06",
-    "descripcion": "Puente entre la camilla y el terreno de juego: recogía al deportista cuando terminaba el tratamiento y lo devolvía a su deporte.",
-    "funciones": [
-      "Programación de fuerza para pacientes en fase final de rehabilitación",
-      "Valoración funcional antes del alta",
-      "Educación del paciente en gestión de cargas y prevención de recaídas"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/clinica-oria-1.jpg",
-        "alt": "Valoración funcional en la sala de la clínica"
-      }
-    ]
-  },
-  {
-    "id": "lasarte",
-    "entidad": "Balonmano Lasarte",
-    "rol": "Preparador físico",
-    "deporte": "Balonmano",
-    "categoria": "Sub-18 y sénior",
-    "lugar": "Gipuzkoa, España",
-    "desde": "2017-09",
-    "hasta": "2018-08",
-    "descripcion": "Primera experiencia con un equipo completo: preparación física en pista y sala, y control de la carga durante toda la temporada.",
-    "funciones": [
-      "Preparación física de dos equipos en paralelo",
-      "Introducción del trabajo de fuerza en categorías de formación"
+      "Preparador físico de cuatro deportistas profesionales de pelota vasca, con resultados deportivos positivos en todos los casos",
+      "Trabajo del día a día manteniendo contacto directo con sus entrenadores y sus empresas",
+      "Preparador físico de un grupo de deportistas amateurs de trail running",
+      "Readaptación de lesiones como roturas de ligamento cruzado anterior, prótesis de rodilla, operaciones de hombro y de tobillo",
+      "Trabajo con pacientes con distintas situaciones de salud, como la vuelta a la actividad después de un cáncer o de una mielopatía cervical",
+      "Entrenamientos funcionales en grupos de ocho personas para mantener un cuerpo fuerte"
     ],
     "imagenes": []
   },
   {
-    "id": "individual",
-    "entidad": "Deportistas individuales",
-    "rol": "Preparador físico personal",
-    "deporte": "Atletismo, ciclismo y pelota vasca",
-    "lugar": "Presencial y en remoto",
-    "desde": "2016-01",
-    "hasta": null,
-    "descripcion": "Trabajo continuado con deportistas que compiten por su cuenta, planificando temporadas completas alrededor de sus objetivos.",
+    "id": "sant-joan-despi",
+    "entidad": "Club Balonmano Sant Joan Despí",
+    "rol": "Preparador físico y entrenador",
+    "deporte": "Balonmano",
+    "categoria": "De 6 a 12 años y juvenil femenino",
+    "lugar": "Sant Joan Despí, España",
+    "desde": "2023-09",
+    "hasta": "2024-06",
+    "descripcion": "Trabajaba como preparador físico con niños y niñas desde los 6 hasta los 12 años. El objetivo era conseguir habilidades motoras más desarrolladas para la vida de hoy en día. Para ello seguí el modelo de youth athlete development, esencial en la planificación para la juventud.",
     "funciones": [
-      "Planificación anual individualizada",
-      "Seguimiento a distancia con revisiones presenciales periódicas"
+      "Preparación física de las categorías de formación, de 6 a 12 años",
+      "Entrenador principal de un equipo juvenil femenino de balonmano"
     ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/balonmano-sant-joan-despi.jpg",
+        "alt": "Joseba Errazkin dirigiendo a su equipo desde la banda en un partido de balonmano"
+      }
+    ]
+  },
+  {
+    "id": "hegalak-zabalik",
+    "entidad": "Fundación Hegalak Zabalik",
+    "rol": "Asistente en baños asistidos en el mar",
+    "deporte": "Actividad física adaptada",
+    "lugar": "Donostia-San Sebastián, España",
+    "desde": "2023-06",
+    "hasta": "2024-09",
+    "descripcion": "Veranos de 2023 y 2024. El rol principal era asistir a personas que no tenían recursos físicos a bañarse en la playa de La Concha. Esto ha sido parte de mi experiencia en el deporte adaptado y la actividad física adaptada.",
+    "funciones": [
+      "Trabajo de temporada: veranos de 2023 y 2024",
+      "Acompañamiento y asistencia en el baño a personas con movilidad reducida",
+      "Manejo de sillas anfibias y de material de accesibilidad en la playa"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/hegalak-zabalik-donostia.jpg",
+        "alt": "Traslado de una silla anfibia hacia la orilla en la playa de La Concha"
+      }
+    ]
+  },
+  {
+    "id": "balonmano-lleida",
+    "entidad": "Club Balonmano Lleida",
+    "rol": "Entrenador",
+    "deporte": "Balonmano",
+    "categoria": "Cadete femenino",
+    "lugar": "Lleida, España",
+    "desde": "2022-09",
+    "hasta": "2023-06",
+    "descripcion": "Entrenador del equipo cadete femenino del club, compaginado con los estudios del grado en Lleida.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-tiempo-libre",
+    "entidad": "GAUTENA · Asociación Guipuzcoana de Autismo",
+    "rol": "Monitor de tiempo libre",
+    "deporte": "Ocio y actividad física adaptada",
+    "lugar": "Gipuzkoa, España",
+    "desde": "2019-06",
+    "hasta": "2024-09",
+    "descripcion": "Veranos de 2019, 2020, 2021, 2022 y 2024. Acompañamiento en el día a día de las vacaciones de un grupo de personas adultas con autismo.",
+    "funciones": [
+      "Trabajo de temporada: veranos de 2019, 2020, 2021, 2022 y 2024"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "balonmano-urnieta",
+    "entidad": "Balonmano Urnieta",
+    "rol": "Segundo entrenador",
+    "deporte": "Balonmano",
+    "categoria": "Cadete masculino",
+    "lugar": "Urnieta, España",
+    "desde": "2018-09",
+    "hasta": "2019-06",
+    "descripcion": "Acompañante de entrenador de balonmano en un equipo cadete masculino, en mi pueblo natal.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-acondicionamiento",
+    "entidad": "GAUTENA · Asociación Guipuzcoana de Autismo",
+    "rol": "Monitor de acondicionamiento físico",
+    "deporte": "Actividad física adaptada",
+    "lugar": "Gipuzkoa, España",
+    "desde": "2018-09",
+    "hasta": "2019-07",
+    "descripcion": "Durante un año asistí en las clases de ejercicio físico de un grupo de personas adultas con autismo.",
+    "funciones": [],
     "imagenes": []
   }
 ]

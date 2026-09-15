@@ -4,8 +4,11 @@ Web personal de Joseba Errazkin, preparador físico de alto rendimiento y readap
 lesiones. Su función es servir de carta de presentación para procesos de selección en el
 extranjero.
 
-**Para cambiar textos, fotos o valoraciones, lee [CONTENIDO.md](./CONTENIDO.md).**
+**Para cambiar textos o fotos, lee [CONTENIDO.md](./CONTENIDO.md).**
 Este archivo es la parte técnica.
+
+**Lo que falta para dejarla terminada está en [ASSETS-PENDIENTES.md](./ASSETS-PENDIENTES.md)**:
+fotos en alta resolución, datos de contacto y traducciones por revisar.
 
 ---
 
@@ -55,7 +58,7 @@ src/
 ├─ paginas/              Una por sección de la web
 ├─ pages/
 │  ├─ index.astro        Redirección al idioma del navegador
-│  ├─ [...ruta].astro    Genera las 45 páginas (9 secciones × 5 idiomas)
+│  ├─ [...ruta].astro    Genera las 35 páginas (7 secciones × 5 idiomas)
 │  └─ cv/[idioma].pdf.ts Genera /cv/es.pdf y sus cuatro hermanos
 └─ styles/global.css     Paleta, tipografías y utilidades propias
 ```

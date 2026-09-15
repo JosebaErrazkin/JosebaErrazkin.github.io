@@ -46,7 +46,7 @@ const pdfs = Object.fromEntries(versiones.map((v) => [v.idioma, v.pdf]));
   <div class="flex flex-col h-full">
     <!-- Barra superior: idiomas a la izquierda, descarga a la derecha -->
     <div class="flex items-center justify-between gap-3 p-3 bg-tinta text-papel">
-      <fieldset class="flex items-center gap-1 min-w-0">
+      <fieldset class="flex items-center gap-1 min-w-0 overflow-x-auto">
         <legend class="sr-only">{t.presentacion.idiomaDelCV}</legend>
         {
           IDIOMAS_PUBLICADOS.map((otro) => (

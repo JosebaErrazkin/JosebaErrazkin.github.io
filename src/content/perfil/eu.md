@@ -1,29 +1,40 @@
 ---
 titulo: "Nor naizen"
-entradilla: "Prestatzaile fisikoa eta lesioen birgaitzailea. Nire lana tratamendu medikoa amaitzen den lekuan hasten da, eta ez da bukatzen kirolaria lesioan pentsatu gabe lehiatzera itzuli arte."
+entradilla: "Errendimendu handiko prestatzaile fisikoa eta lesioen birgaitzailea. Nire lana fase mediko pasiboen ondoren hasten da, eta pertsona bere helburuak berriro betetzeko gai denean amaitzen: eguneroko jarduera fisikotik kirol errendimendura."
 revisado: false
 ---
 
-Joseba Errazkin naiz, errendimendu handiko prestatzaile fisikoa eta lesioen birgaitzailea. Gipuzkoan bizi naiz eta 2016az geroztik futbol, eskubaloi, atletismo eta pilota kirolariekin lan egiten dut, klubetan, errendimendu zentroetan eta banakako lanean.
+Kaixo. **Joseba Errazkin** naiz, Jarduera Fisikoaren eta Kirolaren Zientzietan graduatua, errendimendu handian eta lesioen birgaitzean espezializatua. Nire ibilbideak Espainian, Finlandian eta, gaur egun, Suitzan bizitzera eta profesionalki garatzera eraman nau.
 
-## Nola iritsi naizen hona
+Nire karreran zehar oso diziplina askotarikoekin lan egin dut, batez ere futbolean, **eskubaloian, euskal pilotan eta mendiko eta natura inguruneko kiroletan** espezializatuz. Denbora horretan maila eta esparru desberdinetako klubekin estu elkarlanean aritu naiz, lesioen errekuperazioa gidatuz eta errendimendu helburuetara bideratutako programak diseinatuz, bai banakakoak bai taldekoak.
 
-Askoren antzera hasi nintzen: formakuntzako talde bat entrenatzen, eta bidean konturatu nintzen saio bat prestatzen banekiela baina ez nekiela zer egin jokalari bat lesionatzen zenean. Deserosotasun horrek birgaitzean espezializatzera eraman ninduen: lehenik masterra eginez, eta gero benetan ikasten den lekura joanez, hau da, klinika batera, fisioterapeuten eta traumatologoen ondora.
+Nire esperientzia adin goiztiarretako garapen motorretik kirolari profesionalen prestakuntzaraino doa, eta horrek ikuspegi zabala eta kirolari bakoitzaren benetako beharretara egokitua eskaintzeko aukera ematen dit.
 
-Han ulertu nuen gaur egun nire lanaren ardatza dena. **Alta medikoaren eta kirol altaren artean hutsune izugarria dago**, eta hutsune horretan denboraldi osoak galtzen dira. Kirolariari mina kentzen zaio, alta ematen diote, taldera itzultzen da, eta hiru astera errezidiba izaten du. Ez tratamendua txarra zelako, inork zubia eraiki ez zuelako baizik.
+## Nola iritsi naizen honaino
 
-## Zer egiten dudan
+Kirolarekiko nire lotura txikitatik hasi zen lehiaketaren bidez, **eskubaloia eta judoa** bezalako diziplinetan, eta nerabezaroan exijentzia handiko maila bat lortu nuen, kirola barrutik ulertzeko aukera eman zidana. Urte haietan entrenatzaile eta arbitro gisa ere hasi nintzen, jokoa kudeaketaren eta erabakiak hartzearen ikuspegitik bizituz.
 
-Zubi hori eraikitzen dut. Praktikan hiru gauza esan nahi ditu:
+Inflexio puntua unibertsitate prestakuntza kirol zientzietara bideratzea erabaki nuenean iritsi zen. Pertsonen zaintzarekiko eta osasunarekiko bokazio sakon batek gidatuta, oporraldiak baliatu nituen **kirol egokituaren** arloan prestatzeko eta lan egiteko.
 
-- **Neurtzea**, kirolaria zein puntutan dagoen jakiteko eta sentsazioen mende ez egoteko.
-- **Faseka aurrera egitea**, batetik bestera pasatzeko irizpide argiekin, hasi aurretik idatzita.
-- **Kirolaria bere kirolera itzultzea**, ez gimnasio batera: azken faseak lehiatzearen antza izan behar du, bestela ez du balio.
+Denborarekin eta entrenatzaile gisa izandako esperientziarekin, **errendimendu handia** zela balioa ekartzeko testuinguru egokiena deskubritu nuen, giza gaitasunaren garapen gorenaren bidez. Maila handiko kirolean, mina eta lesioak kudeatzea saihestezina da. **Birgaitzailearen** figura izatearen beharra ulertu nuen: errekuperazio prozesua gidatzeko ez ezik, kirolaria lehiaketara modu seguru eta optimoan itzuli arte laguntzeko gai den profesionala.
 
-Talde teknikoari eta talde medikoari oso lotuta lan egiten dut. Ez dut sinesten bere partzelan bizi den prestatzaile fisikoan: informazioak bi noranzkoetan zirkulatu behar du, egunero.
+Horregatik guztiagatik, nire karrera funtsezko eta osagarriak diren bi zutabe hauen batasunean eraiki da: **pertsonaren zaintza eta osasuna, eta giza errendimenduaren adierazpen gorenaren bilaketa.**
 
-## Zer bilatzen dudan orain
+## Egungo egoera eta eskuragarritasuna
 
-Espainiatik kanpoko egitura profesional batean hazten jarraitu nahi dut, birgaitzea serio hartzen den eta kirol proiektuaren parte den klub edo errendimendu zentro batean, erizaindegiaren parte izan beharrean.
+Gaur egun **Suitzan** bizi naiz, erronka profesional berrien bila aktiboki, ingurune dinamiko batean eta nire balioekin bat datorren batean hazten jarraitzeko aukera emango didatenak.
 
-Europar Batasuneko pasaportea dut, berehalako eskuragarritasuna eta mugitzeko inolako lokarririk ez. Gaztelania eta euskara ama hizkuntza gisa hitz egiten ditut, ingelesa C1 mailan eta frantsesa B1 mailan, eta joango naizen lekuko hizkuntza ikasteko prest nago.
+Honako hauetan lankidetza aukerak aztertzeko prest nago:
+
+- Osasun eta errendimendu zentroak
+- Gimnasioak eta entrenamendu pertsonalizatuko zentroak
+- Kirol klubak
+- Kirol ostatuak edo turismo aktiboan espezializatutako resortak
+
+Nire helburua prestakuntza fisikoan eta lesioen birgaitzean dudan esperientzia ekartzea da, lehen egunetik balioa gehitu dezakedan lan taldeetan integratuz.
+
+### Datu gakoak eta logistika
+
+- **Baimenak eta mugikortasuna.** Europako pasaportea (EB/EEE) eta hasteko erabateko eskuragarritasuna. B gidabaimena eta ibilgailu propioa izateko aukera.
+- **Hizkuntza arinak edo profesionalak.** Gaztelania, euskara, katalana eta ingelesa.
+- **Ikasten ari naizenak.** Frantsesa, eta helmugako eskualdearen edo kantoiaren tokiko hizkuntza ikasteko erabateko prestutasuna.

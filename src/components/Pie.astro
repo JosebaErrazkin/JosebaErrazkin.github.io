@@ -50,11 +50,15 @@ const anio = new Date().getFullYear();
             {SITIO.correo}
           </a>
         </li>
-        <li>
-          <a href={`tel:${SITIO.telefonoEnlace}`} class="text-papel/80 hover:text-fuego transition-colors">
-            {SITIO.telefono}
-          </a>
-        </li>
+        {
+          SITIO.telefono && (
+            <li>
+              <a href={`tel:${SITIO.telefonoEnlace}`} class="text-papel/80 hover:text-fuego transition-colors">
+                {SITIO.telefono}
+              </a>
+            </li>
+          )
+        }
         {
           SITIO.linkedin && (
             <li>

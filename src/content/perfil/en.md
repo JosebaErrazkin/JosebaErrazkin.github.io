@@ -1,29 +1,40 @@
 ---
 titulo: "Who I am"
-entradilla: "Strength and conditioning coach and return-to-play specialist. My work starts where medical treatment ends, and it is not finished until the athlete competes again without thinking about the injury."
-revisado: true
+entradilla: "High-performance strength and conditioning coach and return-to-play specialist. My work begins after the passive medical phases and ends when the person is able to meet their goals again, from everyday physical activity to competitive performance."
+revisado: false
 ---
 
-I am Joseba Errazkin, a high-performance strength and conditioning coach and return-to-play specialist. I live in Gipuzkoa, in the Basque Country, and since 2016 I have worked with football, handball, athletics and Basque pelota athletes — in clubs, in performance centres and one to one.
+Hello. I am **Joseba Errazkin**, a graduate in Sport and Exercise Sciences specialising in high performance and return-to-play rehabilitation. My career has taken me to live and work in Spain, Finland and, currently, Switzerland.
+
+Over the years I have worked across a wide range of disciplines, specialising above all in football, **handball, Basque pelota and mountain and outdoor sports**. During this time I have worked closely with clubs at different levels and in different settings, guiding the recovery from injury and designing programmes aimed at both individual and team performance goals.
+
+My experience ranges from motor development in early childhood to preparing professional athletes, which allows me to offer a broad perspective adapted to what each athlete actually needs.
 
 ## How I got here
 
-I started the way many of us do: coaching a youth team and discovering along the way that I knew how to build a session but had no idea what to do when a player got injured. That discomfort pushed me into rehabilitation — first through a master's degree, and then by going where you actually learn: a clinic, working alongside physiotherapists and orthopaedic surgeons.
+My bond with sport began as a child through competition in disciplines such as **handball and judo**, reaching a demanding level in my teenage years that let me understand sport from the inside. During those years I also started out as a coach and a referee, experiencing the game from the perspective of management and decision-making.
 
-That is where I understood what has become the core of my work. **There is a huge gap between medical clearance and sporting clearance**, and entire seasons are lost inside it. The athlete stops feeling pain, gets discharged, rejoins the group — and three weeks later breaks down again. Not because the treatment was poor, but because nobody built the bridge.
+The turning point came when I decided to focus my university studies on sport science. Driven by a deep vocation for people's care and health, I used my holiday periods to train and work in the field of **adapted sport**.
 
-## What I do
+With time and experience as a coach, I discovered that **high performance** was the ideal setting in which to add value through the fullest development of human capacity. In elite sport, managing pain and injury is unavoidable. I came to understand the need for the figure of the **return-to-play specialist**: a professional qualified not only to guide the recovery process, but to accompany the athlete all the way to a safe and optimal return to competition.
 
-I build that bridge. In practice it means three things:
+For all these reasons, my career has been built on the union of two fundamental and complementary pillars: **the care and health of the person, and the pursuit of the fullest expression of human performance.**
 
-- **Measure**, so I know exactly where the athlete stands instead of relying on how things feel.
-- **Progress in phases**, with clear criteria for moving from one to the next, written down before we start.
-- **Return the athlete to their sport**, not to a gym: the final phase has to look like competing, or it is worth nothing.
+## Current situation and availability
 
-I work closely with the coaching staff and the medical team. I do not believe in the conditioning coach who lives in their own corner: information has to travel in both directions, every day.
+I currently live in **Switzerland** and am actively looking for new professional challenges that let me keep growing in a dynamic environment aligned with my values.
 
-## What I am looking for now
+I am open to exploring opportunities in:
 
-I want to keep growing inside a professional structure outside Spain — a club or performance centre where rehabilitation is taken seriously and belongs to the sporting project, not to the treatment room.
+- Health and performance centres
+- Gyms and personal training facilities
+- Sports clubs
+- Sports accommodation or resorts specialising in active tourism
 
-I hold an EU passport, I am available immediately and I have nothing tying me down. I speak Spanish and Basque natively, English at C1 level and French at B1, and I am willing to learn the language of wherever I end up.
+My aim is to bring my experience in strength and conditioning and return-to-play rehabilitation to a team where I can add value from day one.
+
+### Key facts and logistics
+
+- **Permits and mobility.** European (EU/EEA) passport, fully available to start. Category B driving licence and the possibility of my own vehicle.
+- **Fluent or professional languages.** Spanish, Basque, Catalan and English.
+- **Actively learning.** French, and fully willing to learn the local language of the region or canton I move to.

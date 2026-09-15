@@ -1,29 +1,40 @@
 ---
 titulo: "Quién soy"
-entradilla: "Preparador físico y readaptador. Mi trabajo empieza donde termina el tratamiento médico y no acaba hasta que el deportista vuelve a competir sin pensar en la lesión."
+entradilla: "Preparador físico de alto rendimiento y readaptador. Mi trabajo empieza después de las fases pasivas médicas y termina cuando la persona es capaz de volver a cumplir sus objetivos, desde la actividad física diaria hasta el rendimiento deportivo."
 revisado: true
 ---
 
-Soy Joseba Errazkin, preparador físico de alto rendimiento y readaptador de lesiones. Vivo en Gipuzkoa y llevo desde 2016 trabajando con deportistas de fútbol, balonmano, atletismo y pelota vasca, en clubes, en centros de rendimiento y de forma individual.
+Hola. Soy **Joseba Errazkin**, graduado en Ciencias de la Actividad Física y del Deporte con especialización en alto rendimiento y readaptación de lesiones. Mi trayectoria me ha llevado a vivir y desarrollarme profesionalmente en España, Finlandia y, actualmente, Suiza.
+
+A lo largo de mi carrera he trabajado con disciplinas muy diversas, especializándome sobre todo en fútbol, **balonmano, pelota vasca y deportes de montaña y medio natural**. Durante este tiempo he colaborado estrechamente con clubes de distintos niveles y ámbitos deportivos, guiando la recuperación de lesiones y el diseño de programas orientados a alcanzar objetivos de rendimiento tanto individuales como colectivos.
+
+Mi experiencia abarca desde el desarrollo motor en edades tempranas hasta la preparación de deportistas profesionales, lo que me permite ofrecer una visión amplia y adaptada a las necesidades reales de cada atleta.
 
 ## Cómo llegué aquí
 
-Empecé como muchos: entrenando a un equipo de formación y descubriendo sobre la marcha que sabía preparar una sesión pero no sabía qué hacer cuando un jugador se lesionaba. Esa incomodidad me llevó a especializarme en readaptación, primero con un máster y después metiéndome en el sitio donde de verdad se aprende: una clínica, junto a fisioterapeutas y traumatólogos.
+Mi vínculo con el deporte comenzó desde niño a través de la competición en disciplinas como el **balonmano y el judo**, alcanzando en la adolescencia un nivel de alta exigencia que me permitió entender el deporte desde dentro. Durante esos años también me inicié como entrenador y árbitro, experimentando el juego desde la perspectiva de la gestión y la toma de decisiones.
 
-Ahí entendí lo que hoy es el eje de mi trabajo. **Entre el alta médica y el alta deportiva hay un hueco enorme**, y es un hueco donde se pierden temporadas enteras. El deportista deja de tener dolor, le dan el alta, vuelve al grupo, y tres semanas después recae. No porque el tratamiento fuera malo, sino porque nadie construyó el puente.
+El punto de inflexión llegó al decidir enfocar mi formación universitaria hacia las ciencias del deporte. Guiado por una profunda vocación por el cuidado y la salud de las personas, aproveché los periodos vacacionales para formarme y trabajar en el ámbito del **deporte adaptado**.
 
-## Qué hago
+Con el tiempo y la experiencia como entrenador, descubrí que el **alto rendimiento** era el contexto ideal para aportar valor a través del máximo desarrollo de la capacidad humana. En el deporte de alto nivel, la gestión del dolor y las lesiones es inevitable. Comprendí la necesidad de contar con la figura del **readaptador**: un profesional capacitado no solo para guiar el proceso de recuperación, sino para acompañar al deportista hasta su regreso seguro y óptimo a la competición.
 
-Construyo ese puente. En la práctica significa tres cosas:
+Por todo ello, mi carrera se ha construido sobre la unión de estos dos pilares fundamentales y complementarios: **el cuidado y la salud de la persona, y la búsqueda de la máxima expresión del rendimiento humano.**
 
-- **Medir**, para saber en qué punto está el deportista y no depender de sensaciones.
-- **Progresar por fases**, con criterios claros de paso de una a otra, escritos antes de empezar.
-- **Devolver al deportista a su deporte**, no a un gimnasio: la última fase se parece a competir, o no sirve.
+## Situación actual y disponibilidad
 
-Trabajo pegado al cuerpo técnico y al equipo médico. No creo en el preparador físico que vive en su parcela: la información tiene que circular en las dos direcciones todos los días.
+Actualmente resido en **Suiza**, en búsqueda activa de nuevos retos profesionales que me permitan seguir creciendo en un entorno dinámico y alineado con mis valores.
 
-## Qué busco ahora
+Estoy abierto a explorar oportunidades de colaboración en:
 
-Quiero seguir creciendo en una estructura profesional fuera de España, en un club o centro de rendimiento donde la readaptación se tome en serio y forme parte del proyecto deportivo, no de la enfermería.
+- Centros de salud y rendimiento
+- Gimnasios y centros de entrenamiento personalizado
+- Clubes deportivos
+- Alojamientos deportivos o resorts especializados en turismo activo
 
-Tengo pasaporte de la Unión Europea, disponibilidad inmediata y ninguna atadura para mudarme. Hablo español y euskera de forma nativa, inglés a nivel C1 y francés a nivel B1, y estoy dispuesto a aprender el idioma del sitio al que vaya.
+Mi objetivo es aportar mi experiencia en preparación física y readaptación de lesiones, integrándome en equipos de trabajo donde pueda sumar valor desde el primer día.
+
+### Datos clave y logística
+
+- **Permisos y movilidad.** Pasaporte europeo (UE/EEE) con plena disponibilidad de incorporación. Carné de conducir B y posibilidad de vehículo propio.
+- **Idiomas fluidos o profesionales.** Castellano, euskera, catalán e inglés.
+- **En aprendizaje activo.** Francés, con total predisposición para aprender la lengua local según la región o el cantón de destino.

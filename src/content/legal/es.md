@@ -29,6 +29,6 @@ El tiempo necesario para atender tu consulta y mantener el hilo de conversación
 
 Puedes solicitar acceder a tus datos, corregirlos, borrarlos u oponerte a su tratamiento escribiendo a **josebaerrazkin562@gmail.com**. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos.
 
-## Imágenes y valoraciones
+## Imágenes
 
-Las fotografías y valoraciones publicadas en esta web cuentan con el consentimiento expreso de las personas que aparecen en ellas. Los casos de readaptación están anonimizados y no incluyen ningún dato que permita identificar al deportista.
+Las fotografías publicadas en esta web cuentan con el consentimiento expreso de las personas que aparecen en ellas.

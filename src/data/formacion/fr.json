@@ -2,69 +2,58 @@
   {
     "id": "grado-cafyd",
     "grupo": "universitaria",
-    "titulo": "Licence en sciences de l'activité physique et du sport",
-    "centro": "Université du Pays basque (UPV/EHU)",
-    "anio": "2016",
-    "equivalencia": "Équivaut à un BSc in Sport and Exercise Science (240 crédits ECTS)"
+    "titulo": "Licence en Sciences de l’activité physique et du sport",
+    "centro": "INEFC Lleida · Université de Lleida (UdL)",
+    "anio": "2019-2023",
+    "equivalencia": "240 crédits ECTS · niveau 2 du MECES et niveau 6 du Cadre européen des certifications (CEC). Équivaut à un Bachelor of Science (BSc) in Sport and Exercise Sciences."
   },
   {
-    "id": "master-readaptacion",
+    "id": "master-retan",
     "grupo": "universitaria",
-    "titulo": "Master en réathlétisation",
-    "centro": "Universidad Europea",
-    "anio": "2018",
-    "equivalencia": "Équivaut à un MSc in Sports Injury Rehabilitation (60 crédits ECTS)"
+    "titulo": "Master en Performance sportive : perfectionnement et haut niveau (RETAN)",
+    "centro": "INEFC Barcelone · Université de Barcelone",
+    "anio": "2023-2024",
+    "equivalencia": "Master universitaire officiel · niveau 3 du MECES et niveau 7 du CEC. Équivaut à un Master of Science (MSc) in Sport Performance, valable dans toute l’Union européenne."
   },
   {
-    "id": "fuerza-rendimiento",
+    "id": "master-profesorado",
+    "grupo": "universitaria",
+    "titulo": "Master en Formation des enseignants du secondaire, mention Éducation physique",
+    "centro": "UNED · Centre associé de Bergara",
+    "anio": "2025-2026",
+    "equivalencia": "Master universitaire officiel de 60 crédits ECTS · niveau 3 du MECES et niveau 7 du CEC. C’est le diplôme qui habilite à enseigner dans le secondaire en Espagne, comparable à une qualification d’enseignant de type PGCE.",
+    "detalle": "En cours."
+  },
+  {
+    "id": "eudapa",
     "grupo": "especializacion",
-    "titulo": "Entraînement de la force appliqué à la performance",
-    "centro": "Formation continue",
-    "anio": "2019",
-    "detalle": "120 heures · profil force-vitesse et contrôle de l’intensité"
+    "titulo": "Diplôme universitaire européen en activité physique adaptée (EUDAPA)",
+    "centro": "Haaga-Helia University of Applied Sciences · Vierumäki, Finlande",
+    "anio": "2022",
+    "equivalencia": "Programme européen de 60 crédits ECTS coordonné par Haaga-Helia, avec une période intensive en présentiel à Vierumäki (Finlande).",
+    "detalle": "Printemps 2022."
   },
   {
-    "id": "return-to-play",
-    "grupo": "especializacion",
-    "titulo": "Return to Play : critères de reprise sportive",
-    "centro": "Formation continue",
-    "anio": "2021",
-    "detalle": "80 heures · batteries de tests et décision partagée"
-  },
-  {
-    "id": "gps",
+    "id": "amma-fundamentals",
     "grupo": "certificacion",
-    "titulo": "Analyse des données GPS dans les sports collectifs",
-    "centro": "Certification constructeur",
-    "anio": "2022"
+    "titulo": "AMMMA Fundamentals",
+    "centro": "Formation privée",
+    "anio": "2025-2026",
+    "detalle": "Fonctionnement et gestion d’un centre sportif, et méthodologies d’entraînement. Formation non officielle."
   },
   {
-    "id": "svb",
-    "grupo": "certificacion",
-    "titulo": "Réanimation cardio-pulmonaire et usage du défibrillateur",
-    "centro": "Croix-Rouge",
-    "anio": "2023",
-    "detalle": "Renouvelée en 2023"
-  },
-  {
-    "id": "ingles",
+    "id": "ingles-b2",
     "grupo": "idiomas",
-    "titulo": "Anglais · niveau C1",
-    "centro": "Cambridge English (CAE)",
-    "anio": "2021"
+    "titulo": "Anglais · niveau B2",
+    "centro": "Cambridge English (B2 First)",
+    "anio": "2018"
   },
   {
-    "id": "euskera",
+    "id": "euskera-ega",
     "grupo": "idiomas",
-    "titulo": "Basque · niveau C1 (EGA)",
+    "titulo": "Basque · EGA (Euskararen Gaitasun Agiria)",
     "centro": "Gouvernement basque",
-    "anio": "2014"
-  },
-  {
-    "id": "frances",
-    "grupo": "idiomas",
-    "titulo": "Français · niveau B1",
-    "centro": "École officielle de langues",
-    "anio": "2020"
+    "anio": "2017",
+    "equivalencia": "Équivaut au niveau C1 du Cadre européen commun de référence pour les langues."
   }
 ]

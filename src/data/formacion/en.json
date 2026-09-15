@@ -3,68 +3,57 @@
     "id": "grado-cafyd",
     "grupo": "universitaria",
     "titulo": "Degree in Physical Activity and Sport Sciences",
-    "centro": "University of the Basque Country (UPV/EHU)",
-    "anio": "2016",
-    "equivalencia": "Equivalent to a BSc in Sport and Exercise Science (240 ECTS credits)"
+    "centro": "INEFC Lleida · University of Lleida (UdL)",
+    "anio": "2019-2023",
+    "equivalencia": "240 ECTS credits · MECES level 2 and level 6 of the European Qualifications Framework (EQF). Equivalent to a Bachelor of Science (BSc) in Sport and Exercise Sciences."
   },
   {
-    "id": "master-readaptacion",
+    "id": "master-retan",
     "grupo": "universitaria",
-    "titulo": "Master's in Sports Injury Rehabilitation",
-    "centro": "Universidad Europea",
-    "anio": "2018",
-    "equivalencia": "Equivalent to an MSc in Sports Injury Rehabilitation (60 ECTS credits)"
+    "titulo": "Master’s in Sport Performance: Talent Development and Elite Level (RETAN)",
+    "centro": "INEFC Barcelona · University of Barcelona",
+    "anio": "2023-2024",
+    "equivalencia": "Official university master’s degree · MECES level 3 and EQF level 7. Equivalent to a Master of Science (MSc) in Sport Performance, academically valid throughout the European Union."
   },
   {
-    "id": "fuerza-rendimiento",
+    "id": "master-profesorado",
+    "grupo": "universitaria",
+    "titulo": "Master’s in Secondary Education Teacher Training, specialising in Physical Education",
+    "centro": "UNED · Bergara associated centre",
+    "anio": "2025-2026",
+    "equivalencia": "Official 60-ECTS university master’s degree · MECES level 3 and EQF level 7. It is the qualification that licenses secondary school teaching in Spain, comparable to a PGCE-type teacher training qualification.",
+    "detalle": "In progress."
+  },
+  {
+    "id": "eudapa",
     "grupo": "especializacion",
-    "titulo": "Strength training applied to performance",
-    "centro": "Continuing education",
-    "anio": "2019",
-    "detalle": "120 hours · force-velocity profiling and intensity control"
+    "titulo": "European University Diploma in Adapted Physical Activity (EUDAPA)",
+    "centro": "Haaga-Helia University of Applied Sciences · Vierumäki, Finland",
+    "anio": "2022",
+    "equivalencia": "European 60-ECTS programme coordinated by Haaga-Helia, with an on-site intensive period in Vierumäki (Finland).",
+    "detalle": "Spring 2022."
   },
   {
-    "id": "return-to-play",
-    "grupo": "especializacion",
-    "titulo": "Return to Play: clearance criteria",
-    "centro": "Continuing education",
-    "anio": "2021",
-    "detalle": "80 hours · test batteries and shared decision-making"
-  },
-  {
-    "id": "gps",
+    "id": "amma-fundamentals",
     "grupo": "certificacion",
-    "titulo": "GPS data analysis in team sports",
-    "centro": "Manufacturer certification",
-    "anio": "2022"
+    "titulo": "AMMMA Fundamentals",
+    "centro": "Private training provider",
+    "anio": "2025-2026",
+    "detalle": "Running and operating a sports centre, and training methodologies. Non-accredited training."
   },
   {
-    "id": "svb",
-    "grupo": "certificacion",
-    "titulo": "Basic Life Support and AED use",
-    "centro": "Red Cross",
-    "anio": "2023",
-    "detalle": "Renewed in 2023"
-  },
-  {
-    "id": "ingles",
+    "id": "ingles-b2",
     "grupo": "idiomas",
-    "titulo": "English · level C1",
-    "centro": "Cambridge English (CAE)",
-    "anio": "2021"
+    "titulo": "English · level B2",
+    "centro": "Cambridge English (B2 First)",
+    "anio": "2018"
   },
   {
-    "id": "euskera",
+    "id": "euskera-ega",
     "grupo": "idiomas",
-    "titulo": "Basque · level C1 (EGA)",
+    "titulo": "Basque · EGA (Euskararen Gaitasun Agiria)",
     "centro": "Basque Government",
-    "anio": "2014"
-  },
-  {
-    "id": "frances",
-    "grupo": "idiomas",
-    "titulo": "French · level B1",
-    "centro": "Official Language School",
-    "anio": "2020"
+    "anio": "2017",
+    "equivalencia": "Equivalent to level C1 of the Common European Framework of Reference for Languages."
   }
 ]

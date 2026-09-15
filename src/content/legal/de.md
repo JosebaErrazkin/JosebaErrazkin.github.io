@@ -29,6 +29,6 @@ So lange, wie es zur Bearbeitung Ihrer Anfrage und zur Fortführung des Gespräc
 
 Sie können Auskunft über Ihre Daten, deren Berichtigung oder Löschung verlangen oder der Verarbeitung widersprechen – per E-Mail an **josebaerrazkin562@gmail.com**. Außerdem können Sie Beschwerde bei der spanischen Datenschutzbehörde (AEPD) einlegen.
 
-## Bilder und Referenzen
+## Bilder
 
-Die auf dieser Website veröffentlichten Fotografien und Referenzen liegen mit ausdrücklicher Zustimmung der abgebildeten Personen vor. Die Reha-Fallbeispiele sind anonymisiert und enthalten keine Angaben, die den Sportler identifizierbar machen.
+Die auf dieser Website veröffentlichten Fotografien liegen mit ausdrücklicher Zustimmung der abgebildeten Personen vor.

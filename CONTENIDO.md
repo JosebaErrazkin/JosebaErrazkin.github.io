@@ -17,7 +17,7 @@ Estos datos están puestos como ejemplo y hay que sustituirlos por los reales.
 | Teléfono, LinkedIn y ciudad | `src/config/sitio.ts` |
 | Clave del formulario de contacto | `src/config/sitio.ts` (ver más abajo) |
 | Las fotografías | `src/assets/img/` |
-| Trayectoria, formación, casos, deportes y valoraciones | `src/data/` |
+| Trayectoria, formación y situación profesional | `src/data/` |
 | Biografía y filosofía de trabajo | `src/content/` |
 | Titular y resumen del currículum | `src/data/cv/` |
 
@@ -39,65 +39,34 @@ archivo y qué campo hay que arreglar. Es a propósito: es imposible romper la w
 
 ---
 
-## Añadir una valoración
-
-Abre `src/data/testimonios/es.json` y copia un bloque entero, del `{` al `}`:
-
-```json
-{
-  "id": "maialen",
-  "nombre": "Maialen Otaegi",
-  "cargo": "Fisioterapeuta",
-  "entidad": "Clínica Oria",
-  "texto": "Aquí va lo que ha escrito esa persona.",
-  "estrellas": 5,
-  "foto": {
-    "archivo": "testimonios/maialen.jpg",
-    "alt": "Retrato de Maialen Otaegi"
-  }
-}
-```
-
-- `id`: un nombre corto y sin espacios. Tiene que ser **el mismo en los cinco idiomas**.
-- `entidad`, `estrellas` y `foto` son **opcionales**: si borras esas líneas, simplemente no se
-  muestran. Sin foto, aparecen las iniciales de la persona sobre un círculo oscuro.
-- `estrellas` admite medios puntos: `4.5` también vale.
-- `alt` describe la foto para quien no puede verla. Es obligatorio si hay foto.
-
-Después haz lo mismo en `en.json`, `fr.json`, `eu.json` y `de.json` con el texto traducido.
-
-> Publicar la foto y el nombre de alguien requiere su permiso. Pídeselo por escrito antes.
-
----
-
 ## Añadir una etapa a la trayectoria
 
 En `src/data/trayectoria/es.json`:
 
 ```json
 {
-  "id": "aurrera",
-  "entidad": "Club Deportivo Aurrera",
-  "rol": "Readaptador de lesiones",
-  "deporte": "Fútbol",
-  "categoria": "Primer equipo y filial",
-  "lugar": "Gipuzkoa, España",
-  "desde": "2020-07",
-  "hasta": "2022-07",
+  "id": "nombre-corto",
+  "entidad": "Nombre del club o del centro",
+  "rol": "Preparador físico",
+  "deporte": "Balonmano",
+  "categoria": "Primer equipo",
+  "lugar": "Ciudad, País",
+  "desde": "2024-09",
+  "hasta": "2026-09",
   "descripcion": "Un párrafo explicando la etapa.",
   "funciones": [
     "Primera función",
     "Segunda función"
   ],
   "imagenes": [
-    { "archivo": "trayectoria/club-aurrera-1.jpg", "alt": "Qué se ve en la foto" }
+    { "archivo": "trayectoria/nombre-de-la-foto.jpg", "alt": "Qué se ve en la foto" }
   ]
 }
 ```
 
 - `desde` y `hasta` se escriben `"AAAA-MM"` (año-mes) o solo `"AAAA"`.
 - **Para una etapa en la que sigues**, pon `"hasta": null` (sin comillas). Aparecerá el texto
-  «Actualidad» y el punto de la línea temporal se pinta en naranja.
+  «Actualidad» y el punto de la línea temporal se pinta en azul.
 - `categoria` y `lugar` son opcionales.
 - `imagenes` puede tener las fotos que quieras, o quedarse vacío: `"imagenes": []`.
   Las fotos se ven como miniaturas y se amplían a pantalla completa al pulsarlas.
@@ -112,8 +81,8 @@ ve la `descripcion` y las `funciones`; en el currículum solo las `funciones`.
 ## Añadir una foto
 
 1. Copia la imagen dentro de `src/assets/img/`, en la subcarpeta que le corresponda
-   (`trayectoria/`, `deportes/`, `testimonios/` o `portada/`).
-2. Ponle un nombre **sin espacios, sin tildes y sin mayúsculas**: `club-aurrera-2.jpg`.
+   (`trayectoria/` o `portada/`).
+2. Ponle un nombre **sin espacios, sin tildes y sin mayúsculas**: `ernio-endurance-2.jpg`.
 3. Escribe ese nombre en el archivo `.json` que toque, con la subcarpeta delante.
 
 Sube las fotos **grandes** (2000 píxeles de ancho o más). La web genera sola las versiones
@@ -246,11 +215,6 @@ actualiza sola. Para pararlo, pulsa `Ctrl + C`.
 
 ## Recuperar el contenido de ejemplo
 
-Si quieres volver a generar los datos o las fotos de ejemplo:
-
-```powershell
-npm run contenido-ejemplo -- --forzar
-npm run imagenes-ejemplo -- --forzar
-```
-
-Sin `--forzar`, estos comandos **nunca** sobrescriben lo que ya existe.
+Los comandos `npm run contenido-ejemplo` y `npm run imagenes-ejemplo` servían para
+arrancar el proyecto con textos y fotos de ejemplo. **Están desactivados**: la web ya tiene
+el contenido real y volver a ejecutarlos solo podría borrarlo.

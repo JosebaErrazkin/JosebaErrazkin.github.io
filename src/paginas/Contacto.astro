@@ -14,7 +14,9 @@ const t = textos(idioma);
 
 const vias = [
   { etiqueta: t.contacto.correo, valor: SITIO.correo, href: `mailto:${SITIO.correo}` },
-  { etiqueta: t.contacto.telefono, valor: SITIO.telefono, href: `tel:${SITIO.telefonoEnlace}` },
+  ...(SITIO.telefono
+    ? [{ etiqueta: t.contacto.telefono, valor: SITIO.telefono, href: `tel:${SITIO.telefonoEnlace}` }]
+    : []),
   ...(SITIO.linkedin
     ? [{ etiqueta: t.contacto.linkedin, valor: SITIO.linkedin.replace(/^https?:\/\//, ''), href: SITIO.linkedin }]
     : []),

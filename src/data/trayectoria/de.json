@@ -1,103 +1,116 @@
 [
   {
-    "id": "iturbide",
-    "entidad": "Leistungszentrum Iturbide",
-    "rol": "Leitender Athletiktrainer",
-    "deporte": "Fußball und Mehrsport",
-    "categoria": "Senioren und Nachwuchs",
-    "lugar": "Donostia-San Sebastián, Spanien",
-    "desde": "2022-08",
-    "hasta": null,
-    "descripcion": "Ich leite die athletische Planung für eine Gruppe von zwanzig Sportlern und koordiniere gemeinsam mit dem medizinischen Team den Übergang vom Reha-Raum auf den Platz.",
+    "id": "ernio-endurance",
+    "entidad": "Ernio Endurance",
+    "rol": "Athletiktrainer, Reha-Spezialist und Leiter des Zentrums",
+    "deporte": "Handball, Baskische Pelota, Fussball, Leichtathletik, Trailrunning und Basketball",
+    "categoria": "Profi- und Amateursportler sowie allgemeine Bevölkerung",
+    "lugar": "Tolosa, Spanien",
+    "desde": "2024-09",
+    "hasta": "2026-09",
+    "descripcion": "Zentrum für Rehabilitation und Wiedereingliederung in den Sport. Ich leitete das Zentrum seit seiner Gründung im September 2024 mit allem, was dazugehört: Personalführung, Abstimmung mit der Leitung, Erstellung von Inhalten, Fakturierung, Festlegung der Arbeitslinien und Monitoring des Zentrums.",
     "funciones": [
-      "Eingangsdiagnostik und Verlaufskontrolle jedes Sportlers mit Kraft- und Sprungtests",
-      "Saisonplanung und Gestaltung der wöchentlichen Mikrozyklen",
-      "Tägliche Abstimmung mit Physiotherapie und Trainerteam",
-      "Belastungssteuerung mit GPS und Wellness-Fragebögen"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/centro-rendimiento-1.jpg",
-        "alt": "Krafteinheit im Kraftraum des Leistungszentrums"
-      },
-      {
-        "archivo": "trayectoria/centro-rendimiento-2.jpg",
-        "alt": "Sprungtest auf der Kraftmessplatte"
-      }
-    ]
-  },
-  {
-    "id": "aurrera",
-    "entidad": "Club Deportivo Aurrera",
-    "rol": "Reha-Spezialist",
-    "deporte": "Fußball",
-    "categoria": "Erste Mannschaft und Reserve",
-    "lugar": "Gipuzkoa, Spanien",
-    "desde": "2020-07",
-    "hasta": "2022-07",
-    "descripcion": "Verantwortlich für den gesamten Return-to-Play-Prozess verletzter Spieler, von der medizinischen bis zur sportlichen Freigabe.",
-    "funciones": [
-      "Entwicklung phasenbasierter Freigabekriterien mit objektiven Tests bei jedem Schritt",
-      "Individuelles Training auf dem Platz mit Spielern in der Wiederaufbauphase",
-      "Wöchentliche Berichte an das Trainerteam zur voraussichtlichen Verfügbarkeit"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/club-aurrera-1.jpg",
-        "alt": "Feldarbeit mit einem Spieler in der Wiederaufbauphase"
-      }
-    ]
-  },
-  {
-    "id": "oria",
-    "entidad": "Klinik Oria · Physiotherapie und Sport",
-    "rol": "Athletiktrainer in der Rehabilitation",
-    "deporte": "Mehrsport",
-    "lugar": "Gipuzkoa, Spanien",
-    "desde": "2018-09",
-    "hasta": "2020-06",
-    "descripcion": "Die Brücke zwischen Behandlungsliege und Spielfeld: Ich übernahm den Sportler nach Abschluss der Behandlung und führte ihn in seinen Sport zurück.",
-    "funciones": [
-      "Kraftprogrammierung für Patienten in der Endphase der Rehabilitation",
-      "Funktionelle Testung vor der Entlassung",
-      "Patientenschulung zu Belastungssteuerung und Rezidivprophylaxe"
-    ],
-    "imagenes": [
-      {
-        "archivo": "trayectoria/clinica-oria-1.jpg",
-        "alt": "Funktionelle Testung im Raum der Klinik"
-      }
-    ]
-  },
-  {
-    "id": "lasarte",
-    "entidad": "Handballclub Lasarte",
-    "rol": "Athletiktrainer",
-    "deporte": "Handball",
-    "categoria": "U18 und Senioren",
-    "lugar": "Gipuzkoa, Spanien",
-    "desde": "2017-09",
-    "hasta": "2018-08",
-    "descripcion": "Erste Erfahrung mit einer kompletten Mannschaft: Athletiktraining in Halle und Kraftraum sowie Belastungssteuerung über die gesamte Saison.",
-    "funciones": [
-      "Athletiktraining für zwei Mannschaften parallel",
-      "Einführung strukturierter Kraftarbeit im Nachwuchsbereich"
+      "Athletiktrainer von vier Profispielern der Baskischen Pelota, in allen Fällen mit positiven sportlichen Ergebnissen",
+      "Tägliche Arbeit in direktem Kontakt mit ihren Trainern und ihren Vereinen beziehungsweise Agenturen",
+      "Athletiktrainer einer Gruppe von Amateur-Trailrunnern",
+      "Rehabilitation von Verletzungen wie Kreuzbandrissen, Knieprothesen sowie Schulter- und Sprunggelenksoperationen",
+      "Arbeit mit Patientinnen und Patienten in unterschiedlichen gesundheitlichen Situationen, etwa der Rückkehr zur Aktivität nach einer Krebserkrankung oder einer zervikalen Myelopathie",
+      "Funktionelles Training in Gruppen von acht Personen, um den Körper stark zu halten"
     ],
     "imagenes": []
   },
   {
-    "id": "individual",
-    "entidad": "Einzelsportler",
-    "rol": "Persönlicher Athletiktrainer",
-    "deporte": "Leichtathletik, Radsport und Baskische Pelota",
-    "lugar": "Vor Ort und remote",
-    "desde": "2016-01",
-    "hasta": null,
-    "descripcion": "Kontinuierliche Arbeit mit eigenständig antretenden Sportlern, mit kompletter Saisonplanung rund um ihre Ziele.",
+    "id": "sant-joan-despi",
+    "entidad": "Club Balonmano Sant Joan Despí",
+    "rol": "Athletiktrainer und Trainer",
+    "deporte": "Handball",
+    "categoria": "Von 6 bis 12 Jahren und weibliche Jugendmannschaft",
+    "lugar": "Sant Joan Despí, Spanien",
+    "desde": "2023-09",
+    "hasta": "2024-06",
+    "descripcion": "Ich arbeitete als Athletiktrainer mit Kindern von 6 bis 12 Jahren. Ziel war es, besser entwickelte motorische Fähigkeiten für den heutigen Alltag zu erreichen. Dazu folgte ich dem Modell des Youth Athlete Development, das in der Planung für Jugendliche zentral ist.",
     "funciones": [
-      "Individualisierte Jahresplanung",
-      "Remote-Betreuung mit regelmäßigen Präsenzterminen"
+      "Athletiktraining der Nachwuchsklassen von 6 bis 12 Jahren",
+      "Cheftrainer einer weiblichen Handball-Jugendmannschaft"
     ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/balonmano-sant-joan-despi.jpg",
+        "alt": "Joseba Errazkin leitet sein Team während eines Handballspiels von der Seitenlinie aus"
+      }
+    ]
+  },
+  {
+    "id": "hegalak-zabalik",
+    "entidad": "Stiftung Hegalak Zabalik",
+    "rol": "Assistent für begleitetes Baden im Meer",
+    "deporte": "Adaptierte körperliche Aktivität",
+    "lugar": "Donostia-San Sebastián, Spanien",
+    "desde": "2023-06",
+    "hasta": "2024-09",
+    "descripcion": "Sommer 2023 und 2024. Die Hauptaufgabe bestand darin, Menschen ohne die nötigen körperlichen Voraussetzungen das Baden am Strand von La Concha zu ermöglichen. Das ist Teil meiner Erfahrung im adaptierten Sport und in der adaptierten Bewegung.",
+    "funciones": [
+      "Saisonarbeit: Sommer 2023 und 2024",
+      "Begleitung und Unterstützung von Menschen mit eingeschränkter Mobilität beim Baden",
+      "Umgang mit Amphibienstühlen und Barrierefreiheitsausrüstung am Strand"
+    ],
+    "imagenes": [
+      {
+        "archivo": "trayectoria/hegalak-zabalik-donostia.jpg",
+        "alt": "Transport eines Amphibienstuhls Richtung Wasserlinie am Strand von La Concha"
+      }
+    ]
+  },
+  {
+    "id": "balonmano-lleida",
+    "entidad": "Club Balonmano Lleida",
+    "rol": "Trainer",
+    "deporte": "Handball",
+    "categoria": "Weibliche B-Jugend",
+    "lugar": "Lleida, Spanien",
+    "desde": "2022-09",
+    "hasta": "2023-06",
+    "descripcion": "Trainer der weiblichen B-Jugend des Vereins, parallel zum Bachelorstudium in Lleida.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-tiempo-libre",
+    "entidad": "GAUTENA · Autismus-Verband Gipuzkoa",
+    "rol": "Freizeitbetreuer",
+    "deporte": "Freizeit und adaptierte körperliche Aktivität",
+    "lugar": "Gipuzkoa, Spanien",
+    "desde": "2019-06",
+    "hasta": "2024-09",
+    "descripcion": "Sommer 2019, 2020, 2021, 2022 und 2024. Alltagsbegleitung einer Gruppe erwachsener Menschen mit Autismus während der Ferien.",
+    "funciones": [
+      "Saisonarbeit: Sommer 2019, 2020, 2021, 2022 und 2024"
+    ],
+    "imagenes": []
+  },
+  {
+    "id": "balonmano-urnieta",
+    "entidad": "Balonmano Urnieta",
+    "rol": "Co-Trainer",
+    "deporte": "Handball",
+    "categoria": "Männliche B-Jugend",
+    "lugar": "Urnieta, Spanien",
+    "desde": "2018-09",
+    "hasta": "2019-06",
+    "descripcion": "Assistent des Handballtrainers einer männlichen B-Jugend-Mannschaft, in meinem Heimatort.",
+    "funciones": [],
+    "imagenes": []
+  },
+  {
+    "id": "gautena-acondicionamiento",
+    "entidad": "GAUTENA · Autismus-Verband Gipuzkoa",
+    "rol": "Übungsleiter für körperliche Fitness",
+    "deporte": "Adaptierte körperliche Aktivität",
+    "lugar": "Gipuzkoa, Spanien",
+    "desde": "2018-09",
+    "hasta": "2019-07",
+    "descripcion": "Ein Jahr lang unterstützte ich die Bewegungsstunden einer Gruppe erwachsener Menschen mit Autismus.",
+    "funciones": [],
     "imagenes": []
   }
 ]

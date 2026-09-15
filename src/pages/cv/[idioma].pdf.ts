@@ -23,7 +23,7 @@ const ANCHO = A4.ancho - MARGEN * 2;
 
 const TINTA = '#111214';
 const GRIS = '#55575e';
-const FUEGO = '#f24405';
+const FUEGO = '#4a8aba';
 const LINEA = '#dcd8d1';
 
 type Doc = InstanceType<typeof PDFDocument>;

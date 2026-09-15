@@ -37,20 +37,6 @@ export const PAGINAS = {
     eu: 'prestakuntza',
     de: 'ausbildung',
   },
-  especialidades: {
-    es: 'especialidades',
-    en: 'expertise',
-    fr: 'specialites',
-    eu: 'espezialitateak',
-    de: 'schwerpunkte',
-  },
-  valoraciones: {
-    es: 'valoraciones',
-    en: 'testimonials',
-    fr: 'temoignages',
-    eu: 'iritziak',
-    de: 'referenzen',
-  },
   contacto: {
     es: 'contacto',
     en: 'contact',
@@ -76,8 +62,6 @@ export const MENU: ClavePagina[] = [
   'filosofia',
   'trayectoria',
   'formacion',
-  'especialidades',
-  'valoraciones',
   'contacto',
 ];
 
